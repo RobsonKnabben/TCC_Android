@@ -50,15 +50,27 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(EstabelecimentoDAO.CREATE_TABLE);
         Log.d(TAG, "Creating table: " + EstabelecimentoRamoDAO.TABLE_NAME + ", sql: " + EstabelecimentoRamoDAO.CREATE_TABLE);
         sqLiteDatabase.execSQL(EstabelecimentoRamoDAO.CREATE_TABLE);
+        Log.d(TAG, "Creating table: " + TelefoneDAO.TABLE_NAME + ", sql: " + TelefoneDAO.CREATE_TABLE);
+        sqLiteDatabase.execSQL(TelefoneDAO.CREATE_TABLE);
+        Log.d(TAG, "Creating table: " + LinhaDAO.TABLE_NAME + ", sql: " + LinhaDAO.CREATE_TABLE);
+        sqLiteDatabase.execSQL(LinhaDAO.CREATE_TABLE);
+        Log.d(TAG, "Creating table: " + ProdutoDAO.TABLE_NAME + ", sql: " + ProdutoDAO.CREATE_TABLE);
+        sqLiteDatabase.execSQL(ProdutoDAO.CREATE_TABLE);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i2) {
-        Log.d(TAG, "Upgrading table " + RamoDAO.CREATE_TABLE);
-        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS" + RamoDAO.TABLE_NAME);
-        Log.d(TAG, "Upgrading table " + EstabelecimentoDAO.TABLE_NAME);
-        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS" + EstabelecimentoDAO.TABLE_NAME);
+        Log.d(TAG, "Upgrading table " + ProdutoDAO.TABLE_NAME);
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS" + ProdutoDAO.TABLE_NAME);
+        Log.d(TAG, "Upgrading table " + LinhaDAO.TABLE_NAME);
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS" + LinhaDAO.TABLE_NAME);
+        Log.d(TAG, "Upgrading table " + TelefoneDAO.TABLE_NAME);
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS" + TelefoneDAO.TABLE_NAME);
         Log.d(TAG, "Upgrading table " + EstabelecimentoRamoDAO.TABLE_NAME);
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS" + EstabelecimentoRamoDAO.TABLE_NAME);
+        Log.d(TAG, "Upgrading table " + EstabelecimentoDAO.TABLE_NAME);
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS" + EstabelecimentoDAO.TABLE_NAME);
+        Log.d(TAG, "Upgrading table " + RamoDAO.CREATE_TABLE);
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS" + RamoDAO.TABLE_NAME);
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <attr name="background" format="reference|color" />
     <attr name="backgroundSplit" format="reference|color" />
     <attr name="divider" format="reference" />
@@ -15,16 +15,16 @@
     <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
     <bool name="abs__split_action_bar_is_narrow">true</bool>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/colors.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml -->
     <color name="ab_color">#0099CC</color>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <color name="abs__background_holo_dark">#ff000000</color>
     <color name="abs__background_holo_light">#fff3f3f3</color>
     <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
     <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
     <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/colors.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml -->
     <color name="dark_grey">#1a1a1a</color>
     <color name="holo_blue_bright">#ff00ddff</color>
     <color name="holo_blue_dark">#ff0099cc</color>
@@ -37,11 +37,11 @@
     <color name="holo_red_dark">#ffcc0000</color>
     <color name="holo_red_light">#ffff4444</color>
     <color name="orange">#FF8800</color>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/colors_style1.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors_style1.xml -->
     <color name="pressed_style1">#CC00</color>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/colors.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml -->
     <color name="red">#CC0000</color>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <declare-styleable name="SherlockActionBar">
 
         <!-- The type of navigation to use. -->
@@ -486,9 +486,9 @@
     <declare-styleable name="SherlockView">
         <attr name="android:focusable" />
     </declare-styleable>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/dimens.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml -->
     <dimen name="ab_title_text_size">20dp</dimen>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <dimen name="abs__action_bar_default_height">48dip</dimen>
     <dimen name="abs__action_bar_icon_vertical_padding">8dip</dimen>
     <dimen name="abs__action_bar_subtitle_bottom_margin">5dip</dimen>
@@ -502,12 +502,12 @@
     <dimen name="abs__dropdownitem_text_padding_right">8dip</dimen>
     <dimen name="abs__search_view_preferred_width">320dip</dimen>
     <dimen name="abs__search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/dimens.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="list_item_padding">10dp</dimen>
     <dimen name="list_item_title_text_size">16dp</dimen>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <item name="abs__action_menu_divider" type="id"/>
     <item name="abs__action_menu_presenter" type="id"/>
     <item name="abs__home" type="id"/>
@@ -530,7 +530,7 @@
     <string name="abs__searchview_description_voice">Voice search</string>
     <string name="abs__shareactionprovider_share_with">Share with</string>
     <string name="abs__shareactionprovider_share_with_application">Share with <ns1:g id="application_name" example="Bluetooth">%s</ns1:g></string>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/strings.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <string name="app_name">Menus</string>
     <string name="drawer_close">Close navigation drawer</string>
@@ -542,7 +542,7 @@
     <string name="title_activity_estabelecimentos_favoritos_fragment">Favoritos</string>
     <string name="title_activity_estabelecimentos_fragment">MainActivity</string>
     <string name="title_activity_ramo">Categorias</string>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
     <style name="ActionBar.Solid.Style1" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
         <item name="background">@drawable/ab_solid_style1</item>
         <item name="backgroundStacked">@drawable/ab_stacked_solid_style1</item>
@@ -562,7 +562,7 @@
     <style name="ActionButton.CloseMode.Style1" parent="@style/Widget.Sherlock.ActionButton.CloseMode">
         <item name="android:background">@drawable/btn_cab_done_style1</item>
     </style>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/styles.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
@@ -574,7 +574,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
     <style name="DropDownListView.Style1" parent="@style/Widget.Sherlock.ListView.DropDown">
         <item name="android:listSelector">@drawable/selectable_background_style1</item>
     </style>
@@ -598,7 +598,7 @@
     <style name="ProgressBar.Style1" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/progress_horizontal_style1</item>
     </style>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <style name="Sherlock.__TextAppearance.Small" parent="Widget">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
@@ -966,7 +966,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
     <style name="Theme.Style1" parent="@style/Theme.Sherlock.Light.DarkActionBar">
         <item name="actionBarItemBackground">@drawable/selectable_background_style1</item>
         <item name="popupMenuStyle">@style/PopupMenu.Style1</item>
@@ -986,7 +986,7 @@
         <item name="popupMenuStyle">@style/PopupMenu.Style1</item>
         <item name="dropDownListViewStyle">@style/DropDownListView.Style1</item>
     </style>
-    <!-- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <style name="Widget" />
 
     <style name="Widget.Sherlock.ActionBar" parent="Sherlock.__Widget.ActionBar">

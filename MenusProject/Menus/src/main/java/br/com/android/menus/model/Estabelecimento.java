@@ -22,12 +22,17 @@ public class Estabelecimento extends BaseModel {
     @SerializedName("ramos")
     private List<Ramo> mRamos;
 
+    @SerializedName("linhas")
+    private List<Linha> mLinhas;
+
+    @SerializedName("telefones")
+    private List<Telefone> mTelefones;
+
     private boolean mIsFavorite;
 
     public String getName(){
         return this.mName;
     }
-
     public void setName(String name){
         this.mName = name;
     }
@@ -35,7 +40,6 @@ public class Estabelecimento extends BaseModel {
     public String getDescription(){
         return this.mDescription;
     }
-
     public void setDescription(String description){
         this.mDescription = description;
     }
@@ -43,19 +47,31 @@ public class Estabelecimento extends BaseModel {
     public List<Ramo> getRamos(){
         return this.mRamos;
     }
-
     public void setRamos(List<Ramo> ramos){
         this.mRamos = ramos;
+    }
+
+    public List<Telefone> getTelefones() {
+        return mTelefones;
+    }
+
+    public void setTelefones(List<Telefone> telefones) {
+        this.mTelefones = telefones;
+    }
+
+    public List<Linha> getLinhas() {
+        return mLinhas;
+    }
+    public void setLinhas(List<Linha> linhas) {
+        this.mLinhas = linhas;
     }
 
     public boolean getIsFavorite() {
         return this.mIsFavorite;
     }
-
     public void setIsFavorite(boolean isFavorite) {
         this.mIsFavorite = isFavorite;
     }
-
     public void setIsFavorite(Integer isFavorite) {
         this.mIsFavorite = isFavorite == 1;
     }
@@ -158,6 +174,16 @@ public class Estabelecimento extends BaseModel {
                 estabelecimentoRamo.setEstabelecimentoId(this.getId());
                 estabelecimentoRamo.setRamoId(ramo.getId());
                 result = estabelecimentoRamo.CreateOrUpdate(context);
+            }
+
+            for (Telefone telefone : this.getTelefones()){
+                telefone.setEstabelecimento(this);
+                result = telefone.CreateOrUpdate(context);
+            }
+
+            for (Linha linha : this.getLinhas()){
+                linha.setEstabelecimento(this);
+                result = linha.CreateOrUpdate(context);
             }
         }
         return result;

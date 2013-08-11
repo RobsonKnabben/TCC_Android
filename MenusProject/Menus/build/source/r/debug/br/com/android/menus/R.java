@@ -156,7 +156,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int activityChooserViewStyle=0x7f01005f;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -674,10 +674,10 @@ containing a value of this type.
         public static final int windowSplitActionBar=0x7f01005d;
     }
     public static final class bool {
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w480dp/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w480dp/values.xml 
          */
         public static final int abs__action_bar_embed_tabs=0x7f040000;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-sw600dp/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-sw600dp/values.xml 
          */
         public static final int abs__action_bar_expanded_action_views_exclusive=0x7f040001;
         public static final int abs__config_actionMenuItemAllCaps=0x7f040002;
@@ -686,10 +686,10 @@ containing a value of this type.
         public static final int abs__split_action_bar_is_narrow=0x7f040005;
     }
     public static final class color {
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/colors.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml 
          */
         public static final int ab_color=0x7f050000;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
          */
         public static final int abs__background_holo_dark=0x7f050001;
         public static final int abs__background_holo_light=0x7f050002;
@@ -701,7 +701,7 @@ containing a value of this type.
         public static final int abs__primary_text_disable_only_holo_light=0x7f050016;
         public static final int abs__primary_text_holo_dark=0x7f050017;
         public static final int abs__primary_text_holo_light=0x7f050018;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/colors.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml 
          */
         public static final int dark_grey=0x7f050007;
         public static final int holo_blue_bright=0x7f050008;
@@ -715,24 +715,24 @@ containing a value of this type.
         public static final int holo_red_dark=0x7f050010;
         public static final int holo_red_light=0x7f050011;
         public static final int orange=0x7f050012;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/colors_style1.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors_style1.xml 
          */
         public static final int pressed_style1=0x7f050013;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/colors.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml 
          */
         public static final int red=0x7f050014;
     }
     public static final class dimen {
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/dimens.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml 
          */
         public static final int ab_title_text_size=0x7f070000;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-land/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-large-hdpi-1024x600/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-large-mdpi-1024x600/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-large-land-hdpi-1024x600/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-large-land-mdpi-1024x600/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-xlarge/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-land/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-large-hdpi-1024x600/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-large-mdpi-1024x600/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-large-land-hdpi-1024x600/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-large-land-mdpi-1024x600/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-xlarge/values.xml 
          */
         public static final int abs__action_bar_default_height=0x7f070001;
         public static final int abs__action_bar_icon_vertical_padding=0x7f070002;
@@ -749,8 +749,8 @@ containing a value of this type.
         public static final int abs__dropdownitem_text_padding_right=0x7f07000b;
         public static final int abs__search_view_preferred_width=0x7f07000c;
         public static final int abs__search_view_text_min_width=0x7f07000d;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/dimens.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values-sw720dp-land/dimens.xml 
          */
         public static final int activity_horizontal_margin=0x7f07000e;
         public static final int activity_vertical_margin=0x7f07000f;
@@ -921,7 +921,7 @@ containing a value of this type.
         public static final int abs__action_bar_subtitle=0x7f060011;
         public static final int abs__action_bar_title=0x7f060010;
         public static final int abs__action_context_bar=0x7f060021;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
          */
         public static final int abs__action_menu_divider=0x7f06000a;
         public static final int abs__action_menu_presenter=0x7f06000b;
@@ -981,9 +981,9 @@ containing a value of this type.
         public static final int wrap_content=0x7f060009;
     }
     public static final class integer {
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w360dp/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w500dp/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w600dp/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w360dp/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w500dp/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w600dp/values.xml 
          */
         public static final int abs__max_action_buttons=0x7f080000;
     }
@@ -1039,7 +1039,7 @@ containing a value of this type.
         public static final int abs__searchview_description_voice=0x7f09000a;
         public static final int abs__shareactionprovider_share_with=0x7f09000b;
         public static final int abs__shareactionprovider_share_with_application=0x7f09000c;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/strings.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/strings.xml 
          */
         public static final int action_settings=0x7f09000d;
         public static final int app_name=0x7f09000e;
@@ -1054,40 +1054,40 @@ containing a value of this type.
         public static final int title_activity_ramo=0x7f090017;
     }
     public static final class style {
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml 
          */
         public static final int ActionBar_Solid_Style1=0x7f0a0000;
         public static final int ActionBar_Transparent_Style1=0x7f0a0001;
         public static final int ActionBarTabStyle_Style1=0x7f0a0002;
         public static final int ActionButton_CloseMode_Style1=0x7f0a0003;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/styles.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/styles.xml 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values-v11/styles.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values-v14/styles.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f0a0004;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0a0005;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
          */
         public static final int DropDownListView_Style1=0x7f0a0006;
         public static final int DropDownNav_Style1=0x7f0a0007;
         public static final int ListItemText=0x7f0a0008;
         public static final int PopupMenu_Style1=0x7f0a0009;
         public static final int ProgressBar_Style1=0x7f0a000a;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
          */
         public static final int Sherlock___TextAppearance_Small=0x7f0a000b;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v11/values.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v11/values.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml 
          */
         public static final int Sherlock___Theme=0x7f0a000c;
         public static final int Sherlock___Theme_DarkActionBar=0x7f0a000d;
@@ -1130,15 +1130,15 @@ containing a value of this type.
         public static final int Theme_Sherlock_Light_DarkActionBar=0x7f0a0032;
         public static final int Theme_Sherlock_Light_NoActionBar=0x7f0a0033;
         public static final int Theme_Sherlock_NoActionBar=0x7f0a0034;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
- From: file:/F:/Projetos/Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
+ From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml 
          */
         public static final int Theme_Style1=0x7f0a0035;
         public static final int Theme_Style1_Widget=0x7f0a0036;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
          */
         public static final int Widget=0x7f0a0037;
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml 
          */
         public static final int Widget_Sherlock_ActionBar=0x7f0a0038;
         public static final int Widget_Sherlock_ActionBar_Solid=0x7f0a0039;
@@ -1188,7 +1188,7 @@ containing a value of this type.
         public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0a0065;
     }
     public static final class styleable {
-        /**  From: file:/F:/Projetos/Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
+        /**  From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
