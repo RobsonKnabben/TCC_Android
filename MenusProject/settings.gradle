@@ -1,0 +1,8 @@
+include (
+        ':Menus',
+        ':libraries:actionbarsherlock',
+        ':Menus:libs:gson-2.2.4',
+        ':Menus:libs:spring-android-core-1.0.1',
+        ':Menus:libs:spring-android-rest-template-1.0.1',
+        ':Menus:libs:spring-android-auth-1.0.1.RELEASE'
+)
