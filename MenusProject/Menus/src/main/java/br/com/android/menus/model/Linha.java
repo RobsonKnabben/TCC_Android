@@ -2,13 +2,15 @@ package br.com.android.menus.model;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import br.com.android.menus.db.LinhaDAO;
-import br.com.android.menus.db.TelefoneDAO;
+import br.com.android.menus.db.ProdutoDAO;
 
 public class Linha extends BaseModel {
     @SerializedName("name")
@@ -44,6 +46,31 @@ public class Linha extends BaseModel {
         this.mProdutos = produtos;
     }
 
+    public static List<Linha> getLinhasByEstabelecimentoId(Context context, int id){
+        List<Linha> linhas = null;
+        LinhaDAO linhaDAO = new LinhaDAO(context);
+
+        Cursor c = linhaDAO.fetchByAttr(LinhaDAO.C_ESTABELECIMENTO_ID, id);
+        if (c.moveToFirst()){
+            linhas = new ArrayList<Linha>();
+            while (!c.isAfterLast()){
+                Linha linha = CursorToLinha(c);
+                linha.setProdutos(Produto.getProdutosByLinhaId(context, linha.getId()));
+                if (linha.getProdutos() != null) linhas.add(linha);
+                c.moveToNext();
+            }
+        }
+        c.close();
+        return linhas;
+    }
+
+    private static Linha CursorToLinha(Cursor c){
+        Linha linha = new Linha();
+        linha.setId(c.getInt(c.getColumnIndex(LinhaDAO.C_ID)));
+        linha.setName(c.getString(c.getColumnIndex(LinhaDAO.C_NAME)));
+        return linha;
+    }
+
     public boolean CreateOrUpdate(Context context) {
         boolean result;
 
@@ -64,4 +91,5 @@ public class Linha extends BaseModel {
         }
         return result;
     }
+
 }

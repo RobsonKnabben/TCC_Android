@@ -15,9 +15,6 @@ import br.com.android.menus.adapters.EstabelecimentoAdapter;
 import br.com.android.menus.model.Estabelecimento;
 import br.com.android.menus.model.Ramo;
 
-/**
- * Created by Robson on 10/08/13.
- */
 public class EstabelecimentosFragments extends BaseFragments {
     private final String KEY_ESTABELECIMENTOS = "LIST_ESTABELECIMENTOS_TO_PERSIST";
     private final String KEY_RAMO = "RAMO_TO_PERSIST";
@@ -32,7 +29,7 @@ public class EstabelecimentosFragments extends BaseFragments {
         View rootView = inflater.inflate(R.layout.activity_estabelecimentos, container, false);
 
         if (savedInstanceState == null){
-            ramo = (Ramo) getSherlockActivity().getIntent().getSerializableExtra("EXTRA_RAMO");
+            ramo = (Ramo) getSherlockActivity().getIntent().getSerializableExtra(EXTRA_RAMO);
             estabelecimentosList = Estabelecimento.getEstabelecimentosByRamoId(this.getSherlockActivity(), ramo.getId());
         }
         else{

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <solid android:color="@android:color/transparent"/>
+</shape><!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/drawable/shape_list_item.xml -->

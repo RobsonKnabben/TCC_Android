@@ -5,7 +5,6 @@ import android.content.Context;
 public class EstabelecimentoDAO extends BaseDAO {
     public static final String C_NAME = "name";
     public static final String C_DESCRIPTION = "description";
-    public static final String C_RAMOS = "ramos";
     public static final String C_IS_FAVORITE = "is_favorite";
 
     public static final String TABLE_NAME = "estabelecimentos";

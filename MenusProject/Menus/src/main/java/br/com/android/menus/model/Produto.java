@@ -2,9 +2,14 @@ package br.com.android.menus.model;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.android.menus.db.LinhaDAO;
 import br.com.android.menus.db.ProdutoDAO;
 import br.com.android.menus.db.TelefoneDAO;
 
@@ -78,5 +83,32 @@ public class Produto extends BaseModel {
 
         ProdutoDAO produtoDAO = new ProdutoDAO(context);
         return produtoDAO.InsertOrUpdate(values);
+    }
+
+    public static List<Produto> getProdutosByLinhaId(Context context, int id){
+        List<Produto> produtos = null;
+        ProdutoDAO produtoDAO = new ProdutoDAO(context);
+
+        Cursor c = produtoDAO.fetchByAttr(ProdutoDAO.C_LINHA_ID, id);
+        if (c.moveToFirst()){
+            produtos = new ArrayList<Produto>();
+            while (!c.isAfterLast()){
+                Produto produto = CursorToLinha(c);
+                produtos.add(produto);
+                c.moveToNext();
+            }
+        }
+        c.close();
+        return produtos;
+    }
+
+    private static Produto CursorToLinha(Cursor c){
+        Produto produto = new Produto();
+        produto.setId(c.getInt(c.getColumnIndex(ProdutoDAO.C_ID)));
+        produto.setName(c.getString(c.getColumnIndex(ProdutoDAO.C_NAME)));
+        produto.setDescription(c.getString(c.getColumnIndex(ProdutoDAO.C_DESCRIPTION)));
+        produto.setPrice(c.getDouble(c.getColumnIndex(ProdutoDAO.C_PRICE)));
+
+        return produto;
     }
 }

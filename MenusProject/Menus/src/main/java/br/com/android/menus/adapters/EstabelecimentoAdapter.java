@@ -1,6 +1,7 @@
 package br.com.android.menus.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,9 +12,12 @@ import android.widget.TextView;
 import java.util.List;
 
 import br.com.android.menus.R;
+import br.com.android.menus.activity.ProdutosFragmentsActivity;
+import br.com.android.menus.fragments.ProdutosPorLinhasFragment;
 import br.com.android.menus.model.Estabelecimento;
 
 public class EstabelecimentoAdapter extends ArrayAdapter<Estabelecimento>{
+    protected final String EXTRA_ESTABELECIMENTO = "EXTRA_ESTABELECIMENTO";
 
     private final LayoutInflater inflater;
     private final Context context;
@@ -37,13 +41,14 @@ public class EstabelecimentoAdapter extends ArrayAdapter<Estabelecimento>{
         viewInflater.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //evento click na lista
+                context.startActivity(new Intent(view.getContext(), ProdutosFragmentsActivity.class).putExtra(EXTRA_ESTABELECIMENTO, estabelecimento));
             }
         });
 
 
         TextView name = (TextView) viewInflater.findViewById(R.id.name);
         name.setText(estabelecimento.getName());
+
 
         Button isFavoriteButton = (Button) viewInflater.findViewById(R.id.is_favorite);
         isFavoriteButton.setClickable(true);

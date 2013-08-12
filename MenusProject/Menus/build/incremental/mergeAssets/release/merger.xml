@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="MenusProjectLibrariesActionbarsherlockUnspecified.aar" >
+        <source path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\build\exploded-bundles\MenusProjectLibrariesActionbarsherlockUnspecified.aar\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\release\assets" />
+    </dataSet>
+
+</merger>

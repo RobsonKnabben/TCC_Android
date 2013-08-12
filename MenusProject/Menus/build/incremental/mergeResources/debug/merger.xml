@@ -4934,8 +4934,18 @@ true
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_produtos"
+                path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\layout\activity_produtos.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_ramos"
                 path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\layout\activity_ramos.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_group_linha"
+                path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\layout\list_group_linha.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -4946,6 +4956,11 @@ true
             <file
                 name="list_item_menu_drawer"
                 path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\layout\list_item_menu_drawer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_produto"
+                path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\layout\list_item_produto.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -4966,6 +4981,16 @@ true
             <file
                 name="main"
                 path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="produtos"
+                path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\menu\produtos.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="produtos_fragments"
+                path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\menu\produtos_fragments.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -5048,7 +5073,11 @@ true
                 </string>
                 <string name="hello_world" >Hello world!
                 </string>
+                <string name="title_activity_produtos" >Menus
+                </string>
                 <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="title_activity_produtos_fragments" >MainActivity
                 </string>
             </file>
             <file

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-w360dp/values.xml -->
+    <integer name="abs__max_action_buttons">3</integer>
+
+</resources>
