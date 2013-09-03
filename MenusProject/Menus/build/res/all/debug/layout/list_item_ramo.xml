@@ -4,8 +4,7 @@
               android:orientation="horizontal"
               android:layout_width="fill_parent"
               android:layout_height="match_parent"
-              android:padding="@dimen/list_item_padding"
-              android:background="@drawable/list_item_selector"
+              style="@style/ListItem"
               android:baselineAligned="false"
               android:layout_weight="1"
               android:gravity="left|center_vertical">
@@ -15,5 +14,5 @@
               android:layout_height="wrap_content"
               android:ellipsize="end"
               android:singleLine="true"
-              style="@style/ListItemText"/>
+              style="@style/ListItemText.SingleTitle"/>
 </LinearLayout><!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/layout/list_item_ramo.xml -->

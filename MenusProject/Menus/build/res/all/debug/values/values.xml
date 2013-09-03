@@ -25,7 +25,9 @@
     <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
     <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
     <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml -->
-    <color name="dark_grey">#1a1a1a</color>
+    <color name="dark_grey">#ff464646</color>
+    <color name="dark_red">#ff3f0000</color>
+    <color name="grey">#a1a1a1</color>
     <color name="holo_blue_bright">#ff00ddff</color>
     <color name="holo_blue_dark">#ff0099cc</color>
     <color name="holo_blue_light">#ff33b5e5</color>
@@ -38,9 +40,11 @@
     <color name="holo_red_light">#ffff4444</color>
     <color name="orange">#FF8800</color>
     <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors_style1.xml -->
-    <color name="pressed_style1">#CC00</color>
+    <color name="pressed_style1">#ccae2520</color>
     <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml -->
     <color name="red">#CC0000</color>
+    <color name="red_hover">#ffd00000</color>
+    <color name="soft_grey">#e5e5e5</color>
     <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <declare-styleable name="SherlockActionBar">
 
@@ -487,7 +491,7 @@
         <attr name="android:focusable" />
     </declare-styleable>
     <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml -->
-    <dimen name="ab_title_text_size">20dp</dimen>
+    <dimen name="ab_title_text_size">20sp</dimen>
     <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <dimen name="abs__action_bar_default_height">48dip</dimen>
     <dimen name="abs__action_bar_icon_vertical_padding">8dip</dimen>
@@ -505,8 +509,10 @@
     <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="list_item_padding">10dp</dimen>
-    <dimen name="list_item_title_text_size">16dp</dimen>
+    <dimen name="list_item_padding">5dp</dimen>
+    <dimen name="list_item_single_title_text_size">18sp</dimen>
+    <dimen name="list_item_subtitle_text_size">12sp</dimen>
+    <dimen name="list_item_title_text_size">16sp</dimen>
     <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <item name="abs__action_menu_divider" type="id"/>
     <item name="abs__action_menu_presenter" type="id"/>
@@ -587,10 +593,41 @@
         <item name="android:dropDownSelector">@drawable/selectable_background_style1</item>
     </style>
 
+    <style name="ListGroup">
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:background">@drawable/list_group_selector</item>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:background">@drawable/list_item_selector</item>
+    </style>
+
     <style name="ListItemText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/dark_red</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ListItemText.SingleTitle" parent="ListItemText">
+        <item name="android:textSize">@dimen/list_item_single_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ListItemText.Subtitle" parent="ListItemText">
+        <item name="android:textSize">@dimen/list_item_subtitle_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ListItemText.Title" parent="ListItemText">
         <item name="android:textSize">@dimen/list_item_title_text_size</item>
-        <item name="android:textColor">@color/dark_grey</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ListView">
+        <item name="android:background">@color/soft_grey</item>
+        <item name="android:choiceMode">singleChoice</item>
     </style>
 
     <style name="PopupMenu.Style1" parent="@style/Widget.Sherlock.ListPopupWindow">

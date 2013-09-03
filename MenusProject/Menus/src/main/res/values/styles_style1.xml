@@ -78,9 +78,42 @@
         <item name="dropDownListViewStyle">@style/DropDownListView.Style1</item>
     </style>
 
-    <style name="ListItemText" parent="@android:style/TextAppearance">
+
+    <!-- app layout config -->
+    <style name="ListItemText.SingleTitle" parent="ListItemText">
+        <item name="android:textSize">@dimen/list_item_single_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ListItemText.Title" parent="ListItemText">
         <item name="android:textSize">@dimen/list_item_title_text_size</item>
-        <item name="android:textColor">@color/dark_grey</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ListItemText.Subtitle" parent="ListItemText">
+        <item name="android:textSize">@dimen/list_item_subtitle_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ListItemText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/dark_red</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ListView">
+        <item name="android:background">@color/soft_grey</item>
+        <item name="android:choiceMode">singleChoice</item>
+    </style>
+
+    <style name="ListItem" >
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:background">@drawable/list_item_selector</item>
+    </style>
+
+    <style name="ListGroup" >
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:background">@drawable/list_group_selector</item>
     </style>
 </resources>

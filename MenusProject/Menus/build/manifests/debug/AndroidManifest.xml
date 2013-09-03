@@ -20,6 +20,8 @@
         </activity>
         <activity android:label="@string/title_activity_produtos_fragments" android:name="br.com.android.menus.activity.ProdutosFragmentsActivity">
         </activity>
+        <activity android:label="@string/title_activity_produtos_fragments" android:name="br.com.android.menus.activity.AppFragmentActivity">
+        </activity>
     </application>
 
 </manifest>

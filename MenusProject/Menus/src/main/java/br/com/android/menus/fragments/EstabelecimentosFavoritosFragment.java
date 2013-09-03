@@ -26,12 +26,14 @@ public class EstabelecimentosFavoritosFragment extends BaseFragments {
 
         View rootView = inflater.inflate(R.layout.activity_estabelecimentos, container, false);
 
-        if (savedInstanceState == null){
+        if (savedInstanceState == null || savedInstanceState.getSerializable(KEY_ESTABELECIMENTOS) == null){
             estabelecimentosList = Estabelecimento.getEstabelecimentosFavoritos(this.getSherlockActivity());
         }
         else{
             estabelecimentosList = (List<Estabelecimento>) savedInstanceState.getSerializable(KEY_ESTABELECIMENTOS);
         }
+
+        getSherlockActivity().setTitle(R.string.title_activity_estabelecimentos_favoritos_fragment);
 
         final ListView list = (ListView) rootView.findViewById(R.id.listView);
 

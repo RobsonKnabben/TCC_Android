@@ -10,7 +10,9 @@ import br.com.android.menus.R;
 import br.com.android.menus.activity.EstabelecimentosFavoritosFragmentActivity;
 import br.com.android.menus.activity.MainActivity;
 import br.com.android.menus.activity.RamosFragmentActivity;
-import br.com.android.menus.model.AppMenuItem;
+import br.com.android.menus.fragments.EstabelecimentosFavoritosFragment;
+import br.com.android.menus.fragments.RamosFragments;
+import br.com.android.menus.model.*;
 
 public class AppSingleton {
     private static AppSingleton sInstance;
@@ -24,23 +26,27 @@ public class AppSingleton {
         if (AppSingleton.sInstance == null){
             AppSingleton.sInstance = new AppSingleton(context);
         }
+        else{
+            AppSingleton.sInstance.mContext = context;
+        }
         return AppSingleton.sInstance;
     }
 
-    //
-    public List<AppMenuItem> getDefaultDrawerMenuItemList(Context context){
+    public List<AppMenuItem> getDefaultDrawerMenuItemList(){
         AppMenuItem menuCategories = new AppMenuItem(
                 "Categorias",
                 "Pizzarias, Restaurantes, ...",
                 R.drawable.menu_icon_categories,
-                new Intent(context, RamosFragmentActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK),
-                false
+                new RamosFragments(),
+                //new Intent(context, RamosFragmentActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK),
+                true
         );
 
         AppMenuItem menuFavoritos = new AppMenuItem(
                 "Favoritos",
                 R.drawable.menu_icon_favorites,
-                new Intent(context, EstabelecimentosFavoritosFragmentActivity.class),
+                new EstabelecimentosFavoritosFragment(),
+                //new Intent(context, EstabelecimentosFavoritosFragmentActivity.class),
                 false
         );
 
@@ -48,8 +54,8 @@ public class AppSingleton {
                 "Atualizar",
                 "Ultima atualização: 10/08/2013",
                 R.drawable.menu_icon_update,
-                new Intent(context, MainActivity.class),
-                false
+                new Intent(mContext, MainActivity.class),
+                true
         );
 
         List<AppMenuItem> menuItems = new ArrayList<AppMenuItem>();

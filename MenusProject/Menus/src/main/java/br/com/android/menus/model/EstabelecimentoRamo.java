@@ -31,7 +31,7 @@ public class EstabelecimentoRamo extends BaseModel {
     }
 
     public boolean CreateOrUpdate(Context context) {
-        String where = " WHERE " + EstabelecimentoRamoDAO.C_ESTABELECIMENTO_ID + " = " + this.getEstabelecimentoId().toString()
+        String where = EstabelecimentoRamoDAO.C_ESTABELECIMENTO_ID + " = " + this.getEstabelecimentoId().toString()
                 + " AND " + EstabelecimentoRamoDAO.C_RAMO_ID + " = " + this.getRamoId().toString();
 
         ContentValues values = new ContentValues();

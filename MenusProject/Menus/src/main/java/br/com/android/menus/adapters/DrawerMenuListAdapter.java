@@ -41,7 +41,7 @@ public class DrawerMenuListAdapter extends ArrayAdapter<AppMenuItem> {
 
         title.setText(item.getTitle());
         if (subtitle != null) subtitle.setText(item.getSubtitle());
-        if (icon != null) icon.setImageResource(item.getIcon());
+        icon.setImageResource(item.getIcon());
 
         return itemView;
     }

@@ -2,19 +2,32 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                style="@style/ListItem"
+                android:baselineAligned="false"
+                android:layout_weight="1">
 
-    <TextView
-            android:id="@+id/itemName"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:paddingLeft="3dip"
+                  android:layout_alignParentLeft="true">
 
-    <TextView
-            android:id="@+id/itemDescricao"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@id/itemName" />
+        <TextView
+                android:id="@+id/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:singleLine="true"
+                style="@style/ListItemText.Title"/>
 
+        <TextView
+                android:id="@+id/itemDescricao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:singleLine="true"
+                style="@style/ListItemText.Subtitle"/>
+    </LinearLayout>
 </RelativeLayout><!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/layout/list_item_produto.xml -->

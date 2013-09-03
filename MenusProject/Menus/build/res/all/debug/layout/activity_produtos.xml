@@ -5,7 +5,8 @@
     <ExpandableListView
             android:id="@+id/expandable_list_view_produtos"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent" >
+            android:layout_height="fill_parent"
+            style="@style/ListView">
     </ExpandableListView>
 </RelativeLayout>
 <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/layout/activity_produtos.xml -->

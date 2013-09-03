@@ -10,12 +10,12 @@ import br.com.android.menus.fragments.EstabelecimentosFragments;
 public class EstabelecimentosFragmentActivity extends BaseFragmentsActivity {
 
     @Override
-    protected List<AppMenuItem> MenuItems() {
-        return getSingleton().getDefaultDrawerMenuItemList(this);
+    protected List<AppMenuItem> MenuItens() {
+        return getSingleton().getDefaultDrawerMenuItemList();
     }
 
     @Override
-    protected Fragment Fragment() {
+    protected Fragment InicialFragment() {
         return new EstabelecimentosFragments();
     }
 }

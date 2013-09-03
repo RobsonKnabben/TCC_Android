@@ -2,12 +2,14 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                style="@style/ListGroup">
 
     <TextView
             android:id="@+id/groupName"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            style="@style/ListItemText.SingleTitle"
             android:paddingLeft="15dip" />
 
 </RelativeLayout><!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/layout/list_group_linha.xml -->

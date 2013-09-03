@@ -1,5 +1,7 @@
 package br.com.android.menus.activity;
 
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -35,7 +37,7 @@ public class MainActivity extends BaseActivity {
         this.text = (TextView) findViewById(R.id.Texto);
         this.text.setText("Mudeio Texto");
 
-        new DownloadRssFeedTask().execute();
+        new AppAsyncTask(this).execute();
 
         //startActivity(new Intent(this, RamosActivity.class));
         //finish();
@@ -56,7 +58,7 @@ public class MainActivity extends BaseActivity {
             //    return true;
             case R.id.action_settings:
                 this.text.setText("aPERTEI SETTINGS");
-                startActivity(new Intent(this, RamosFragmentActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK).putExtra(EXTRA_MENU_DRAWER_OPENED, true));
+                startActivity(new Intent(this, AppFragmentActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK).putExtra(EXTRA_MENU_DRAWER_OPENED, true));
                 finish();
                 return true;
             //mais cases para mais opções
@@ -64,68 +66,75 @@ public class MainActivity extends BaseActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private class DownloadRssFeedTask extends AsyncTask<Void, String, Integer> {
-        @Override
-        protected void onPreExecute() {
-            text.setText("inicio sync ");
-            Log.e("sync--", "inicio sync");
+    private class AppAsyncTask extends AsyncTask<Void, String, Integer> {
+        Context mContext;
+        ProgressDialog mProgressDialog;
+
+        public AppAsyncTask(Context context) {
+            this.mContext = context;
         }
 
         @Override
-        protected Integer doInBackground(Void... params) {
-            try {
+        protected void onPreExecute() {
+            mProgressDialog = new ProgressDialog(mContext);
+            mProgressDialog.setIndeterminate(true);
+            mProgressDialog.setMessage("Aguarde...");
+            mProgressDialog.show();
+        }
+
+        @Override
+        protected Integer doInBackground(Void... voids) {
+            try{
                 // Create a new RestTemplate instance
                 RestTemplate restTemplate = new AppRestTemplate();
 
                 // Add the SyndFeed message converter to the RestTemplate instance
                 restTemplate.getMessageConverters().add(new GsonHttpMessageConverter());
 
+                publishProgress("Buscando informações...");
+
                 // Initiate the request and return the results
                 Ramo[] ramos = restTemplate.getForObject(API.getUrl(API.URL_RAMOS), Ramo[].class);
-                publishProgress("sync ramo");
-
-                for (Ramo ramo : ramos){
-                    ramo.CreateOrUpdate(null);
-                    publishProgress("sync ramo " + ramo.getName());
-                }
 
                 // Initiate the request and return the results
                 Estabelecimento[] estabelecimentos = restTemplate.getForObject(API.getUrl(API.URL_ESTABELECIMENTOS), Estabelecimento[].class);
-                publishProgress("sync estabelecimento");
 
-                for (Estabelecimento estabelecimento : estabelecimentos){
-                    estabelecimento.CreateOrUpdate(null);
-                    publishProgress("sync estabelecimento " + estabelecimento.getName());
+
+                if (ramos != null && estabelecimentos != null){
+                    publishProgress("Atualizando informações...");
+                    for (Ramo ramo : ramos){
+                        ramo.CreateOrUpdate(null);
+                    }
+
+                    for (Estabelecimento estabelecimento : estabelecimentos){
+                        estabelecimento.CreateOrUpdate(null);
+                    }
                 }
-
-
                 return 0;
             } catch (RestClientException e){
-                publishProgress("sync erro: " + e.getMessage());
                 e.printStackTrace();
                 Log.d("sync--", e.getMessage(), e);
-
             } catch (Exception e) {
-                publishProgress("sync erro: " + e.getMessage());
                 Log.d("sync--", e.getMessage(), e);
-
             }
             return 1;
         }
 
         @Override
-        protected void onPostExecute(Integer result) {
-            // hide the progress indicator when the network request is complete
-            if (result == 0){
-                publishProgress("fim sync ");
-            }
-            Log.d("sync--", "fim sync ");
+        protected void onProgressUpdate(String... values) {
+            mProgressDialog.setMessage(values[0]);
         }
 
         @Override
-        protected void onProgressUpdate(String... values) {
-                text.setText(values[0]);
+        protected void onPostExecute(Integer integer) {
+            if (integer == 0){
+                mProgressDialog.dismiss();
+                startActivity(new Intent(mContext, AppFragmentActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK).putExtra(EXTRA_MENU_DRAWER_OPENED, true));
+                finish();
+            }
+            else{
+
+            }
         }
     }
-
 }

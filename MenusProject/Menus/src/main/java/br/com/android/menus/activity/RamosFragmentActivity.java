@@ -11,12 +11,12 @@ import br.com.android.menus.fragments.RamosFragments;
 public class RamosFragmentActivity extends BaseFragmentsActivity {
 
     @Override
-    protected List<AppMenuItem> MenuItems() {
-        return getSingleton().getDefaultDrawerMenuItemList(this);
+    protected List<AppMenuItem> MenuItens() {
+        return getSingleton().getDefaultDrawerMenuItemList();
     }
 
     @Override
-    protected Fragment Fragment() {
+    protected Fragment InicialFragment() {
         return new RamosFragments();
     }
 }

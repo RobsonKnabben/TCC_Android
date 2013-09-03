@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="spring-android-auth-1.0.1.RELEASE">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Menus/libs/spring-android-auth-1.0.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../MenusProject/Menus/libs/spring-android-auth-1.0.1.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

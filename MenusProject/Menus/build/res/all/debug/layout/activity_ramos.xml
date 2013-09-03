@@ -8,6 +8,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/listView"
-            />
+            style="@style/ListView"/>
 </RelativeLayout>
 <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/layout/activity_ramos.xml -->

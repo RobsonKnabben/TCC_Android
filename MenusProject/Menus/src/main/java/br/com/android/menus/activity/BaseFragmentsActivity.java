@@ -18,14 +18,15 @@ import java.util.List;
 
 import br.com.android.menus.R;
 import br.com.android.menus.adapters.DrawerMenuListAdapter;
+import br.com.android.menus.app.ItemMenuAsyncTask;
 import br.com.android.menus.model.AppMenuItem;
 import br.com.android.menus.app.AppSingleton;
 
 public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
     protected final String EXTRA_MENU_DRAWER_OPENED = "EXTRA_MENU_DRAWER_OPENED";
 
-    protected abstract List<AppMenuItem> MenuItems();
-    protected abstract Fragment Fragment();
+    protected abstract List<AppMenuItem> MenuItens();
+    protected abstract Fragment InicialFragment();
 
     // Declare Variable
     DrawerLayout mDrawerLayout;
@@ -56,7 +57,7 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
 
 
         // Pass results to MenuListAdapter Class
-        mMenuAdapter = new DrawerMenuListAdapter(this, R.layout.list_item_menu_drawer, MenuItems());
+        mMenuAdapter = new DrawerMenuListAdapter(this, R.layout.list_item_menu_drawer, MenuItens());
 
 
         // Set the MenuListAdapter to the ListView
@@ -85,11 +86,16 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
-        if (this.getIntent().getBooleanExtra(EXTRA_MENU_DRAWER_OPENED, false)) mDrawerLayout.openDrawer(mDrawerList);
-
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, Fragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, InicialFragment()).commit();
         }
+
+        if (this.getIntent().getBooleanExtra(EXTRA_MENU_DRAWER_OPENED, false)) {
+            mDrawerLayout.openDrawer(mDrawerList);
+            this.setTitle(R.string.app_name);
+            this.getIntent().putExtra(EXTRA_MENU_DRAWER_OPENED, false);
+        }
+
     }
 
     @Override
@@ -141,18 +147,29 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
         }
     }
 
-    private void SelectItem(AdapterView<?> parent, View view, int position, long id) {
+    protected void SelectItem(AdapterView<?> parent, View view, int position, long id) {
         AppMenuItem item = (AppMenuItem) parent.getItemAtPosition(position);
 
         if (item != null){
-            if (item.getIntent() != null){
-                mDrawerList.setItemChecked(position, true);
-                mDrawerLayout.closeDrawer(mDrawerList);
-                if (!item.getIntent().getComponent().getShortClassName().equals(this.getIntent().getComponent().getShortClassName())){
-                    startActivity(item.getIntent());
-                    if (item.ExecuteFinish()){
-                        finish();
+            mDrawerList.setItemChecked(position, true);
+            mDrawerLayout.closeDrawer(mDrawerList);
+            //new ItemMenuAsyncTask(this, item).execute();
+            if (item.getFragment() != null){
+                if (item.isTopFragment()){
+                    for(int i = 0; i < getSupportFragmentManager().getBackStackEntryCount(); ++i) {
+                        getSupportFragmentManager().popBackStack();
                     }
+                    getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, item.getFragment()).commit();
+                }
+                else{
+                    getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, item.getFragment()).addToBackStack("back").commit();
+                }
+
+            }
+            if (item.getIntent() != null){
+                startActivity(item.getIntent());
+                if (item.ExecuteFinish()){
+                    finish();
                 }
             }
         }

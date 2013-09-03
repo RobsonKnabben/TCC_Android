@@ -28,7 +28,7 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
 
         View rootView = inflater.inflate(R.layout.activity_produtos, container, false);
 
-        if (savedInstanceState == null){
+        if (savedInstanceState == null || savedInstanceState.getSerializable(KEY_ESTABELECIMENTO) == null){
             estabelecimento = (Estabelecimento) getSherlockActivity().getIntent().getSerializableExtra(EXTRA_ESTABELECIMENTO);
             linhasList = Linha.getLinhasByEstabelecimentoId(this.getSherlockActivity(), estabelecimento.getId());
         }
@@ -41,7 +41,7 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
 
         ExpandableListView listView = (ExpandableListView) rootView.findViewById(R.id.expandable_list_view_produtos);
 
-        listView.setIndicatorBounds(0, 20);
+        listView.setIndicatorBounds(0, 35);
 
         if (linhasList != null) listView.setAdapter(new ProdutosPorLinhasAdapter(this.getSherlockActivity(), linhasList));
 
@@ -60,6 +60,8 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
 
         return rootView;
     }
+
+
 
     @Override
     public void onSaveInstanceState(Bundle outState) {

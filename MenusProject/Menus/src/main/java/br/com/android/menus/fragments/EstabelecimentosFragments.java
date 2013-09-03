@@ -28,7 +28,7 @@ public class EstabelecimentosFragments extends BaseFragments {
 
         View rootView = inflater.inflate(R.layout.activity_estabelecimentos, container, false);
 
-        if (savedInstanceState == null){
+        if (savedInstanceState == null || savedInstanceState.getSerializable(KEY_RAMO) == null){
             ramo = (Ramo) getSherlockActivity().getIntent().getSerializableExtra(EXTRA_RAMO);
             estabelecimentosList = Estabelecimento.getEstabelecimentosByRamoId(this.getSherlockActivity(), ramo.getId());
         }

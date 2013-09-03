@@ -40,6 +40,10 @@
             android:name=".activity.ProdutosFragmentsActivity"
             android:label="@string/title_activity_produtos_fragments" >
         </activity>
+        <activity
+                android:name=".activity.AppFragmentActivity"
+                android:label="@string/title_activity_produtos_fragments" >
+        </activity>
     </application>
 
 </manifest>

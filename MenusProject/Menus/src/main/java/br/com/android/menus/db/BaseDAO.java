@@ -81,7 +81,7 @@ public abstract class BaseDAO {
     }
 
     public boolean InsertOrUpdate(ContentValues values, String where) {
-        String query = "SELECT * FROM " + TABLE() + " " + where;
+        String query = "SELECT * FROM " + TABLE() + " WHERE " + where;
 
         Cursor c = fetchByQuery(query);
         if (c.getCount() > 0){

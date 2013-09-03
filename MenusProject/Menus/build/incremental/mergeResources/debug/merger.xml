@@ -4359,6 +4359,11 @@ true
                 qualifiers=""
                 type="drawable" />
             <file
+                name="list_group_selector"
+                path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\drawable\list_group_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="list_item_selector"
                 path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\drawable\list_item_selector.xml"
                 qualifiers=""
@@ -4376,6 +4381,16 @@ true
             <file
                 name="selectable_background_style1"
                 path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\drawable\selectable_background_style1.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shape_list_group"
+                path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\drawable\shape_list_group.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shape_list_group_hover"
+                path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\drawable\shape_list_group_hover.xml"
                 qualifiers=""
                 type="drawable" />
             <file
@@ -5001,6 +5016,8 @@ true
             <file
                 path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\values\colors.xml"
                 qualifiers="" >
+                <color name="dark_red" >#ff3f0000
+                </color>
                 <color name="holo_red_light" >#ffff4444
                 </color>
                 <color name="holo_blue_bright" >#ff00ddff
@@ -5009,9 +5026,13 @@ true
                 </color>
                 <color name="holo_green_light" >#ff99cc00
                 </color>
-                <color name="dark_grey" >#1a1a1a
+                <color name="red_hover" >#ffd00000
+                </color>
+                <color name="dark_grey" >#ff464646
                 </color>
                 <color name="orange" >#FF8800
+                </color>
+                <color name="grey" >#a1a1a1
                 </color>
                 <color name="holo_blue_light" >#ff33b5e5
                 </color>
@@ -5023,6 +5044,8 @@ true
                 </color>
                 <color name="holo_orange_dark" >#ffff8800
                 </color>
+                <color name="soft_grey" >#e5e5e5
+                </color>
                 <color name="holo_blue_dark" >#ff0099cc
                 </color>
                 <color name="ab_color" >#0099CC
@@ -5033,21 +5056,25 @@ true
             <file
                 path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\values\colors_style1.xml"
                 qualifiers="" >
-                <color name="pressed_style1" >#CC00
+                <color name="pressed_style1" >#ccae2520
                 </color>
             </file>
             <file
                 path="F:\Projetos\Android\TCC_Android\MenusProject\Menus\src\main\res\values\dimens.xml"
                 qualifiers="" >
-                <dimen name="list_item_title_text_size" >16dp
+                <dimen name="list_item_title_text_size" >16sp
                 </dimen>
-                <dimen name="list_item_padding" >10dp
+                <dimen name="list_item_padding" >5dp
                 </dimen>
-                <dimen name="ab_title_text_size" >20dp
+                <dimen name="ab_title_text_size" >20sp
                 </dimen>
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
                 <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="list_item_single_title_text_size" >18sp
+                </dimen>
+                <dimen name="list_item_subtitle_text_size" >12sp
                 </dimen>
             </file>
             <file
@@ -5107,29 +5134,13 @@ true
                 qualifiers="" >
 
                 <style
-                    name="DropDownListView.Style1"
-                    parent="@style/Widget.Sherlock.ListView.DropDown" >
-                    <item name="android:listSelector">
-@drawable/selectable_background_style1
+                    name="ListItemText.Subtitle"
+                    parent="ListItemText" >
+                    <item name="android:textSize">
+@dimen/list_item_subtitle_text_size
                     </item>
-                </style>
-
-                <style
-                    name="Theme.Style1.Widget"
-                    parent="@style/Theme.Sherlock" >
-                    <item name="popupMenuStyle">
-@style/PopupMenu.Style1
-                    </item>
-                    <item name="dropDownListViewStyle">
-@style/DropDownListView.Style1
-                    </item>
-                </style>
-
-                <style
-                    name="ProgressBar.Style1"
-                    parent="@style/Widget.Sherlock.ProgressBar.Horizontal" >
-                    <item name="android:progressDrawable">
-@drawable/progress_horizontal_style1
+                    <item name="android:textStyle">
+normal
                     </item>
                 </style>
 
@@ -5142,33 +5153,13 @@ true
                 </style>
 
                 <style
-                    name="ListItemText"
-                    parent="@android:style/TextAppearance" >
+                    name="ListItemText.SingleTitle"
+                    parent="ListItemText" >
                     <item name="android:textSize">
-@dimen/list_item_title_text_size
-                    </item>
-                    <item name="android:textColor">
-@color/dark_grey
+@dimen/list_item_single_title_text_size
                     </item>
                     <item name="android:textStyle">
-bold
-                    </item>
-                </style>
-
-                <style
-                    name="ActionBar.Solid.Style1"
-                    parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse" >
-                    <item name="background">
-@drawable/ab_solid_style1
-                    </item>
-                    <item name="backgroundStacked">
-@drawable/ab_stacked_solid_style1
-                    </item>
-                    <item name="backgroundSplit">
-@drawable/ab_bottom_solid_style1
-                    </item>
-                    <item name="progressBarStyle">
-@style/ProgressBar.Style1
+normal
                     </item>
                 </style>
 
@@ -5236,6 +5227,105 @@ bold
                     </item>
                     <item name="android:dropDownSelector">
 @drawable/selectable_background_style1
+                    </item>
+                </style>
+
+                <style name="ListItem" >
+                    <item name="android:padding">
+@dimen/list_item_padding
+                    </item>
+                    <item name="android:background">
+@drawable/list_item_selector
+                    </item>
+                </style>
+
+                <style
+                    name="DropDownListView.Style1"
+                    parent="@style/Widget.Sherlock.ListView.DropDown" >
+                    <item name="android:listSelector">
+@drawable/selectable_background_style1
+                    </item>
+                </style>
+
+                <style name="ListView" >
+                    <item name="android:background">
+@color/soft_grey
+                    </item>
+                    <item name="android:choiceMode">
+singleChoice
+                    </item>
+                </style>
+
+                <style
+                    name="ProgressBar.Style1"
+                    parent="@style/Widget.Sherlock.ProgressBar.Horizontal" >
+                    <item name="android:progressDrawable">
+@drawable/progress_horizontal_style1
+                    </item>
+                </style>
+
+                <style
+                    name="Theme.Style1.Widget"
+                    parent="@style/Theme.Sherlock" >
+                    <item name="popupMenuStyle">
+@style/PopupMenu.Style1
+                    </item>
+                    <item name="dropDownListViewStyle">
+@style/DropDownListView.Style1
+                    </item>
+                </style>
+
+                <style
+                    name="ListItemText.Title"
+                    parent="ListItemText" >
+                    <item name="android:textSize">
+@dimen/list_item_title_text_size
+                    </item>
+                    <item name="android:textStyle">
+normal
+                    </item>
+                </style>
+
+                <style
+                    name="ListItemText"
+                    parent="@android:style/TextAppearance" >
+                    <item name="android:textColor">
+@color/dark_red
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                    <item name="android:ellipsize">
+end
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                </style>
+
+                <style
+                    name="ActionBar.Solid.Style1"
+                    parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse" >
+                    <item name="background">
+@drawable/ab_solid_style1
+                    </item>
+                    <item name="backgroundStacked">
+@drawable/ab_stacked_solid_style1
+                    </item>
+                    <item name="backgroundSplit">
+@drawable/ab_bottom_solid_style1
+                    </item>
+                    <item name="progressBarStyle">
+@style/ProgressBar.Style1
+                    </item>
+                </style>
+
+                <style name="ListGroup" >
+                    <item name="android:padding">
+@dimen/list_item_padding
+                    </item>
+                    <item name="android:background">
+@drawable/list_group_selector
                     </item>
                 </style>
 

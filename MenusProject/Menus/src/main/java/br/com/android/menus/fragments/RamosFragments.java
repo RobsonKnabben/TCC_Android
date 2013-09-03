@@ -34,23 +34,31 @@ public class RamosFragments extends BaseFragments {
 
         final ListView list = (ListView) rootView.findViewById(R.id.listView);
 
-        if (savedInstanceState == null){
+        if (savedInstanceState == null || savedInstanceState.getSerializable(KEY) == null){
             ramosList = Ramo.getAllRamos(this.getSherlockActivity());
         }
         else{
             ramosList = (List<Ramo>) savedInstanceState.getSerializable(KEY);
         }
 
+        getSherlockActivity().setTitle(R.string.title_activity_ramo);
+
         ArrayAdapter adapter = new RamoAdapter(this.getSherlockActivity(), R.layout.list_item_ramo, ramosList);
-        list.setAdapter(adapter);
+        if (ramosList != null) list.setAdapter(adapter);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Ramo ramo = (Ramo) adapterView.getAdapter().getItem(i);
 
-                startActivity(new Intent(view.getContext(), EstabelecimentosFragmentActivity.class).putExtra(EXTRA_RAMO, ramo));
-
+                //startActivity(new Intent(view.getContext(), EstabelecimentosFragmentActivity.class).putExtra(EXTRA_RAMO, ramo));
+                getSherlockActivity().getIntent().putExtra(EXTRA_RAMO, ramo);
+                getSherlockActivity()
+                         .getSupportFragmentManager()
+                         .beginTransaction()
+                         .replace(R.id.content_frame, new EstabelecimentosFragments())
+                         .addToBackStack("back")
+                         .commit();
             }
         });
 
