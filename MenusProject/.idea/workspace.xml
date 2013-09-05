@@ -27,270 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15ada27-3eba-4999-8892-8b97abf12f3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/buildConfig/debug/br/com/android/menus/BuildConfig.java" afterPath="$PROJECT_DIR$/Menus/build/source/buildConfig/debug/br/com/android/menus/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/source/buildConfig/debug/com/actionbarsherlock/BuildConfig.java" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/source/buildConfig/debug/com/actionbarsherlock/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/source/buildConfig/release/com/actionbarsherlock/BuildConfig.java" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/source/buildConfig/release/com/actionbarsherlock/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/Menus.iml" afterPath="$PROJECT_DIR$/Menus/Menus.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/r/debug/br/com/android/menus/R.java" afterPath="$PROJECT_DIR$/Menus/build/source/r/debug/br/com/android/menus/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/r/debug/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/Menus/build/source/r/debug/com/actionbarsherlock/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/source/r/debug/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/source/r/debug/com/actionbarsherlock/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/source/r/release/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/source/r/release/com/actionbarsherlock/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/RamosFragments.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/RamosFragments.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/ab_background_textured_style1.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/ab_background_textured_style1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_bar_home.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_bar_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_bar_home.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_bar_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_bar_home.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_bar_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_bar_tab.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_bar_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_bar_tab.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_bar_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_bar_tab.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_bar_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_bar_tab_bar_view.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_bar_tab_bar_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_bar_tab_bar_view.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_bar_tab_bar_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_bar_tab_bar_view.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_bar_tab_bar_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_bar_title_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_bar_title_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_bar_title_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_menu_layout.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_menu_layout.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_menu_layout.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_mode_bar.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_mode_bar.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_mode_bar.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-large/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-large/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-large/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-large/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-large/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-large/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__activated_background_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__activated_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__activated_background_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__activated_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__activated_background_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__activated_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__activated_background_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__activated_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__activated_background_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__activated_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__activated_background_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__activated_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__activity_chooser_view.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__activity_chooser_view.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__activity_chooser_view.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__btn_cab_done_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__btn_cab_done_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__btn_cab_done_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__btn_cab_done_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__btn_cab_done_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__btn_cab_done_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__btn_cab_done_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__btn_cab_done_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__btn_cab_done_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__btn_cab_done_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__btn_cab_done_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__btn_cab_done_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__ic_clear.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__ic_clear.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__ic_clear.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__ic_clear.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__ic_clear.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__ic_clear.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__ic_clear_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__ic_clear_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__ic_clear_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__ic_menu_moreoverflow_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__ic_menu_moreoverflow_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__item_background_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__item_background_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__item_background_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/color/abs__primary_text_disable_only_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/color/abs__primary_text_disable_only_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/color/abs__primary_text_disable_only_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/color/abs__primary_text_disable_only_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/color/abs__primary_text_disable_only_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/color/abs__primary_text_disable_only_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/color/abs__primary_text_disable_only_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/color/abs__primary_text_disable_only_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/color/abs__primary_text_disable_only_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/color/abs__primary_text_disable_only_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/color/abs__primary_text_disable_only_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/color/abs__primary_text_disable_only_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/color/abs__primary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/color/abs__primary_text_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/color/abs__primary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/color/abs__primary_text_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/color/abs__primary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/color/abs__primary_text_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/color/abs__primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/color/abs__primary_text_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/color/abs__primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/color/abs__primary_text_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/color/abs__primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/color/abs__primary_text_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__progress_horizontal_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__progress_horizontal_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__progress_horizontal_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__progress_horizontal_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__progress_horizontal_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__progress_horizontal_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__progress_horizontal_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__progress_horizontal_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__progress_horizontal_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__progress_horizontal_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__progress_horizontal_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__progress_horizontal_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-v11/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-v11/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable-v11/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable-v11/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable-v11/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable-v11/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-xlarge/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-xlarge/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-xlarge/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-xlarge/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-xlarge/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-xlarge/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-xlarge/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-xlarge/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-xlarge/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-xlarge/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-xlarge/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-xlarge/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__screen_simple.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__screen_simple.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__screen_simple.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__search_dropdown_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__search_dropdown_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__search_dropdown_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__search_dropdown_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__search_dropdown_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__search_dropdown_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__search_dropdown_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__search_dropdown_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__search_dropdown_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__search_view.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__search_view.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__search_view.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/abs__simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/abs__simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/abs__simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__spinner_ab_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__spinner_ab_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__spinner_ab_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__spinner_ab_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__spinner_ab_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__spinner_ab_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__tab_indicator_ab_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__tab_indicator_ab_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__tab_indicator_ab_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__textfield_searchview_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__textfield_searchview_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__textfield_searchview_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__textfield_searchview_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__textfield_searchview_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__textfield_searchview_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__textfield_searchview_right_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/drawable/abs__textfield_searchview_right_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/actionbarsherlock.iml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/actionbarsherlock.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_base_menu_drawer.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_base_menu_drawer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_estabelecimentos.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_estabelecimentos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_produtos.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_produtos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_ramos.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_ramos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/base_menu_drawer.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/base_menu_drawer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/btn_cab_done_style1.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/btn_cab_done_style1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/estabelecimentos.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/estabelecimentos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/favorite_star_empty.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/favorite_star_empty.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/favorite_star_full.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/favorite_star_full.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_group_linha.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_group_linha.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/list_group_selector.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/list_group_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_estabelecimento.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_estabelecimento.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_menu_drawer.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_menu_drawer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_produto.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_produto.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_ramo.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_ramo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/list_item_selector.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/list_item_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/pressed_background_style1.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/pressed_background_style1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/produtos.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/produtos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/produtos_fragments.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/produtos_fragments.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/progress_horizontal_style1.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/progress_horizontal_style1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/ramos.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/menu/ramos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/selectable_background_style1.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/selectable_background_style1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group_hover.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group_hover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_item_hover.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_item_hover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-v14/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-v14/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-v14/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-v14/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-v14/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-v14/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-v14/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout-v14/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-v14/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/layout-v14/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-v14/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/layout-v14/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/spinner_background_ab_style1.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/spinner_background_ab_style1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/tab_indicator_ab_style1.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/tab_indicator_ab_style1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-land/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-large-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-large-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-large-land-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-large-land-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-large-land-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-large-land-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-large-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-large-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-sw600dp/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-sw600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-w360dp/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-w360dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-w480dp/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-w480dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-w500dp/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-w500dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-w600dp/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-w600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values-xlarge/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values-xlarge/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-land/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-large-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-large-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-large-land-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-large-land-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-large-land-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-large-land-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-large-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-large-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-sw600dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-sw600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-w360dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-w360dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-w480dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-w480dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-w500dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-w500dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-w600dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-w600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-xlarge/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/debug/values-xlarge/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-land/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-large-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-large-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-large-land-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-large-land-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-large-land-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-large-land-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-large-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-large-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-sw600dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-sw600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-v11/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-v14/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-w360dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-w360dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-w480dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-w480dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-w500dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-w500dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-w600dp/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-w600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-xlarge/values.xml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/build/res/all/release/values-xlarge/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Menus.iws" />
@@ -490,37 +232,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" line="94" class="br.com.android.menus.activity.BaseFragmentsActivity" package="br.com.android.menus.activity">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/RamosFragments.java" line="43" class="br.com.android.menus.fragments.RamosFragments" package="br.com.android.menus.fragments">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" line="89" class="br.com.android.menus.activity.BaseFragmentsActivity" package="br.com.android.menus.activity">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -582,12 +294,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseFragmentsActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BaseFragmentsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="0" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.442029" vertical-offset="1041" max-vertical-offset="2941">
+            <state line="92" column="0" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.0" vertical-offset="1041" max-vertical-offset="2941">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProdutosPorLinhasAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="96" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="1819">
+              <folding>
+                <element signature="e#2794#3059#0" expanded="true" />
+                <element signature="e#3048#3049#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_produtos.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.5497512" vertical-offset="0" max-vertical-offset="442">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item_produto.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="52" selection-start="530" selection-end="530" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item_menu_drawer.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_menu_drawer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item_estabelecimento.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_estabelecimento.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="1403" selection-end="1555" vertical-scroll-proportion="-9.28" vertical-offset="329" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -627,51 +399,6 @@
         <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="47" column="39" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1173">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fragment.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/Fragment.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="22" selection-start="8606" selection-end="8606" vertical-scroll-proportion="-4.6" vertical-offset="3438" max-vertical-offset="4505">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentManagerImpl.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/FragmentManagerImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="16" selection-start="9027" selection-end="9027" vertical-scroll-proportion="-4.24" vertical-offset="2920" max-vertical-offset="3383">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentActivity.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/FragmentActivity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="9" selection-start="3600" selection-end="3600" vertical-scroll-proportion="-4.6" vertical-offset="1296" max-vertical-offset="2091">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instrumentation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/app/Instrumentation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1164" column="0" selection-start="44624" selection-end="44624" vertical-scroll-proportion="0.0" vertical-offset="18925" max-vertical-offset="29172">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/app/Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5124" column="0" selection-start="216036" selection-end="216036" vertical-scroll-proportion="0.0" vertical-offset="85582" max-vertical-offset="88808">
               <folding />
             </state>
           </provider>
@@ -768,9 +495,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/AppFragmentActivity.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/EstabelecimentosFavoritosFragmentActivity.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/EstabelecimentosFragmentActivity.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/ProdutosFragmentsActivity.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/RamosFragmentActivity.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppAsyncTask.java" />
@@ -784,6 +508,9 @@
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/RamosFragments.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml" />
       </list>
     </option>
   </component>
@@ -871,6 +598,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MenusProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MenusProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -998,7 +781,7 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="136" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="295" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -1012,6 +795,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Emulador1" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -1122,7 +906,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1138,7 +922,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1224,15 +1008,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4862013" sideWeight="0.8057325" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3873016" sideWeight="0.8387358" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2834395" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67038214" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32165605" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32063493" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6751592" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1240,11 +1025,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28363046" sideWeight="0.7190476" order="0" side_tool="false" content_ui="combo" x="440" y="132" width="399" height="506" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2809524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2809524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4862013" sideWeight="0.8057325" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1295,41 +1079,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Menus/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/BackStackRecord.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="16" selection-start="5224" selection-end="5224" vertical-scroll-proportion="-4.6" vertical-offset="1704" max-vertical-offset="2346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="4739" selection-end="4739" vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="4607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/AppFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/app/ActivityThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2270" column="0" selection-start="95064" selection-end="95064" vertical-scroll-proportion="0.0" vertical-offset="36537" max-vertical-offset="83827">
@@ -1407,9 +1156,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.442029" vertical-offset="1041" max-vertical-offset="2941">
+        <state line="92" column="0" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.0" vertical-offset="1041" max-vertical-offset="2941">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_menu_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="96" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="1819">
+          <folding>
+            <element signature="e#2794#3059#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_estabelecimento.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1403" selection-end="1555" vertical-scroll-proportion="-9.28" vertical-offset="329" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="52" selection-start="530" selection-end="530" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.5497512" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

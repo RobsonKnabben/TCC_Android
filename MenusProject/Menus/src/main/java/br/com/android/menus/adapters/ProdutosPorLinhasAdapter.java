@@ -1,5 +1,7 @@
 package br.com.android.menus.adapters;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
 import java.util.List;
 
 import br.com.android.menus.R;
@@ -85,11 +88,22 @@ public class ProdutosPorLinhasAdapter extends BaseExpandableListAdapter {
 
         TextView itemName = (TextView) view.findViewById(R.id.itemName);
         TextView itemDescricao = (TextView) view.findViewById(R.id.itemDescricao);
+        TextView itemPreco = (TextView) view.findViewById(R.id.itemPreco);
 
-        Produto produto = (Produto) getChild(i, i2);
+        final Produto produto = (Produto) getChild(i, i2);
 
         itemName.setText(produto.getName());
         itemDescricao.setText(produto.getDescription());
+        itemPreco.setText("R$" + new DecimalFormat("0.00").format(produto.getPrice()).toString());
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Dialog dialog = new Dialog(mContext);
+                dialog.setTitle(produto.getPrice().toString());
+                dialog.show();
+            }
+        });
 
         return view;
     }
