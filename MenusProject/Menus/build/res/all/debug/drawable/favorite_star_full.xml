@@ -4,4 +4,4 @@
     <item android:state_focused="true" android:drawable="@drawable/favorite_star_full"/>
     <item android:state_pressed="true" android:drawable="@drawable/favorite_star_full"/>
     <item android:drawable="@drawable/favorite_star_full"/>
-</selector><!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/drawable/favorite_star_full.xml -->
+</selector><!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/drawable/favorite_star_full.xml -->

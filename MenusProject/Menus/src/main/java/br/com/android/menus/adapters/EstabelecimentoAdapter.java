@@ -39,7 +39,7 @@ public class EstabelecimentoAdapter extends ArrayAdapter<Estabelecimento>{
 
         View viewInflater = inflater.inflate(resourceId, parent, false);
         //viewInflater.setFocusable(true);
-        viewInflater.setClickable(true);
+        //viewInflater.setClickable(true);
         viewInflater.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +52,6 @@ public class EstabelecimentoAdapter extends ArrayAdapter<Estabelecimento>{
                             .commit();
             }
         });
-
 
         TextView name = (TextView) viewInflater.findViewById(R.id.name);
         name.setText(estabelecimento.getName());

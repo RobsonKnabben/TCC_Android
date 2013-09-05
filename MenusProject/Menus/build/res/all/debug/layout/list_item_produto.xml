@@ -30,4 +30,4 @@
                 android:singleLine="true"
                 style="@style/ListItemText.Subtitle"/>
     </LinearLayout>
-</RelativeLayout><!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/layout/list_item_produto.xml -->
+</RelativeLayout><!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/layout/list_item_produto.xml -->

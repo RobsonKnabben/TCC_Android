@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="F:\Projetos\Android\TCC_Android\MenusProject\libraries\actionbarsherlock\src\main\assets" />
+        <source path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\libraries\actionbarsherlock\src\main\assets" />
     </dataSet>
     <dataSet config="release" >
-        <source path="F:\Projetos\Android\TCC_Android\MenusProject\libraries\actionbarsherlock\src\release\assets" />
+        <source path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\libraries\actionbarsherlock\src\release\assets" />
     </dataSet>
 
 </merger>

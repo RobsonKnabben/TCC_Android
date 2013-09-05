@@ -41,7 +41,7 @@ public class RamosFragments extends BaseFragments {
             ramosList = (List<Ramo>) savedInstanceState.getSerializable(KEY);
         }
 
-        getSherlockActivity().setTitle(R.string.title_activity_ramo);
+        //getSherlockActivity().setTitle(R.string.title_activity_ramo);
 
         ArrayAdapter adapter = new RamoAdapter(this.getSherlockActivity(), R.layout.list_item_ramo, ramosList);
         if (ramosList != null) list.setAdapter(adapter);

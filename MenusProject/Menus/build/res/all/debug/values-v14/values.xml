@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml -->
     <style name="ActionBar.Solid.Style1" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@drawable/ab_solid_style1</item>
         <item name="android:backgroundStacked">@drawable/ab_stacked_solid_style1</item>
@@ -13,11 +13,11 @@
         <item name="android:background">@drawable/ab_transparent_style1</item>
         <item name="android:progressBarStyle">@style/ProgressBar.Style1</item>
     </style>
-    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
     </style>
-    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml -->
     <style name="Sherlock.__Theme" parent="android:Theme.Holo" />
 
     <style name="Sherlock.__Theme.DarkActionBar" parent="android:Theme.Holo.Light.DarkActionBar">
@@ -73,7 +73,7 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml -->
     <style name="Theme.Style1" parent="@style/Theme.Sherlock.Light.DarkActionBar">
         <item name="android:actionBarItemBackground">@drawable/selectable_background_style1</item>
         <item name="android:popupMenuStyle">@style/PopupMenu.Style1</item>
@@ -93,7 +93,7 @@
         <item name="android:popupMenuStyle">@style/PopupMenu.Style1</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView.Style1</item>
     </style>
-    <!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml -->
+    <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml -->
     <style name="Widget.Sherlock.ActionBar" parent="android:Widget.Holo.ActionBar" />
 
     <style name="Widget.Sherlock.ActionBar.Solid" parent="android:Widget.Holo.ActionBar.Solid" />

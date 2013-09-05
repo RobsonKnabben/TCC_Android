@@ -36,4 +36,4 @@ enabled.
          android:foregroundGravity="fill_horizontal|top"
          android:foreground="?attr/windowContentOverlay" />
 </LinearLayout>
-<!-- From: file:/F:/Projetos/Android/TCC_Android/MenusProject/libraries/actionbarsherlock/res/layout/abs__screen_simple.xml -->
+<!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/libraries/actionbarsherlock/res/layout/abs__screen_simple.xml -->

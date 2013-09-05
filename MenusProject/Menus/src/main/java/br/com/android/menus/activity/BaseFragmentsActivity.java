@@ -88,11 +88,12 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, InicialFragment()).commit();
+            this.setTitle(R.string.title_activity_ramo);
         }
 
         if (this.getIntent().getBooleanExtra(EXTRA_MENU_DRAWER_OPENED, false)) {
             mDrawerLayout.openDrawer(mDrawerList);
-            this.setTitle(R.string.app_name);
+            getSupportActionBar().setTitle(R.string.app_name);
             this.getIntent().putExtra(EXTRA_MENU_DRAWER_OPENED, false);
         }
 
