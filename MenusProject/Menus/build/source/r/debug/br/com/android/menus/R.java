@@ -966,34 +966,36 @@ containing a value of this type.
         public static final int abs__textButton=0x7f060013;
         public static final int abs__title=0x7f06001b;
         public static final int abs__up=0x7f06000f;
-        public static final int action_settings=0x7f060045;
+        public static final int action_settings=0x7f060047;
         public static final int content_frame=0x7f060033;
-        public static final int description=0x7f060041;
+        public static final int description=0x7f060042;
         public static final int disableHome=0x7f060008;
         public static final int drawer_layout=0x7f060032;
         public static final int edit_query=0x7f060026;
         public static final int expandable_list_view_produtos=0x7f060037;
-        public static final int groupName=0x7f060039;
+        public static final int groupName=0x7f06003b;
         public static final int homeAsUp=0x7f060005;
-        public static final int icon=0x7f06003d;
-        public static final int icon_layout=0x7f06003c;
-        public static final int is_favorite=0x7f06003b;
-        public static final int itemDescricao=0x7f060043;
-        public static final int itemName=0x7f060042;
-        public static final int itemPreco=0x7f060044;
+        public static final int icon=0x7f06003f;
+        public static final int icon_layout=0x7f06003e;
+        public static final int is_favorite=0x7f06003d;
+        public static final int itemDescricao=0x7f060044;
+        public static final int itemName=0x7f060043;
+        public static final int itemPreco=0x7f060045;
         public static final int left_drawer=0x7f060034;
         public static final int listMode=0x7f060001;
         public static final int listView=0x7f060035;
-        public static final int name=0x7f06003a;
+        public static final int name=0x7f06003c;
         public static final int normal=0x7f060000;
-        public static final int preco=0x7f060040;
+        public static final int numero=0x7f060046;
+        public static final int preco=0x7f060041;
         public static final int showCustom=0x7f060007;
         public static final int showHome=0x7f060004;
         public static final int showTitle=0x7f060006;
-        public static final int subtitle=0x7f06003f;
+        public static final int subtitle=0x7f060040;
         public static final int tabMode=0x7f060002;
         public static final int telefonar=0x7f060038;
-        public static final int title=0x7f06003e;
+        public static final int telefones_list=0x7f06003a;
+        public static final int title=0x7f060039;
         public static final int useLogo=0x7f060003;
         public static final int wrap_content=0x7f060009;
     }
@@ -1031,13 +1033,15 @@ containing a value of this type.
         public static final int activity_main=0x7f030017;
         public static final int activity_produtos=0x7f030018;
         public static final int activity_ramos=0x7f030019;
-        public static final int list_group_linha=0x7f03001a;
-        public static final int list_item_estabelecimento=0x7f03001b;
-        public static final int list_item_menu_drawer=0x7f03001c;
-        public static final int list_item_produto=0x7f03001d;
-        public static final int list_item_ramo=0x7f03001e;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001f;
-        public static final int sherlock_spinner_item=0x7f030020;
+        public static final int dialog_list=0x7f03001a;
+        public static final int list_group_linha=0x7f03001b;
+        public static final int list_item_estabelecimento=0x7f03001c;
+        public static final int list_item_menu_drawer=0x7f03001d;
+        public static final int list_item_produto=0x7f03001e;
+        public static final int list_item_ramo=0x7f03001f;
+        public static final int list_item_telefone_dialog=0x7f030020;
+        public static final int sherlock_spinner_dropdown_item=0x7f030021;
+        public static final int sherlock_spinner_item=0x7f030022;
     }
     public static final class menu {
         public static final int base_menu_drawer=0x7f0b0000;
@@ -1068,14 +1072,15 @@ containing a value of this type.
         public static final int drawer_close=0x7f09000f;
         public static final int drawer_open=0x7f090010;
         public static final int hello_world=0x7f090011;
-        public static final int texto=0x7f090012;
-        public static final int title_activity_base_menu_drawer=0x7f090013;
-        public static final int title_activity_estabelecimento=0x7f090014;
-        public static final int title_activity_estabelecimentos_favoritos_fragment=0x7f090015;
-        public static final int title_activity_estabelecimentos_fragment=0x7f090016;
-        public static final int title_activity_produtos=0x7f090017;
-        public static final int title_activity_produtos_fragments=0x7f090018;
-        public static final int title_activity_ramo=0x7f090019;
+        public static final int telefones_dialog_title=0x7f090012;
+        public static final int texto=0x7f090013;
+        public static final int title_activity_base_menu_drawer=0x7f090014;
+        public static final int title_activity_estabelecimento=0x7f090015;
+        public static final int title_activity_estabelecimentos_favoritos_fragment=0x7f090016;
+        public static final int title_activity_estabelecimentos_fragment=0x7f090017;
+        public static final int title_activity_produtos=0x7f090018;
+        public static final int title_activity_produtos_fragments=0x7f090019;
+        public static final int title_activity_ramo=0x7f09001a;
     }
     public static final class style {
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 

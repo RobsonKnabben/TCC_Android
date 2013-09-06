@@ -7,7 +7,7 @@ public class API {
 
     public static  final String C_ID_WS = "id";
 
-    private static final String BASE_URL = "http://192.168.254.1:8000/api/";
+    private static final String BASE_URL = "http://192.168.254.2:8000/api/";
 
     public static final String URL_RAMOS = "ramos/";
     public static final String URL_ESTABELECIMENTOS = "estabelecimentos/";

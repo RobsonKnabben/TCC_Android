@@ -1,18 +1,32 @@
 package br.com.android.menus.fragments;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ExpandableListView;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import br.com.android.menus.R;
+import br.com.android.menus.activity.AppFragmentActivity;
+import br.com.android.menus.activity.BaseFragmentsActivity;
+import br.com.android.menus.adapters.DialogListAdapter;
 import br.com.android.menus.adapters.ProdutosPorLinhasAdapter;
 import br.com.android.menus.model.Estabelecimento;
 import br.com.android.menus.model.Linha;
+import br.com.android.menus.model.Telefone;
 
 
 public class ProdutosPorLinhasFragment extends BaseFragments {
@@ -25,7 +39,8 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         //super.onCreateView(inflater, container, savedInstanceState);
-
+        final LayoutInflater inflat = inflater;
+        final ViewGroup conteine = container;
         View rootView = inflater.inflate(R.layout.activity_produtos, container, false);
 
         if (savedInstanceState == null || savedInstanceState.getSerializable(KEY_ESTABELECIMENTO) == null){
@@ -45,23 +60,30 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
 
         if (linhasList != null) listView.setAdapter(new ProdutosPorLinhasAdapter(this.getSherlockActivity(), linhasList));
 
-        /*ArrayAdapter adapter = new RamoAdapter(this.getSherlockActivity(), R.layout.list_item_ramo, ramosList);
-        list.setAdapter(adapter);
-
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        Button telefonar = (Button) rootView.findViewById(R.id.telefonar);
+        telefonar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Ramo ramo = (Ramo) adapterView.getAdapter().getItem(i);
-
-                startActivity(new Intent(view.getContext(), EstabelecimentosFragmentActivity.class).putExtra(EXTRA_RAMO, ramo));
+            public void onClick(View v) {
+                View view = inflat.inflate(R.layout.dialog_list, conteine, false);
+                Telefonar_Click(v.getContext(), view);
+                //Intent dialIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + (txtNumber.getText()).toString()));
+                //startActivity(dialIntent);
 
             }
-        });*/
+        });
 
         return rootView;
     }
 
+    public void Telefonar_Click (Context context, View view){
+        ListView list = (ListView) view.findViewById(R.id.telefones_list);
+        list.setAdapter(new DialogListAdapter(context, R.layout.list_item_telefone_dialog, estabelecimento.getTelefones()));
 
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setView(view);
+        Dialog dialog = builder.create();
+        dialog.show();
+    }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {

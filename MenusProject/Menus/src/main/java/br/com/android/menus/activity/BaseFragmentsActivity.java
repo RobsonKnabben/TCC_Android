@@ -165,7 +165,6 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
                 else{
                     getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, item.getFragment()).addToBackStack("back").commit();
                 }
-
             }
             if (item.getIntent() != null){
                 startActivity(item.getIntent());
