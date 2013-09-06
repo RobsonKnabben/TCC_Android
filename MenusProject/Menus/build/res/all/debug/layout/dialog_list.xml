@@ -22,8 +22,11 @@
         android:id="@+id/telefones_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:divider="#ff926352"
+        android:divider="#ffd8d2d2"
         android:dividerHeight="1dp"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="true"
+        style="@style/ListView"
         android:layout_below="@id/title"/>
 
 </RelativeLayout><!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/layout/dialog_list.xml -->

@@ -93,10 +93,11 @@
     <style name="ListItemText.Subtitle" parent="ListItemText">
         <item name="android:textSize">@dimen/list_item_subtitle_text_size</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/list_item_subtitle_color</item>
     </style>
 
     <style name="ListItemText" parent="@android:style/TextAppearance">
-        <item name="android:textColor">@color/dark_red</item>
+        <item name="android:textColor">@color/list_item_title_color</item>
         <item name="android:typeface">sans</item>
         <item name="android:ellipsize">end</item>
         <item name="android:singleLine">true</item>
@@ -115,5 +116,18 @@
     <style name="ListGroup" >
         <item name="android:padding">@dimen/list_item_padding</item>
         <item name="android:background">@drawable/list_group_selector</item>
+    </style>
+
+    <style name="btnTelefonar" parent="@android:style/Widget.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:background">@drawable/btn_telefonar_selector_style</item>
+        <item name="android:padding">10dip</item>
     </style>
 </resources>

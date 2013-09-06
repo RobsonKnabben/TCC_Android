@@ -4349,6 +4349,16 @@ true
                 qualifiers=""
                 type="drawable" />
             <file
+                name="btn_telefonar_selector_src"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable\btn_telefonar_selector_src.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_telefonar_selector_style"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable\btn_telefonar_selector_style.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="favorite_star_empty"
                 path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable\favorite_star_empty.xml"
                 qualifiers=""
@@ -4959,6 +4969,11 @@ true
                 qualifiers=""
                 type="layout" />
             <file
+                name="dialog_list"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\dialog_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="list_group_linha"
                 path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\list_group_linha.xml"
                 qualifiers=""
@@ -4981,6 +4996,11 @@ true
             <file
                 name="list_item_ramo"
                 path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\list_item_ramo.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_telefone_dialog"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\list_item_telefone_dialog.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -5016,11 +5036,11 @@ true
             <file
                 path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\values\colors.xml"
                 qualifiers="" >
-                <color name="dark_red" >#ff3f0000
-                </color>
                 <color name="holo_red_light" >#ffff4444
                 </color>
                 <color name="holo_blue_bright" >#ff00ddff
+                </color>
+                <color name="list_item_subtitle_color" >#ff8c807f
                 </color>
                 <color name="red" >#CC0000
                 </color>
@@ -5041,6 +5061,8 @@ true
                 <color name="holo_orange_light" >#ffffbb33
                 </color>
                 <color name="holo_green_dark" >#ff669900
+                </color>
+                <color name="list_item_title_color" >#ff3b2e2e
                 </color>
                 <color name="holo_orange_dark" >#ffff8800
                 </color>
@@ -5143,6 +5165,9 @@ true
                     </item>
                     <item name="android:textStyle">
 normal
+                    </item>
+                    <item name="android:textColor">
+@color/list_item_subtitle_color
                     </item>
                 </style>
 
@@ -5289,10 +5314,45 @@ normal
                 </style>
 
                 <style
+                    name="btnTelefonar"
+                    parent="@android:style/Widget.Button" >
+                    <item name="android:textSize">
+15sp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:textColor">
+#FFFFFF
+                    </item>
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:shadowColor">
+#000000
+                    </item>
+                    <item name="android:shadowDx">
+1
+                    </item>
+                    <item name="android:shadowDy">
+1
+                    </item>
+                    <item name="android:shadowRadius">
+0.6
+                    </item>
+                    <item name="android:background">
+@drawable/btn_telefonar_selector_style
+                    </item>
+                    <item name="android:padding">
+10dip
+                    </item>
+                </style>
+
+                <style
                     name="ListItemText"
                     parent="@android:style/TextAppearance" >
                     <item name="android:textColor">
-@color/dark_red
+@color/list_item_title_color
                     </item>
                     <item name="android:typeface">
 sans
@@ -5451,15 +5511,45 @@ true
                 </style>
             </file>
             <file
-                name="list_item_telefone_dialog"
-                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\list_item_telefone_dialog.xml"
-                qualifiers=""
-                type="layout" />
+                name="ic_device_access_call"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-hdpi\ic_device_access_call.png"
+                qualifiers="hdpi"
+                type="drawable" />
             <file
-                name="dialog_list"
-                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\dialog_list.xml"
-                qualifiers=""
-                type="layout" />
+                name="ic_device_access_call"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-xxhdpi\ic_device_access_call.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_device_access_call_pressed"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-xhdpi\ic_device_access_call_pressed.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_device_access_call"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-mdpi\ic_device_access_call.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_device_access_call_pressed"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-mdpi\ic_device_access_call_pressed.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_device_access_call"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-xhdpi\ic_device_access_call.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_device_access_call_pressed"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-hdpi\ic_device_access_call_pressed.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_device_access_call_pressed"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-xxhdpi\ic_device_access_call_pressed.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
         </source>
         <source path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\build\res\rs\debug" />
     </dataSet>

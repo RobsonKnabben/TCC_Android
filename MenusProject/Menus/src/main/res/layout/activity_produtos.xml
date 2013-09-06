@@ -1,6 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:focusable="true">
 
     <ExpandableListView
             android:id="@+id/expandable_list_view_produtos"
@@ -12,9 +13,11 @@
             android:layout_above="@+id/telefonar">
     </ExpandableListView>
 
-    <Button android:id="@+id/telefonar"
+    <ImageButton android:id="@+id/telefonar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
-        />
+        style="@style/btnTelefonar"
+        android:src="@drawable/btn_telefonar_selector_src"
+        android:adjustViewBounds="true" />
 </RelativeLayout>

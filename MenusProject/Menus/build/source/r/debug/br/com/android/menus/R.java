@@ -697,34 +697,35 @@ containing a value of this type.
         public static final int abs__bright_foreground_disabled_holo_light=0x7f050004;
         public static final int abs__bright_foreground_holo_dark=0x7f050005;
         public static final int abs__bright_foreground_holo_light=0x7f050006;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f050019;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f05001a;
-        public static final int abs__primary_text_holo_dark=0x7f05001b;
-        public static final int abs__primary_text_holo_light=0x7f05001c;
+        public static final int abs__primary_text_disable_only_holo_dark=0x7f05001a;
+        public static final int abs__primary_text_disable_only_holo_light=0x7f05001b;
+        public static final int abs__primary_text_holo_dark=0x7f05001c;
+        public static final int abs__primary_text_holo_light=0x7f05001d;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml 
          */
         public static final int dark_grey=0x7f050007;
-        public static final int dark_red=0x7f050008;
-        public static final int grey=0x7f050009;
-        public static final int holo_blue_bright=0x7f05000a;
-        public static final int holo_blue_dark=0x7f05000b;
-        public static final int holo_blue_light=0x7f05000c;
-        public static final int holo_green_dark=0x7f05000d;
-        public static final int holo_green_light=0x7f05000e;
-        public static final int holo_orange_dark=0x7f05000f;
-        public static final int holo_orange_light=0x7f050010;
-        public static final int holo_purple=0x7f050011;
-        public static final int holo_red_dark=0x7f050012;
-        public static final int holo_red_light=0x7f050013;
-        public static final int orange=0x7f050014;
+        public static final int grey=0x7f050008;
+        public static final int holo_blue_bright=0x7f050009;
+        public static final int holo_blue_dark=0x7f05000a;
+        public static final int holo_blue_light=0x7f05000b;
+        public static final int holo_green_dark=0x7f05000c;
+        public static final int holo_green_light=0x7f05000d;
+        public static final int holo_orange_dark=0x7f05000e;
+        public static final int holo_orange_light=0x7f05000f;
+        public static final int holo_purple=0x7f050010;
+        public static final int holo_red_dark=0x7f050011;
+        public static final int holo_red_light=0x7f050012;
+        public static final int list_item_subtitle_color=0x7f050013;
+        public static final int list_item_title_color=0x7f050014;
+        public static final int orange=0x7f050015;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors_style1.xml 
          */
-        public static final int pressed_style1=0x7f050015;
+        public static final int pressed_style1=0x7f050016;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml 
          */
-        public static final int red=0x7f050016;
-        public static final int red_hover=0x7f050017;
-        public static final int soft_grey=0x7f050018;
+        public static final int red=0x7f050017;
+        public static final int red_hover=0x7f050018;
+        public static final int soft_grey=0x7f050019;
     }
     public static final class dimen {
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml 
@@ -886,42 +887,46 @@ containing a value of this type.
         public static final int btn_cab_done_focused_style1=0x7f020077;
         public static final int btn_cab_done_pressed_style1=0x7f020078;
         public static final int btn_cab_done_style1=0x7f020079;
-        public static final int cab_background_bottom_style1=0x7f02007a;
-        public static final int cab_background_top_style1=0x7f02007b;
-        public static final int drawer_shadow=0x7f02007c;
-        public static final int favorite_star_empty=0x7f02007d;
-        public static final int favorite_star_full=0x7f02007e;
-        public static final int ic_launcher=0x7f02007f;
-        public static final int ic_navigation_drawer=0x7f020080;
-        public static final int list_focused_style1=0x7f020081;
-        public static final int list_group_selector=0x7f020082;
-        public static final int list_item_selector=0x7f020083;
-        public static final int menu_dropdown_panel_style1=0x7f020084;
-        public static final int menu_icon_categories=0x7f020085;
-        public static final int menu_icon_favorites=0x7f020086;
-        public static final int menu_icon_update=0x7f020087;
-        public static final int pressed_background_style1=0x7f020088;
-        public static final int progress_bg_style1=0x7f020089;
-        public static final int progress_horizontal_style1=0x7f02008a;
-        public static final int progress_primary_style1=0x7f02008b;
-        public static final int progress_secondary_style1=0x7f02008c;
-        public static final int selectable_background_style1=0x7f02008d;
-        public static final int shape_list_group=0x7f02008e;
-        public static final int shape_list_group_hover=0x7f02008f;
-        public static final int shape_list_item=0x7f020090;
-        public static final int shape_list_item_hover=0x7f020091;
-        public static final int spinner_ab_default_style1=0x7f020092;
-        public static final int spinner_ab_disabled_style1=0x7f020093;
-        public static final int spinner_ab_focused_style1=0x7f020094;
-        public static final int spinner_ab_pressed_style1=0x7f020095;
-        public static final int spinner_background_ab_style1=0x7f020096;
-        public static final int tab_indicator_ab_style1=0x7f020097;
-        public static final int tab_selected_focused_style1=0x7f020098;
-        public static final int tab_selected_pressed_style1=0x7f020099;
-        public static final int tab_selected_style1=0x7f02009a;
-        public static final int tab_unselected_focused_style1=0x7f02009b;
-        public static final int tab_unselected_pressed_style1=0x7f02009c;
-        public static final int tab_unselected_style1=0x7f02009d;
+        public static final int btn_telefonar_selector_src=0x7f02007a;
+        public static final int btn_telefonar_selector_style=0x7f02007b;
+        public static final int cab_background_bottom_style1=0x7f02007c;
+        public static final int cab_background_top_style1=0x7f02007d;
+        public static final int drawer_shadow=0x7f02007e;
+        public static final int favorite_star_empty=0x7f02007f;
+        public static final int favorite_star_full=0x7f020080;
+        public static final int ic_device_access_call=0x7f020081;
+        public static final int ic_device_access_call_pressed=0x7f020082;
+        public static final int ic_launcher=0x7f020083;
+        public static final int ic_navigation_drawer=0x7f020084;
+        public static final int list_focused_style1=0x7f020085;
+        public static final int list_group_selector=0x7f020086;
+        public static final int list_item_selector=0x7f020087;
+        public static final int menu_dropdown_panel_style1=0x7f020088;
+        public static final int menu_icon_categories=0x7f020089;
+        public static final int menu_icon_favorites=0x7f02008a;
+        public static final int menu_icon_update=0x7f02008b;
+        public static final int pressed_background_style1=0x7f02008c;
+        public static final int progress_bg_style1=0x7f02008d;
+        public static final int progress_horizontal_style1=0x7f02008e;
+        public static final int progress_primary_style1=0x7f02008f;
+        public static final int progress_secondary_style1=0x7f020090;
+        public static final int selectable_background_style1=0x7f020091;
+        public static final int shape_list_group=0x7f020092;
+        public static final int shape_list_group_hover=0x7f020093;
+        public static final int shape_list_item=0x7f020094;
+        public static final int shape_list_item_hover=0x7f020095;
+        public static final int spinner_ab_default_style1=0x7f020096;
+        public static final int spinner_ab_disabled_style1=0x7f020097;
+        public static final int spinner_ab_focused_style1=0x7f020098;
+        public static final int spinner_ab_pressed_style1=0x7f020099;
+        public static final int spinner_background_ab_style1=0x7f02009a;
+        public static final int tab_indicator_ab_style1=0x7f02009b;
+        public static final int tab_selected_focused_style1=0x7f02009c;
+        public static final int tab_selected_pressed_style1=0x7f02009d;
+        public static final int tab_selected_style1=0x7f02009e;
+        public static final int tab_unselected_focused_style1=0x7f02009f;
+        public static final int tab_unselected_pressed_style1=0x7f0200a0;
+        public static final int tab_unselected_style1=0x7f0200a1;
     }
     public static final class id {
         public static final int Texto=0x7f060036;
@@ -1221,6 +1226,9 @@ containing a value of this type.
         public static final int Widget_Sherlock_SearchAutoCompleteTextView=0x7f0a0069;
         public static final int Widget_Sherlock_Spinner_DropDown_ActionBar=0x7f0a006a;
         public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0a006b;
+        /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
+         */
+        public static final int btnTelefonar=0x7f0a006c;
     }
     public static final class styleable {
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 

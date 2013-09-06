@@ -14,6 +14,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ExpandableListView;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -60,7 +61,7 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
 
         if (linhasList != null) listView.setAdapter(new ProdutosPorLinhasAdapter(this.getSherlockActivity(), linhasList));
 
-        Button telefonar = (Button) rootView.findViewById(R.id.telefonar);
+        ImageButton telefonar = (ImageButton) rootView.findViewById(R.id.telefonar);
         telefonar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

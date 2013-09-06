@@ -26,7 +26,6 @@
     <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml -->
     <color name="dark_grey">#ff464646</color>
-    <color name="dark_red">#ff3f0000</color>
     <color name="grey">#a1a1a1</color>
     <color name="holo_blue_bright">#ff00ddff</color>
     <color name="holo_blue_dark">#ff0099cc</color>
@@ -38,6 +37,8 @@
     <color name="holo_purple">#ffaa66cc</color>
     <color name="holo_red_dark">#ffcc0000</color>
     <color name="holo_red_light">#ffff4444</color>
+    <color name="list_item_subtitle_color">#ff8c807f</color>
+    <color name="list_item_title_color">#ff3b2e2e</color>
     <color name="orange">#FF8800</color>
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors_style1.xml -->
     <color name="pressed_style1">#ccae2520</color>
@@ -605,7 +606,7 @@
     </style>
 
     <style name="ListItemText" parent="@android:style/TextAppearance">
-        <item name="android:textColor">@color/dark_red</item>
+        <item name="android:textColor">@color/list_item_title_color</item>
         <item name="android:typeface">sans</item>
         <item name="android:ellipsize">end</item>
         <item name="android:singleLine">true</item>
@@ -619,6 +620,7 @@
     <style name="ListItemText.Subtitle" parent="ListItemText">
         <item name="android:textSize">@dimen/list_item_subtitle_text_size</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/list_item_subtitle_color</item>
     </style>
 
     <style name="ListItemText.Title" parent="ListItemText">
@@ -1273,6 +1275,19 @@
         <item name="android:textAppearance">@style/TextAppearance.Sherlock.Widget.TextView.SpinnerItem</item>
         <item name="android:paddingLeft">8dp</item>
         <item name="android:paddingRight">8dp</item>
+    </style>
+    <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
+    <style name="btnTelefonar" parent="@android:style/Widget.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:background">@drawable/btn_telefonar_selector_style</item>
+        <item name="android:padding">10dip</item>
     </style>
 
 </resources>
