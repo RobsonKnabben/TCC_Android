@@ -76,12 +76,16 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
         View view = mInflater.inflate(R.layout.dialog_telefones, mConteiner, false);
 
         ListView list = (ListView) view.findViewById(R.id.telefones_list);
-        list.setAdapter(new DialogListAdapter(context, R.layout.list_item_telefone_dialog, estabelecimento.getTelefones()));
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setView(view);
-        Dialog dialog = builder.create();
-        dialog.show();
+        if (estabelecimento.getTelefones() != null){
+            list.setAdapter(new DialogListAdapter(context, R.layout.list_item_telefone_dialog, estabelecimento.getTelefones()));
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(context);
+            builder.setView(view);
+            Dialog dialog = builder.create();
+            dialog.show();
+        }
+
     }
 
     @Override

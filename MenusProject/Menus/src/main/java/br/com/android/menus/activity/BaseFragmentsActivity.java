@@ -92,7 +92,7 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
         }
 
         this.setTitle(this.getTitle());
-        
+
         if (this.getIntent().getBooleanExtra(EXTRA_MENU_DRAWER_OPENED, false)) {
             mDrawerLayout.openDrawer(mDrawerList);
             getSupportActionBar().setTitle(R.string.app_name);
