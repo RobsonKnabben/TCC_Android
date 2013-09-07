@@ -14,10 +14,13 @@
     <color name="holo_orange_dark">#ffff8800</color>
     <color name="holo_blue_bright">#ff00ddff</color>
     <color name="dark_grey">#ff464646</color>
-    <color name="soft_grey">#e5e5e5</color>
+    <color name="soft_grey">#fff5f5f5</color>
     <color name="list_item_title_color">#ff3b2e2e</color>
     <color name="list_item_subtitle_color">#ff8c807f</color>
     <color name="red_hover">#ffd00000</color>
     <color name="grey">#a1a1a1</color>
+
+    <color name="dialog_background_title">#ff5f0f0e</color>
+    <color name="dialog_text_title">#fff5f5f5</color>
 
 </resources>

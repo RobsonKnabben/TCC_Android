@@ -4,7 +4,7 @@
        android:shape="rectangle">
     <gradient
             android:startColor="#f1f1f2"
-            android:centerColor="#e7e7e8"
-            android:endColor="#cfcfcf"
-            android:angle="270" />
+            android:centerColor="#ffebebeb"
+            android:endColor="#ffd7d7d7"
+            android:angle="-90" />
 </shape><!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/drawable/shape_list_group.xml -->

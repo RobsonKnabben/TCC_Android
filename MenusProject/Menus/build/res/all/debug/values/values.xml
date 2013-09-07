@@ -26,6 +26,8 @@
     <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml -->
     <color name="dark_grey">#ff464646</color>
+    <color name="dialog_background_title">#ff5f0f0e</color>
+    <color name="dialog_text_title">#fff5f5f5</color>
     <color name="grey">#a1a1a1</color>
     <color name="holo_blue_bright">#ff00ddff</color>
     <color name="holo_blue_dark">#ff0099cc</color>
@@ -45,7 +47,7 @@
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml -->
     <color name="red">#CC0000</color>
     <color name="red_hover">#ffd00000</color>
-    <color name="soft_grey">#e5e5e5</color>
+    <color name="soft_grey">#fff5f5f5</color>
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <declare-styleable name="SherlockActionBar">
 
@@ -510,9 +512,12 @@
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dialog_title_text_size">20sp</dimen>
+    <dimen name="list_item_min_height">60dp</dimen>
     <dimen name="list_item_padding">5dp</dimen>
     <dimen name="list_item_single_title_text_size">18sp</dimen>
     <dimen name="list_item_subtitle_text_size">12sp</dimen>
+    <dimen name="list_item_title_margin_bottom">3dp</dimen>
     <dimen name="list_item_title_text_size">16sp</dimen>
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml -->
     <item name="abs__action_menu_divider" type="id"/>
@@ -585,6 +590,19 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
+    <style name="DialogText" parent="@android:style/TextAppearance">
+        <item name="android:typeface">sans</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="DialogText.Title" parent="DialogText">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dialog_text_title</item>
+        <item name="android:background">@color/dialog_background_title</item>
+    </style>
+
     <style name="DropDownListView.Style1" parent="@style/Widget.Sherlock.ListView.DropDown">
         <item name="android:listSelector">@drawable/selectable_background_style1</item>
     </style>
@@ -603,6 +621,7 @@
     <style name="ListItem">
         <item name="android:padding">@dimen/list_item_padding</item>
         <item name="android:background">@drawable/list_item_selector</item>
+        <item name="android:minHeight">@dimen/list_item_min_height</item>
     </style>
 
     <style name="ListItemText" parent="@android:style/TextAppearance">
@@ -625,6 +644,7 @@
 
     <style name="ListItemText.Title" parent="ListItemText">
         <item name="android:textSize">@dimen/list_item_title_text_size</item>
+        <item name="android:layout_marginBottom">@dimen/list_item_title_margin_bottom</item>
         <item name="android:textStyle">normal</item>
     </style>
 

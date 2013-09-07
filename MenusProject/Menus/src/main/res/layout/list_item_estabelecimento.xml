@@ -25,14 +25,15 @@
     </LinearLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                  android:layout_width="30dp"
-                  android:layout_height="30dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
                   android:paddingRight="3dip"
-                  android:gravity="right"
+                  android:gravity="right|center_vertical"
                   android:orientation="vertical">
 
-        <Button android:id="@+id/is_favorite"
+        <ImageButton android:id="@+id/is_favorite"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"/>
     </LinearLayout>
 </LinearLayout>

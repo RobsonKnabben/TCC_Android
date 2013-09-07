@@ -87,6 +87,7 @@
 
     <style name="ListItemText.Title" parent="ListItemText">
         <item name="android:textSize">@dimen/list_item_title_text_size</item>
+        <item name="android:layout_marginBottom">@dimen/list_item_title_margin_bottom</item>
         <item name="android:textStyle">normal</item>
     </style>
 
@@ -103,6 +104,19 @@
         <item name="android:singleLine">true</item>
     </style>
 
+    <style name="DialogText.Title" parent="DialogText">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dialog_text_title</item>
+        <item name="android:background">@color/dialog_background_title</item>
+    </style>
+
+    <style name="DialogText" parent="@android:style/TextAppearance">
+        <item name="android:typeface">sans</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
     <style name="ListView">
         <item name="android:background">@color/soft_grey</item>
         <item name="android:choiceMode">singleChoice</item>
@@ -111,6 +125,7 @@
     <style name="ListItem" >
         <item name="android:padding">@dimen/list_item_padding</item>
         <item name="android:background">@drawable/list_item_selector</item>
+        <item name="android:minHeight">@dimen/list_item_min_height</item>
     </style>
 
     <style name="ListGroup" >

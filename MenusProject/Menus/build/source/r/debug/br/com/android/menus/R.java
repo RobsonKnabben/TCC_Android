@@ -697,35 +697,37 @@ containing a value of this type.
         public static final int abs__bright_foreground_disabled_holo_light=0x7f050004;
         public static final int abs__bright_foreground_holo_dark=0x7f050005;
         public static final int abs__bright_foreground_holo_light=0x7f050006;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f05001a;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f05001b;
-        public static final int abs__primary_text_holo_dark=0x7f05001c;
-        public static final int abs__primary_text_holo_light=0x7f05001d;
+        public static final int abs__primary_text_disable_only_holo_dark=0x7f05001c;
+        public static final int abs__primary_text_disable_only_holo_light=0x7f05001d;
+        public static final int abs__primary_text_holo_dark=0x7f05001e;
+        public static final int abs__primary_text_holo_light=0x7f05001f;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml 
          */
         public static final int dark_grey=0x7f050007;
-        public static final int grey=0x7f050008;
-        public static final int holo_blue_bright=0x7f050009;
-        public static final int holo_blue_dark=0x7f05000a;
-        public static final int holo_blue_light=0x7f05000b;
-        public static final int holo_green_dark=0x7f05000c;
-        public static final int holo_green_light=0x7f05000d;
-        public static final int holo_orange_dark=0x7f05000e;
-        public static final int holo_orange_light=0x7f05000f;
-        public static final int holo_purple=0x7f050010;
-        public static final int holo_red_dark=0x7f050011;
-        public static final int holo_red_light=0x7f050012;
-        public static final int list_item_subtitle_color=0x7f050013;
-        public static final int list_item_title_color=0x7f050014;
-        public static final int orange=0x7f050015;
+        public static final int dialog_background_title=0x7f050008;
+        public static final int dialog_text_title=0x7f050009;
+        public static final int grey=0x7f05000a;
+        public static final int holo_blue_bright=0x7f05000b;
+        public static final int holo_blue_dark=0x7f05000c;
+        public static final int holo_blue_light=0x7f05000d;
+        public static final int holo_green_dark=0x7f05000e;
+        public static final int holo_green_light=0x7f05000f;
+        public static final int holo_orange_dark=0x7f050010;
+        public static final int holo_orange_light=0x7f050011;
+        public static final int holo_purple=0x7f050012;
+        public static final int holo_red_dark=0x7f050013;
+        public static final int holo_red_light=0x7f050014;
+        public static final int list_item_subtitle_color=0x7f050015;
+        public static final int list_item_title_color=0x7f050016;
+        public static final int orange=0x7f050017;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors_style1.xml 
          */
-        public static final int pressed_style1=0x7f050016;
+        public static final int pressed_style1=0x7f050018;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors.xml 
          */
-        public static final int red=0x7f050017;
-        public static final int red_hover=0x7f050018;
-        public static final int soft_grey=0x7f050019;
+        public static final int red=0x7f050019;
+        public static final int red_hover=0x7f05001a;
+        public static final int soft_grey=0x7f05001b;
     }
     public static final class dimen {
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/dimens.xml 
@@ -747,8 +749,8 @@ containing a value of this type.
         public static final int abs__action_bar_title_text_size=0x7f070006;
         public static final int abs__action_button_min_width=0x7f070007;
         public static final int abs__config_prefDialogWidth=0x7f070008;
-        public static final int abs__dialog_min_width_major=0x7f070014;
-        public static final int abs__dialog_min_width_minor=0x7f070015;
+        public static final int abs__dialog_min_width_major=0x7f070017;
+        public static final int abs__dialog_min_width_minor=0x7f070018;
         public static final int abs__dropdownitem_icon_width=0x7f070009;
         public static final int abs__dropdownitem_text_padding_left=0x7f07000a;
         public static final int abs__dropdownitem_text_padding_right=0x7f07000b;
@@ -759,10 +761,13 @@ containing a value of this type.
          */
         public static final int activity_horizontal_margin=0x7f07000e;
         public static final int activity_vertical_margin=0x7f07000f;
-        public static final int list_item_padding=0x7f070010;
-        public static final int list_item_single_title_text_size=0x7f070011;
-        public static final int list_item_subtitle_text_size=0x7f070012;
-        public static final int list_item_title_text_size=0x7f070013;
+        public static final int dialog_title_text_size=0x7f070010;
+        public static final int list_item_min_height=0x7f070011;
+        public static final int list_item_padding=0x7f070012;
+        public static final int list_item_single_title_text_size=0x7f070013;
+        public static final int list_item_subtitle_text_size=0x7f070014;
+        public static final int list_item_title_margin_bottom=0x7f070015;
+        public static final int list_item_title_text_size=0x7f070016;
     }
     public static final class drawable {
         public static final int ab_background_textured_style1=0x7f020000;
@@ -1038,7 +1043,7 @@ containing a value of this type.
         public static final int activity_main=0x7f030017;
         public static final int activity_produtos=0x7f030018;
         public static final int activity_ramos=0x7f030019;
-        public static final int dialog_list=0x7f03001a;
+        public static final int dialog_telefones=0x7f03001a;
         public static final int list_group_linha=0x7f03001b;
         public static final int list_item_estabelecimento=0x7f03001c;
         public static final int list_item_menu_drawer=0x7f03001d;
@@ -1112,123 +1117,125 @@ containing a value of this type.
         public static final int AppTheme=0x7f0a0005;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
          */
-        public static final int DropDownListView_Style1=0x7f0a0006;
-        public static final int DropDownNav_Style1=0x7f0a0007;
-        public static final int ListGroup=0x7f0a0008;
-        public static final int ListItem=0x7f0a0009;
-        public static final int ListItemText=0x7f0a000a;
-        public static final int ListItemText_SingleTitle=0x7f0a000b;
-        public static final int ListItemText_Subtitle=0x7f0a000c;
-        public static final int ListItemText_Title=0x7f0a000d;
-        public static final int ListView=0x7f0a000e;
-        public static final int PopupMenu_Style1=0x7f0a000f;
-        public static final int ProgressBar_Style1=0x7f0a0010;
+        public static final int DialogText=0x7f0a0006;
+        public static final int DialogText_Title=0x7f0a0007;
+        public static final int DropDownListView_Style1=0x7f0a0008;
+        public static final int DropDownNav_Style1=0x7f0a0009;
+        public static final int ListGroup=0x7f0a000a;
+        public static final int ListItem=0x7f0a000b;
+        public static final int ListItemText=0x7f0a000c;
+        public static final int ListItemText_SingleTitle=0x7f0a000d;
+        public static final int ListItemText_Subtitle=0x7f0a000e;
+        public static final int ListItemText_Title=0x7f0a000f;
+        public static final int ListView=0x7f0a0010;
+        public static final int PopupMenu_Style1=0x7f0a0011;
+        public static final int ProgressBar_Style1=0x7f0a0012;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
          */
-        public static final int Sherlock___TextAppearance_Small=0x7f0a0011;
+        public static final int Sherlock___TextAppearance_Small=0x7f0a0013;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v11/values.xml 
  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml 
          */
-        public static final int Sherlock___Theme=0x7f0a0012;
-        public static final int Sherlock___Theme_DarkActionBar=0x7f0a0013;
-        public static final int Sherlock___Theme_Light=0x7f0a0014;
-        public static final int Sherlock___Widget_ActionBar=0x7f0a0015;
-        public static final int Sherlock___Widget_ActionMode=0x7f0a0016;
-        public static final int Sherlock___Widget_ActivityChooserView=0x7f0a0017;
-        public static final int Sherlock___Widget_Holo_DropDownItem=0x7f0a0018;
-        public static final int Sherlock___Widget_Holo_ListView=0x7f0a0019;
-        public static final int Sherlock___Widget_Holo_Spinner=0x7f0a001a;
-        public static final int Sherlock___Widget_SearchAutoCompleteTextView=0x7f0a001b;
-        public static final int TextAppearance_Sherlock=0x7f0a001c;
-        public static final int TextAppearance_Sherlock_Light_SearchResult=0x7f0a001d;
-        public static final int TextAppearance_Sherlock_Light_SearchResult_Subtitle=0x7f0a001e;
-        public static final int TextAppearance_Sherlock_Light_SearchResult_Title=0x7f0a001f;
-        public static final int TextAppearance_Sherlock_Light_Small=0x7f0a0020;
-        public static final int TextAppearance_Sherlock_Light_Widget_PopupMenu_Large=0x7f0a0021;
-        public static final int TextAppearance_Sherlock_Light_Widget_PopupMenu_Small=0x7f0a0022;
-        public static final int TextAppearance_Sherlock_SearchResult=0x7f0a0023;
-        public static final int TextAppearance_Sherlock_SearchResult_Subtitle=0x7f0a0024;
-        public static final int TextAppearance_Sherlock_SearchResult_Title=0x7f0a0025;
-        public static final int TextAppearance_Sherlock_Small=0x7f0a0026;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Menu=0x7f0a0027;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Subtitle=0x7f0a0028;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Subtitle_Inverse=0x7f0a0029;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Title=0x7f0a002a;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Title_Inverse=0x7f0a002b;
-        public static final int TextAppearance_Sherlock_Widget_ActionMode_Subtitle=0x7f0a002c;
-        public static final int TextAppearance_Sherlock_Widget_ActionMode_Subtitle_Inverse=0x7f0a002d;
-        public static final int TextAppearance_Sherlock_Widget_ActionMode_Title=0x7f0a002e;
-        public static final int TextAppearance_Sherlock_Widget_ActionMode_Title_Inverse=0x7f0a002f;
-        public static final int TextAppearance_Sherlock_Widget_DropDownHint=0x7f0a0030;
-        public static final int TextAppearance_Sherlock_Widget_DropDownItem=0x7f0a0031;
-        public static final int TextAppearance_Sherlock_Widget_PopupMenu=0x7f0a0032;
-        public static final int TextAppearance_Sherlock_Widget_PopupMenu_Large=0x7f0a0033;
-        public static final int TextAppearance_Sherlock_Widget_PopupMenu_Small=0x7f0a0034;
-        public static final int TextAppearance_Sherlock_Widget_TextView_SpinnerItem=0x7f0a0035;
-        public static final int Theme_Sherlock=0x7f0a0036;
-        public static final int Theme_Sherlock_Light=0x7f0a0037;
-        public static final int Theme_Sherlock_Light_DarkActionBar=0x7f0a0038;
-        public static final int Theme_Sherlock_Light_NoActionBar=0x7f0a0039;
-        public static final int Theme_Sherlock_NoActionBar=0x7f0a003a;
+        public static final int Sherlock___Theme=0x7f0a0014;
+        public static final int Sherlock___Theme_DarkActionBar=0x7f0a0015;
+        public static final int Sherlock___Theme_Light=0x7f0a0016;
+        public static final int Sherlock___Widget_ActionBar=0x7f0a0017;
+        public static final int Sherlock___Widget_ActionMode=0x7f0a0018;
+        public static final int Sherlock___Widget_ActivityChooserView=0x7f0a0019;
+        public static final int Sherlock___Widget_Holo_DropDownItem=0x7f0a001a;
+        public static final int Sherlock___Widget_Holo_ListView=0x7f0a001b;
+        public static final int Sherlock___Widget_Holo_Spinner=0x7f0a001c;
+        public static final int Sherlock___Widget_SearchAutoCompleteTextView=0x7f0a001d;
+        public static final int TextAppearance_Sherlock=0x7f0a001e;
+        public static final int TextAppearance_Sherlock_Light_SearchResult=0x7f0a001f;
+        public static final int TextAppearance_Sherlock_Light_SearchResult_Subtitle=0x7f0a0020;
+        public static final int TextAppearance_Sherlock_Light_SearchResult_Title=0x7f0a0021;
+        public static final int TextAppearance_Sherlock_Light_Small=0x7f0a0022;
+        public static final int TextAppearance_Sherlock_Light_Widget_PopupMenu_Large=0x7f0a0023;
+        public static final int TextAppearance_Sherlock_Light_Widget_PopupMenu_Small=0x7f0a0024;
+        public static final int TextAppearance_Sherlock_SearchResult=0x7f0a0025;
+        public static final int TextAppearance_Sherlock_SearchResult_Subtitle=0x7f0a0026;
+        public static final int TextAppearance_Sherlock_SearchResult_Title=0x7f0a0027;
+        public static final int TextAppearance_Sherlock_Small=0x7f0a0028;
+        public static final int TextAppearance_Sherlock_Widget_ActionBar_Menu=0x7f0a0029;
+        public static final int TextAppearance_Sherlock_Widget_ActionBar_Subtitle=0x7f0a002a;
+        public static final int TextAppearance_Sherlock_Widget_ActionBar_Subtitle_Inverse=0x7f0a002b;
+        public static final int TextAppearance_Sherlock_Widget_ActionBar_Title=0x7f0a002c;
+        public static final int TextAppearance_Sherlock_Widget_ActionBar_Title_Inverse=0x7f0a002d;
+        public static final int TextAppearance_Sherlock_Widget_ActionMode_Subtitle=0x7f0a002e;
+        public static final int TextAppearance_Sherlock_Widget_ActionMode_Subtitle_Inverse=0x7f0a002f;
+        public static final int TextAppearance_Sherlock_Widget_ActionMode_Title=0x7f0a0030;
+        public static final int TextAppearance_Sherlock_Widget_ActionMode_Title_Inverse=0x7f0a0031;
+        public static final int TextAppearance_Sherlock_Widget_DropDownHint=0x7f0a0032;
+        public static final int TextAppearance_Sherlock_Widget_DropDownItem=0x7f0a0033;
+        public static final int TextAppearance_Sherlock_Widget_PopupMenu=0x7f0a0034;
+        public static final int TextAppearance_Sherlock_Widget_PopupMenu_Large=0x7f0a0035;
+        public static final int TextAppearance_Sherlock_Widget_PopupMenu_Small=0x7f0a0036;
+        public static final int TextAppearance_Sherlock_Widget_TextView_SpinnerItem=0x7f0a0037;
+        public static final int Theme_Sherlock=0x7f0a0038;
+        public static final int Theme_Sherlock_Light=0x7f0a0039;
+        public static final int Theme_Sherlock_Light_DarkActionBar=0x7f0a003a;
+        public static final int Theme_Sherlock_Light_NoActionBar=0x7f0a003b;
+        public static final int Theme_Sherlock_NoActionBar=0x7f0a003c;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values-v14/styles_style1.xml 
          */
-        public static final int Theme_Style1=0x7f0a003b;
-        public static final int Theme_Style1_Widget=0x7f0a003c;
+        public static final int Theme_Style1=0x7f0a003d;
+        public static final int Theme_Style1_Widget=0x7f0a003e;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 
          */
-        public static final int Widget=0x7f0a003d;
+        public static final int Widget=0x7f0a003f;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values-v14/values.xml 
          */
-        public static final int Widget_Sherlock_ActionBar=0x7f0a003e;
-        public static final int Widget_Sherlock_ActionBar_Solid=0x7f0a003f;
-        public static final int Widget_Sherlock_ActionBar_TabBar=0x7f0a0040;
-        public static final int Widget_Sherlock_ActionBar_TabText=0x7f0a0041;
-        public static final int Widget_Sherlock_ActionBar_TabView=0x7f0a0042;
-        public static final int Widget_Sherlock_ActionButton=0x7f0a0043;
-        public static final int Widget_Sherlock_ActionButton_CloseMode=0x7f0a0044;
-        public static final int Widget_Sherlock_ActionButton_Overflow=0x7f0a0045;
-        public static final int Widget_Sherlock_ActionMode=0x7f0a0046;
-        public static final int Widget_Sherlock_ActivityChooserView=0x7f0a0047;
-        public static final int Widget_Sherlock_Button_Small=0x7f0a0048;
-        public static final int Widget_Sherlock_DropDownItem_Spinner=0x7f0a0049;
-        public static final int Widget_Sherlock_Light_ActionBar=0x7f0a004a;
-        public static final int Widget_Sherlock_Light_ActionBar_Solid=0x7f0a004b;
-        public static final int Widget_Sherlock_Light_ActionBar_Solid_Inverse=0x7f0a004c;
-        public static final int Widget_Sherlock_Light_ActionBar_TabBar=0x7f0a004d;
-        public static final int Widget_Sherlock_Light_ActionBar_TabBar_Inverse=0x7f0a004e;
-        public static final int Widget_Sherlock_Light_ActionBar_TabText=0x7f0a004f;
-        public static final int Widget_Sherlock_Light_ActionBar_TabText_Inverse=0x7f0a0050;
-        public static final int Widget_Sherlock_Light_ActionBar_TabView=0x7f0a0051;
-        public static final int Widget_Sherlock_Light_ActionBar_TabView_Inverse=0x7f0a0052;
-        public static final int Widget_Sherlock_Light_ActionButton=0x7f0a0053;
-        public static final int Widget_Sherlock_Light_ActionButton_CloseMode=0x7f0a0054;
-        public static final int Widget_Sherlock_Light_ActionButton_Overflow=0x7f0a0055;
-        public static final int Widget_Sherlock_Light_ActionMode=0x7f0a0056;
-        public static final int Widget_Sherlock_Light_ActionMode_Inverse=0x7f0a0057;
-        public static final int Widget_Sherlock_Light_ActivityChooserView=0x7f0a0058;
-        public static final int Widget_Sherlock_Light_Button_Small=0x7f0a0059;
-        public static final int Widget_Sherlock_Light_DropDownItem_Spinner=0x7f0a005a;
-        public static final int Widget_Sherlock_Light_ListPopupWindow=0x7f0a005b;
-        public static final int Widget_Sherlock_Light_ListView_DropDown=0x7f0a005c;
-        public static final int Widget_Sherlock_Light_PopupMenu=0x7f0a005d;
-        public static final int Widget_Sherlock_Light_PopupWindow_ActionMode=0x7f0a005e;
-        public static final int Widget_Sherlock_Light_ProgressBar=0x7f0a005f;
-        public static final int Widget_Sherlock_Light_ProgressBar_Horizontal=0x7f0a0060;
-        public static final int Widget_Sherlock_Light_SearchAutoCompleteTextView=0x7f0a0061;
-        public static final int Widget_Sherlock_Light_Spinner_DropDown_ActionBar=0x7f0a0062;
-        public static final int Widget_Sherlock_ListPopupWindow=0x7f0a0063;
-        public static final int Widget_Sherlock_ListView_DropDown=0x7f0a0064;
-        public static final int Widget_Sherlock_PopupMenu=0x7f0a0065;
-        public static final int Widget_Sherlock_PopupWindow_ActionMode=0x7f0a0066;
-        public static final int Widget_Sherlock_ProgressBar=0x7f0a0067;
-        public static final int Widget_Sherlock_ProgressBar_Horizontal=0x7f0a0068;
-        public static final int Widget_Sherlock_SearchAutoCompleteTextView=0x7f0a0069;
-        public static final int Widget_Sherlock_Spinner_DropDown_ActionBar=0x7f0a006a;
-        public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0a006b;
+        public static final int Widget_Sherlock_ActionBar=0x7f0a0040;
+        public static final int Widget_Sherlock_ActionBar_Solid=0x7f0a0041;
+        public static final int Widget_Sherlock_ActionBar_TabBar=0x7f0a0042;
+        public static final int Widget_Sherlock_ActionBar_TabText=0x7f0a0043;
+        public static final int Widget_Sherlock_ActionBar_TabView=0x7f0a0044;
+        public static final int Widget_Sherlock_ActionButton=0x7f0a0045;
+        public static final int Widget_Sherlock_ActionButton_CloseMode=0x7f0a0046;
+        public static final int Widget_Sherlock_ActionButton_Overflow=0x7f0a0047;
+        public static final int Widget_Sherlock_ActionMode=0x7f0a0048;
+        public static final int Widget_Sherlock_ActivityChooserView=0x7f0a0049;
+        public static final int Widget_Sherlock_Button_Small=0x7f0a004a;
+        public static final int Widget_Sherlock_DropDownItem_Spinner=0x7f0a004b;
+        public static final int Widget_Sherlock_Light_ActionBar=0x7f0a004c;
+        public static final int Widget_Sherlock_Light_ActionBar_Solid=0x7f0a004d;
+        public static final int Widget_Sherlock_Light_ActionBar_Solid_Inverse=0x7f0a004e;
+        public static final int Widget_Sherlock_Light_ActionBar_TabBar=0x7f0a004f;
+        public static final int Widget_Sherlock_Light_ActionBar_TabBar_Inverse=0x7f0a0050;
+        public static final int Widget_Sherlock_Light_ActionBar_TabText=0x7f0a0051;
+        public static final int Widget_Sherlock_Light_ActionBar_TabText_Inverse=0x7f0a0052;
+        public static final int Widget_Sherlock_Light_ActionBar_TabView=0x7f0a0053;
+        public static final int Widget_Sherlock_Light_ActionBar_TabView_Inverse=0x7f0a0054;
+        public static final int Widget_Sherlock_Light_ActionButton=0x7f0a0055;
+        public static final int Widget_Sherlock_Light_ActionButton_CloseMode=0x7f0a0056;
+        public static final int Widget_Sherlock_Light_ActionButton_Overflow=0x7f0a0057;
+        public static final int Widget_Sherlock_Light_ActionMode=0x7f0a0058;
+        public static final int Widget_Sherlock_Light_ActionMode_Inverse=0x7f0a0059;
+        public static final int Widget_Sherlock_Light_ActivityChooserView=0x7f0a005a;
+        public static final int Widget_Sherlock_Light_Button_Small=0x7f0a005b;
+        public static final int Widget_Sherlock_Light_DropDownItem_Spinner=0x7f0a005c;
+        public static final int Widget_Sherlock_Light_ListPopupWindow=0x7f0a005d;
+        public static final int Widget_Sherlock_Light_ListView_DropDown=0x7f0a005e;
+        public static final int Widget_Sherlock_Light_PopupMenu=0x7f0a005f;
+        public static final int Widget_Sherlock_Light_PopupWindow_ActionMode=0x7f0a0060;
+        public static final int Widget_Sherlock_Light_ProgressBar=0x7f0a0061;
+        public static final int Widget_Sherlock_Light_ProgressBar_Horizontal=0x7f0a0062;
+        public static final int Widget_Sherlock_Light_SearchAutoCompleteTextView=0x7f0a0063;
+        public static final int Widget_Sherlock_Light_Spinner_DropDown_ActionBar=0x7f0a0064;
+        public static final int Widget_Sherlock_ListPopupWindow=0x7f0a0065;
+        public static final int Widget_Sherlock_ListView_DropDown=0x7f0a0066;
+        public static final int Widget_Sherlock_PopupMenu=0x7f0a0067;
+        public static final int Widget_Sherlock_PopupWindow_ActionMode=0x7f0a0068;
+        public static final int Widget_Sherlock_ProgressBar=0x7f0a0069;
+        public static final int Widget_Sherlock_ProgressBar_Horizontal=0x7f0a006a;
+        public static final int Widget_Sherlock_SearchAutoCompleteTextView=0x7f0a006b;
+        public static final int Widget_Sherlock_Spinner_DropDown_ActionBar=0x7f0a006c;
+        public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0a006d;
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 
          */
-        public static final int btnTelefonar=0x7f0a006c;
+        public static final int btnTelefonar=0x7f0a006e;
     }
     public static final class styleable {
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/build/exploded-bundles/MenusProjectLibrariesActionbarsherlockUnspecified.aar/res/values/values.xml 

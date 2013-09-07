@@ -27,19 +27,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15ada27-3eba-4999-8892-8b97abf12f3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_src.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_style.xml" />
+      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\build\res\all\debug\layout\dialog_list.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/favorite_star_empty.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/favorite_star_empty.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/favorite_star_empty.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/favorite_star_empty.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/favorite_star_empty.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/favorite_star_empty.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/favorite_star_empty.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/favorite_star_empty.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/favorite_star_empty.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/favorite_star_empty.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/favorite_star_empty.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/favorite_star_empty.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/favorite_star_empty.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/favorite_star_empty.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/favorite_star_empty.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/favorite_star_empty.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/favorite_star_full.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/favorite_star_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/favorite_star_full.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/favorite_star_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/favorite_star_full.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/favorite_star_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/favorite_star_full.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/favorite_star_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/favorite_star_full.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/favorite_star_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/favorite_star_full.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/favorite_star_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/favorite_star_full.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/favorite_star_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/favorite_star_full.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/favorite_star_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/menu_icon_categories.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/menu_icon_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/menu_icon_categories.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/menu_icon_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/menu_icon_categories.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/menu_icon_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/menu_icon_categories.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/menu_icon_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/menu_icon_categories.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/menu_icon_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/menu_icon_categories.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/menu_icon_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/menu_icon_categories.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/menu_icon_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/menu_icon_categories.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/menu_icon_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/menu_icon_favorites.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/menu_icon_favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/menu_icon_favorites.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/menu_icon_favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/menu_icon_favorites.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/menu_icon_favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/menu_icon_favorites.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/menu_icon_favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/menu_icon_favorites.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/menu_icon_favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/menu_icon_favorites.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/menu_icon_favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/menu_icon_favorites.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/menu_icon_favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/menu_icon_favorites.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/menu_icon_favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/menu_icon_update.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-hdpi/menu_icon_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/menu_icon_update.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-mdpi/menu_icon_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/menu_icon_update.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xhdpi/menu_icon_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/menu_icon_update.png" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable-xxhdpi/menu_icon_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/menu_icon_update.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-hdpi/menu_icon_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/menu_icon_update.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-mdpi/menu_icon_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/menu_icon_update.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/menu_icon_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/menu_icon_update.png" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable-xxhdpi/menu_icon_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/r/debug/br/com/android/menus/R.java" afterPath="$PROJECT_DIR$/Menus/build/source/r/debug/br/com/android/menus/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/r/debug/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/Menus/build/source/r/debug/com/actionbarsherlock/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_produtos.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_produtos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/btn_telefonar_selector_style.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/btn_telefonar_selector_style.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_style.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_style.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/dialog_list.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/dialog_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/layout/dialog_list.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/dialog_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_estabelecimento.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_estabelecimento.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_estabelecimento.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_estabelecimento.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_produto.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/list_item_produto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_group.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_group.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/values/styles_style1.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/values/styles_style1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\dialog_list.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/dialog_telefones.xml" />
     </list>
     <ignored path="Menus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -255,61 +302,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="btn_telefonar_selector_style.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_style.xml">
+      <file leaf-file-name="list_item_estabelecimento.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_estabelecimento.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="11" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_produtos.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml">
-          <provider editor-type-id="text-editor">
-            <state line="20" column="44" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles_style1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/values/styles_style1.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="67" selection-start="4967" selection-end="4967" vertical-scroll-proportion="0.0" vertical-offset="1613" max-vertical-offset="2346">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_item_telefone_dialog.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_telefone_dialog.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dialog_list.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/dialog_list.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="34" selection-start="943" selection-end="943" vertical-scroll-proportion="0.8034826" vertical-offset="102" max-vertical-offset="629">
+            <state line="19" column="53" selection-start="871" selection-end="871" vertical-scroll-proportion="0.92" vertical-offset="346" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -321,7 +317,7 @@
       <file leaf-file-name="list_item_menu_drawer.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_menu_drawer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1003">
+            <state line="18" column="42" selection-start="764" selection-end="764" vertical-scroll-proportion="-0.0" vertical-offset="306" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -330,10 +326,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_base_menu_drawer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_base_menu_drawer.xml">
+      <file leaf-file-name="activity_produtos.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="20" column="44" selection-start="834" selection-end="834" vertical-scroll-proportion="-9.96" vertical-offset="91" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -342,10 +338,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_item_produto.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EstabelecimentoAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="11" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1207">
+              <folding>
+                <element signature="e#2772#3279#0" expanded="true" />
+                <element signature="e#3268#3269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item_produto.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.36" vertical-offset="459" max-vertical-offset="1020">
+            <state line="18" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.63432837" vertical-offset="51" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -354,15 +362,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_ramos.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_ramos.xml">
+      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/values/dimens.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="10" column="39" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="styles_style1.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/res/values/styles_style1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="127" column="73" selection-start="6229" selection-end="6229" vertical-scroll-proportion="0.0" vertical-offset="1936" max-vertical-offset="2601">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -457,22 +471,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Telefone.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Estabelecimento.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/RamosFragments.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/API.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_telefone_dialog.xml" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/DialogListAdapter.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector.xml" />
         <option value="$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_src.xml" />
-        <option value="$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_style.xml" />
         <option value="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml" />
-        <option value="$PROJECT_DIR$/Menus/src/main/res/values/styles_style1.xml" />
-        <option value="$PROJECT_DIR$/Menus/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_group.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_style.xml" />
         <option value="$PROJECT_DIR$/Menus/src/main/res/layout/dialog_list.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/layout/dialog_telefones.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_estabelecimento.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_menu_drawer.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/values/styles_style1.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml" />
       </list>
     </option>
   </component>
@@ -1159,7 +1173,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2786624" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67038214" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32063493" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31847134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6751592" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1220,21 +1234,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/EstabelecimentoRamo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="41" selection-start="2804" selection-end="2804" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1717">
+        <state line="9" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#2712#3136#0" expanded="false" />
-            <element signature="e#3125#3126#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/drawable/btn_cab_done_style1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,23 +1250,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="65" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/drawable/favorite_star_empty.xml">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="427">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/drawable/btn_telefonar_selector_src.xml">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_group.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="59" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state line="8" column="30" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
@@ -1273,19 +1271,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml">
-      <provider editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_telefone_dialog.xml">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/dialog_telefones.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state line="5" column="39" selection-start="263" selection-end="263" vertical-scroll-proportion="4.76" vertical-offset="204" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
@@ -1293,37 +1288,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_menu_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_base_menu_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.36" vertical-offset="459" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_ramos.xml">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_estabelecimentos.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402">
           <folding />
@@ -1333,23 +1298,68 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/drawable-xhdpi/favorite_star_full.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state line="80" column="11" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1207">
+          <folding>
+            <element signature="e#2772#3279#0" expanded="true" />
+            <element signature="e#3268#3269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_estabelecimento.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="871" selection-end="871" vertical-scroll-proportion="0.92" vertical-offset="346" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_menu_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="764" selection-end="764" vertical-scroll-proportion="-0.0" vertical-offset="306" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="834" selection-end="834" vertical-scroll-proportion="-9.96" vertical-offset="91" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Menus/src/main/res/values/styles_style1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="67" selection-start="4967" selection-end="4967" vertical-scroll-proportion="0.0" vertical-offset="1613" max-vertical-offset="2346">
+        <state line="127" column="73" selection-start="6229" selection-end="6229" vertical-scroll-proportion="0.0" vertical-offset="1936" max-vertical-offset="2601">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/dialog_list.xml">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="943" selection-end="943" vertical-scroll-proportion="0.8034826" vertical-offset="102" max-vertical-offset="629">
+        <state line="18" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.63432837" vertical-offset="51" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>

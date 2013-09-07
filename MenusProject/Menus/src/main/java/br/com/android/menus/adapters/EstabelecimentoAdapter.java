@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
@@ -57,24 +58,23 @@ public class EstabelecimentoAdapter extends ArrayAdapter<Estabelecimento>{
         name.setText(estabelecimento.getName());
 
 
-        Button isFavoriteButton = (Button) viewInflater.findViewById(R.id.is_favorite);
-        isFavoriteButton.setClickable(true);
+        final ImageButton isFavoriteButton = (ImageButton) viewInflater.findViewById(R.id.is_favorite);
         isFavoriteButton.setClickable(true);
         if (estabelecimento.getIsFavorite()){
-            isFavoriteButton.setBackgroundResource(R.drawable.favorite_star_full);
+            isFavoriteButton.setImageResource(R.drawable.favorite_star_full);
         }
         else{
-            isFavoriteButton.setBackgroundResource(R.drawable.favorite_star_empty);
+            isFavoriteButton.setImageResource(R.drawable.favorite_star_empty);
         }
         isFavoriteButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 if (estabelecimento.ChangeIsFavorite(context)){
                     if (estabelecimento.getIsFavorite()){
-                        view.setBackgroundResource(R.drawable.favorite_star_full);
+                        isFavoriteButton.setImageResource(R.drawable.favorite_star_full);
                     }
                     else{
-                        view.setBackgroundResource(R.drawable.favorite_star_empty);
+                        isFavoriteButton.setImageResource(R.drawable.favorite_star_empty);
                     }
                 }
             }

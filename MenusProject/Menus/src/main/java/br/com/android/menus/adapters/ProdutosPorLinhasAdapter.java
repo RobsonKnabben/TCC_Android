@@ -100,7 +100,7 @@ public class ProdutosPorLinhasAdapter extends BaseExpandableListAdapter {
             @Override
             public void onClick(View v) {
                 Dialog dialog = new Dialog(mContext);
-                dialog.setTitle(produto.getPrice().toString());
+                dialog.setTitle(produto.getName());
                 dialog.show();
             }
         });
