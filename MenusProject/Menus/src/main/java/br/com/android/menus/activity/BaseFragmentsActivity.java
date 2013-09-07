@@ -40,7 +40,7 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_base_menu_drawer);
 
-        this.setTitle(this.getTitle());
+
         // Enable ActionBar app icon to behave as action to toggle nav drawer
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -91,6 +91,8 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
             this.setTitle(R.string.title_activity_ramo);
         }
 
+        this.setTitle(this.getTitle());
+        
         if (this.getIntent().getBooleanExtra(EXTRA_MENU_DRAWER_OPENED, false)) {
             mDrawerLayout.openDrawer(mDrawerList);
             getSupportActionBar().setTitle(R.string.app_name);
@@ -136,8 +138,16 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
 
     @Override
     public void setTitle(CharSequence title) {
-        mActionBarTitle = title;
-        getSupportActionBar().setTitle(mActionBarTitle);
+        setActionBarTitle(title);
+        if (!mDrawerLayout.isDrawerOpen(mDrawerList)) getSupportActionBar().setTitle(getActionBarTitle());
+    }
+
+    public CharSequence getActionBarTitle() {
+        return mActionBarTitle;
+    }
+
+    public void setActionBarTitle(CharSequence mActionBarTitle) {
+        this.mActionBarTitle = mActionBarTitle;
     }
 
     // The click listener for ListView in the navigation drawer
@@ -178,9 +188,4 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
     public AppSingleton getSingleton(){
         return AppSingleton.getInstance(this);
     }
-
-    public CharSequence getActionBarTitle() {
-        return mActionBarTitle;
-    }
-
 }
