@@ -26,25 +26,7 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c15ada27-3eba-4999-8892-8b97abf12f3c" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\build\res\all\debug\layout\dialog_list.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppRestTemplate.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppRestTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/MainActivity.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/Menus.iml" afterPath="$PROJECT_DIR$/Menus/Menus.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/r/debug/br/com/android/menus/R.java" afterPath="$PROJECT_DIR$/Menus/build/source/r/debug/br/com/android/menus/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/actionbarsherlock/actionbarsherlock.iml" afterPath="$PROJECT_DIR$/libraries/actionbarsherlock/actionbarsherlock.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/list_group_selector.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/list_group_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable/list_group_selector.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable/list_group_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_group.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_group.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group_hover.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/drawable/shape_list_group_hover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_group_hover.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/drawable/shape_list_group_hover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c15ada27-3eba-4999-8892-8b97abf12f3c" name="Default" comment="" />
     <ignored path="Menus.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1525,6 +1507,11 @@
       <created>1375818107664</created>
       <updated>1375818107664</updated>
     </task>
+    <task id="LOCAL-00001" summary="deletada dialog_list">
+      <created>1378712111739</created>
+      <updated>1378712111739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1614,6 +1601,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="deletada dialog_list" />
+    <option name="LAST_COMMIT_MESSAGE" value="deletada dialog_list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
