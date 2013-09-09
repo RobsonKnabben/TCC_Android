@@ -5152,6 +5152,8 @@ true
             <file
                 path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\values\strings.xml"
                 qualifiers="" >
+                <string name="progress_information" >ProgressInformation
+                </string>
                 <string name="telefones_dialog_title" >Telefones
                 </string>
                 <string name="title_activity_estabelecimento" >EstabelecimentosRamo
@@ -5161,6 +5163,8 @@ true
                 <string name="title_activity_estabelecimentos_favoritos_fragment" >Favoritos
                 </string>
                 <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="logo_description" >Logo
                 </string>
                 <string name="texto" >Texto
                 </string>
@@ -5325,7 +5329,16 @@ normal
                 </style>
 
                 <style name="ListItem" >
-                    <item name="android:padding">
+                    <item name="android:paddingLeft">
+12dp
+                    </item>
+                    <item name="android:paddingRight">
+@dimen/list_item_padding
+                    </item>
+                    <item name="android:paddingTop">
+@dimen/list_item_padding
+                    </item>
+                    <item name="android:paddingBottom">
 @dimen/list_item_padding
                     </item>
                     <item name="android:background">
@@ -5344,17 +5357,6 @@ normal
                     </item>
                 </style>
 
-                <style
-                    name="Theme.Style1.Widget"
-                    parent="@style/Theme.Sherlock" >
-                    <item name="popupMenuStyle">
-@style/PopupMenu.Style1
-                    </item>
-                    <item name="dropDownListViewStyle">
-@style/DropDownListView.Style1
-                    </item>
-                </style>
-
                 <style name="ListView" >
                     <item name="android:background">
 @color/soft_grey
@@ -5369,6 +5371,17 @@ singleChoice
                     parent="@style/Widget.Sherlock.ProgressBar.Horizontal" >
                     <item name="android:progressDrawable">
 @drawable/progress_horizontal_style1
+                    </item>
+                </style>
+
+                <style
+                    name="Theme.Style1.Widget"
+                    parent="@style/Theme.Sherlock" >
+                    <item name="popupMenuStyle">
+@style/PopupMenu.Style1
+                    </item>
+                    <item name="dropDownListViewStyle">
+@style/DropDownListView.Style1
                     </item>
                 </style>
 
@@ -5597,6 +5610,11 @@ true
                     </item>
                 </style>
             </file>
+            <file
+                name="logo"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-hdpi\logo.png"
+                qualifiers="hdpi"
+                type="drawable" />
         </source>
         <source path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\build\res\rs\debug" />
     </dataSet>
