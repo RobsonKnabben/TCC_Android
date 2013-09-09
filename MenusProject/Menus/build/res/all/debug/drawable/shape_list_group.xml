@@ -3,8 +3,7 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
        android:shape="rectangle">
     <gradient
-            android:startColor="#fffefeff"
-            android:centerColor="#ffebebeb"
+            android:startColor="#ffffffff"
             android:endColor="#ffd7d7d7"
             android:angle="-90" />
 </shape><!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/drawable/shape_list_group.xml -->

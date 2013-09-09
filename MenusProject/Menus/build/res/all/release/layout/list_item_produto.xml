@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/ListItem"
+                android:baselineAligned="false"
+                android:layout_weight="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:paddingLeft="3dip"
+                  android:layout_alignParentLeft="true"
+                  android:layout_toLeftOf="@+id/preco"
+                  android:id="@+id/description">
+
+        <TextView
+                android:id="@+id/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:singleLine="true"
+                style="@style/ListItemText.Title"/>
+
+        <TextView
+                android:id="@+id/itemDescricao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:singleLine="true"
+                style="@style/ListItemText.Subtitle"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="3dip"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/itemPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:gravity="right|center_vertical"
+            style="@style/ListItemText.Title"/>
+
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/layout/list_item_produto.xml -->
