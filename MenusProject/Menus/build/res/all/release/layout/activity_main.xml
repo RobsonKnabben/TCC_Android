@@ -28,13 +28,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_above="@+id/progressBar"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/logo"
+        android:padding="100dp"
+        android:contentDescription="@string/logo_description" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/progress_information"
         android:id="@+id/progressInformation"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"

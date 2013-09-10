@@ -4,18 +4,24 @@
     <string name="app_name">Menus</string>
     <string name="action_settings">Settings</string>
     <string name="texto">Texto</string>
-    <string name="title_activity_estabelecimento">EstabelecimentosRamo</string>
+
     <string name="hello_world">Hello world!</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_estabelecimento">EstabelecimentosRamo</string>
     <string name="title_activity_base_menu_drawer">Menu Drawer</string>
-    <string name="title_activity_estabelecimentos_fragment">MainActivity</string>
+    <string name="title_activity_estabelecimentos_fragment">Estabelecimentos</string>
     <string name="title_activity_ramo">Categorias</string>
     <string name="title_activity_estabelecimentos_favoritos_fragment">Favoritos</string>
     <string name="title_activity_produtos">Menus</string>
-    <string name="title_activity_produtos_fragments">MainActivity</string>
+    <string name="title_activity_produtos_fragments">Produtos</string>
+    <string name="title_activity_produto_fragment">Produto</string>
+
     <string name="telefones_dialog_title">Telefones</string>
     <string name="progress_information">ProgressInformation</string>
+
     <string name="logo_description">Logo</string>
+
 
 </resources>

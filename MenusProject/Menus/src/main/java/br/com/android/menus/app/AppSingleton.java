@@ -7,11 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.android.menus.R;
-import br.com.android.menus.activity.EstabelecimentosFavoritosFragmentActivity;
 import br.com.android.menus.activity.MainActivity;
-import br.com.android.menus.activity.RamosFragmentActivity;
 import br.com.android.menus.fragments.EstabelecimentosFavoritosFragment;
-import br.com.android.menus.fragments.RamosFragments;
+import br.com.android.menus.fragments.RamosFragment;
 import br.com.android.menus.model.*;
 
 public class AppSingleton {
@@ -37,7 +35,7 @@ public class AppSingleton {
                 "Categorias",
                 "Pizzarias, Restaurantes, ...",
                 R.drawable.menu_icon_categories,
-                new RamosFragments(),
+                new RamosFragment(),
                 //new Intent(context, RamosFragmentActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK),
                 true
         );

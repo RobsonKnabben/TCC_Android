@@ -4,8 +4,8 @@ import android.support.v4.app.Fragment;
 
 import java.util.List;
 
+import br.com.android.menus.fragments.RamosFragment;
 import br.com.android.menus.model.AppMenuItem;
-import br.com.android.menus.fragments.RamosFragments;
 
 
 public class RamosFragmentActivity extends BaseFragmentsActivity {
@@ -17,6 +17,6 @@ public class RamosFragmentActivity extends BaseFragmentsActivity {
 
     @Override
     protected Fragment InicialFragment() {
-        return new RamosFragments();
+        return new RamosFragment();
     }
 }

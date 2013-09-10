@@ -4,8 +4,8 @@ import android.support.v4.app.Fragment;
 
 import java.util.List;
 
+import br.com.android.menus.fragments.EstabelecimentosFragment;
 import br.com.android.menus.model.AppMenuItem;
-import br.com.android.menus.fragments.EstabelecimentosFragments;
 
 public class EstabelecimentosFragmentActivity extends BaseFragmentsActivity {
 
@@ -16,6 +16,6 @@ public class EstabelecimentosFragmentActivity extends BaseFragmentsActivity {
 
     @Override
     protected Fragment InicialFragment() {
-        return new EstabelecimentosFragments();
+        return new EstabelecimentosFragment();
     }
 }

@@ -17,8 +17,8 @@
         android:theme="@style/Theme.Style1" >
         <activity
             android:name="br.com.android.menus.activity.MainActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,12 +38,12 @@
             android:label="@string/title_activity_estabelecimentos_favoritos_fragment" >
         </activity>
         <activity
-            android:name=".activity.ProdutosFragmentsActivity"
+            android:name="br.com.android.menus.activity.ProdutosFragmentsActivity"
             android:label="@string/title_activity_produtos_fragments" >
         </activity>
         <activity
-                android:name=".activity.AppFragmentActivity"
-                android:label="@string/title_activity_produtos_fragments" >
+            android:name="br.com.android.menus.activity.AppFragmentActivity"
+            android:label="@string/title_activity_produtos_fragments" >
         </activity>
     </application>
 

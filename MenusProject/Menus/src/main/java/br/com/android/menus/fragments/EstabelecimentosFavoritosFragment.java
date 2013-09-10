@@ -15,7 +15,7 @@ import br.com.android.menus.adapters.EstabelecimentoAdapter;
 import br.com.android.menus.model.Estabelecimento;
 
 
-public class EstabelecimentosFavoritosFragment extends BaseFragments {
+public class EstabelecimentosFavoritosFragment extends BaseFragment {
     private final String KEY_ESTABELECIMENTOS = "LIST_ESTABELECIMENTOS_TO_PERSIST";
 
     private List<Estabelecimento> estabelecimentosList;

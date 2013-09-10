@@ -7,12 +7,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.ExpandableListView;
 import android.widget.TextView;
+
+import com.actionbarsherlock.app.SherlockFragmentActivity;
 
 import java.text.DecimalFormat;
 import java.util.List;
 
 import br.com.android.menus.R;
+import br.com.android.menus.fragments.ProdutoFragment;
+import br.com.android.menus.model.Estabelecimento;
 import br.com.android.menus.model.Linha;
 import br.com.android.menus.model.Produto;
 
@@ -20,11 +25,13 @@ import br.com.android.menus.model.Produto;
  * Created by Robson on 12/08/13.
  */
 public class ProdutosPorLinhasAdapter extends BaseExpandableListAdapter {
-    Context mContext;
+    protected final String EXTRA_PRODUTO = "EXTRA_PRODUTO";
+
+    private final SherlockFragmentActivity mContext;
     List<Linha> mLinhas;
 
     public ProdutosPorLinhasAdapter(Context context, List<Linha> objects) {
-        this.mContext = context;
+        this.mContext = (SherlockFragmentActivity) context;
         this.mLinhas = objects;
     }
 
@@ -70,6 +77,9 @@ public class ProdutosPorLinhasAdapter extends BaseExpandableListAdapter {
             view = inflater.inflate(R.layout.list_group_linha, viewGroup, false);
         }
 
+        //ExpandableListView listView = (ExpandableListView) viewGroup;
+        //listView.expandGroup(i);
+
         TextView groupName = (TextView) view.findViewById(R.id.groupName);
 
         Linha linha = (Linha) getGroup(i);
@@ -91,6 +101,10 @@ public class ProdutosPorLinhasAdapter extends BaseExpandableListAdapter {
         TextView itemPreco = (TextView) view.findViewById(R.id.itemPreco);
 
         final Produto produto = (Produto) getChild(i, i2);
+        Linha linha = (Linha) getGroup(i);
+        Estabelecimento estabelecimento = ((Linha) getGroup(i)).getEstabelecimento();
+        produto.setLinha(linha);
+        produto.setEstabelecimento(estabelecimento);
 
         itemName.setText(produto.getName());
         itemDescricao.setText(produto.getDescription());
@@ -99,9 +113,12 @@ public class ProdutosPorLinhasAdapter extends BaseExpandableListAdapter {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Dialog dialog = new Dialog(mContext);
-                dialog.setTitle(produto.getName());
-                dialog.show();
+                mContext.getIntent().putExtra(EXTRA_PRODUTO, produto);
+                mContext.getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.content_frame, new ProdutoFragment())
+                        .addToBackStack("back")
+                        .commit();
             }
         });
 

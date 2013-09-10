@@ -555,9 +555,10 @@
     <string name="title_activity_base_menu_drawer">Menu Drawer</string>
     <string name="title_activity_estabelecimento">EstabelecimentosRamo</string>
     <string name="title_activity_estabelecimentos_favoritos_fragment">Favoritos</string>
-    <string name="title_activity_estabelecimentos_fragment">MainActivity</string>
+    <string name="title_activity_estabelecimentos_fragment">Estabelecimentos</string>
+    <string name="title_activity_produto_fragment">Produto</string>
     <string name="title_activity_produtos">Menus</string>
-    <string name="title_activity_produtos_fragments">MainActivity</string>
+    <string name="title_activity_produtos_fragments">Produtos</string>
     <string name="title_activity_ramo">Categorias</string>
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml -->
     <style name="ActionBar.Solid.Style1" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">

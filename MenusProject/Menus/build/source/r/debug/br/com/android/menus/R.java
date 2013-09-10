@@ -935,6 +935,7 @@ containing a value of this type.
         public static final int tab_unselected_style1=0x7f0200a2;
     }
     public static final class id {
+        public static final int PriceDescription=0x7f06003d;
         public static final int abs__action_bar=0x7f060020;
         public static final int abs__action_bar_container=0x7f06001f;
         public static final int abs__action_bar_subtitle=0x7f060011;
@@ -976,39 +977,44 @@ containing a value of this type.
         public static final int abs__textButton=0x7f060013;
         public static final int abs__title=0x7f06001b;
         public static final int abs__up=0x7f06000f;
-        public static final int action_settings=0x7f060049;
+        public static final int action_settings=0x7f06004f;
         public static final int content_frame=0x7f060033;
-        public static final int description=0x7f060044;
+        public static final int description=0x7f06004a;
+        public static final int descriptionTitle=0x7f06003b;
         public static final int disableHome=0x7f060008;
         public static final int drawer_layout=0x7f060032;
         public static final int edit_query=0x7f060026;
-        public static final int expandable_list_view_produtos=0x7f060039;
-        public static final int groupName=0x7f06003d;
+        public static final int expandable_list_view_produtos=0x7f06003f;
+        public static final int groupName=0x7f060043;
         public static final int homeAsUp=0x7f060005;
-        public static final int icon=0x7f060041;
-        public static final int icon_layout=0x7f060040;
+        public static final int icon=0x7f060047;
+        public static final int icon_layout=0x7f060046;
         public static final int imageView=0x7f060038;
-        public static final int is_favorite=0x7f06003f;
-        public static final int itemDescricao=0x7f060046;
-        public static final int itemName=0x7f060045;
-        public static final int itemPreco=0x7f060047;
+        public static final int is_favorite=0x7f060045;
+        public static final int itemDescricao=0x7f06004c;
+        public static final int itemName=0x7f06004b;
+        public static final int itemPreco=0x7f06004d;
         public static final int left_drawer=0x7f060034;
         public static final int listMode=0x7f060001;
         public static final int listView=0x7f060035;
-        public static final int name=0x7f06003e;
+        public static final int name=0x7f060044;
         public static final int normal=0x7f060000;
-        public static final int numero=0x7f060048;
-        public static final int preco=0x7f060043;
+        public static final int numero=0x7f06004e;
+        public static final int preco=0x7f060049;
+        public static final int productDescription=0x7f06003e;
+        public static final int productLinha=0x7f06003a;
+        public static final int productName=0x7f060039;
+        public static final int productPrice=0x7f06003c;
         public static final int progressBar=0x7f060036;
         public static final int progressInformation=0x7f060037;
         public static final int showCustom=0x7f060007;
         public static final int showHome=0x7f060004;
         public static final int showTitle=0x7f060006;
-        public static final int subtitle=0x7f060042;
+        public static final int subtitle=0x7f060048;
         public static final int tabMode=0x7f060002;
-        public static final int telefonar=0x7f06003a;
-        public static final int telefones_list=0x7f06003c;
-        public static final int title=0x7f06003b;
+        public static final int telefonar=0x7f060040;
+        public static final int telefones_list=0x7f060042;
+        public static final int title=0x7f060041;
         public static final int useLogo=0x7f060003;
         public static final int wrap_content=0x7f060009;
     }
@@ -1044,25 +1050,27 @@ containing a value of this type.
         public static final int activity_base_menu_drawer=0x7f030015;
         public static final int activity_estabelecimentos=0x7f030016;
         public static final int activity_main=0x7f030017;
-        public static final int activity_produtos=0x7f030018;
-        public static final int activity_ramos=0x7f030019;
-        public static final int dialog_telefones=0x7f03001a;
-        public static final int list_group_linha=0x7f03001b;
-        public static final int list_item_estabelecimento=0x7f03001c;
-        public static final int list_item_menu_drawer=0x7f03001d;
-        public static final int list_item_produto=0x7f03001e;
-        public static final int list_item_ramo=0x7f03001f;
-        public static final int list_item_telefone_dialog=0x7f030020;
-        public static final int sherlock_spinner_dropdown_item=0x7f030021;
-        public static final int sherlock_spinner_item=0x7f030022;
+        public static final int activity_produto=0x7f030018;
+        public static final int activity_produtos_por_linha=0x7f030019;
+        public static final int activity_ramos=0x7f03001a;
+        public static final int dialog_telefones=0x7f03001b;
+        public static final int list_group_linha=0x7f03001c;
+        public static final int list_item_estabelecimento=0x7f03001d;
+        public static final int list_item_menu_drawer=0x7f03001e;
+        public static final int list_item_produto=0x7f03001f;
+        public static final int list_item_ramo=0x7f030020;
+        public static final int list_item_telefone_dialog=0x7f030021;
+        public static final int sherlock_spinner_dropdown_item=0x7f030022;
+        public static final int sherlock_spinner_item=0x7f030023;
     }
     public static final class menu {
         public static final int base_menu_drawer=0x7f0b0000;
         public static final int estabelecimentos=0x7f0b0001;
         public static final int main=0x7f0b0002;
-        public static final int produtos=0x7f0b0003;
-        public static final int produtos_fragments=0x7f0b0004;
-        public static final int ramos=0x7f0b0005;
+        public static final int produto=0x7f0b0003;
+        public static final int produtos=0x7f0b0004;
+        public static final int produtos_fragments=0x7f0b0005;
+        public static final int ramos=0x7f0b0006;
     }
     public static final class string {
         public static final int abs__action_bar_home_description=0x7f090000;
@@ -1093,9 +1101,10 @@ containing a value of this type.
         public static final int title_activity_estabelecimento=0x7f090017;
         public static final int title_activity_estabelecimentos_favoritos_fragment=0x7f090018;
         public static final int title_activity_estabelecimentos_fragment=0x7f090019;
-        public static final int title_activity_produtos=0x7f09001a;
-        public static final int title_activity_produtos_fragments=0x7f09001b;
-        public static final int title_activity_ramo=0x7f09001c;
+        public static final int title_activity_produto_fragment=0x7f09001a;
+        public static final int title_activity_produtos=0x7f09001b;
+        public static final int title_activity_produtos_fragments=0x7f09001c;
+        public static final int title_activity_ramo=0x7f09001d;
     }
     public static final class style {
         /**  From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/styles_style1.xml 

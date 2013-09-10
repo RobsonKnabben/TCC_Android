@@ -4514,6 +4514,11 @@ true
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="logo"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-hdpi\logo.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="menu_dropdown_panel_style1"
                 path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-hdpi\menu_dropdown_panel_style1.9.png"
                 qualifiers="hdpi"
@@ -4999,8 +5004,13 @@ true
                 qualifiers=""
                 type="layout" />
             <file
-                name="activity_produtos"
-                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\activity_produtos.xml"
+                name="activity_produto"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\activity_produto.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_produtos_por_linha"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\activity_produtos_por_linha.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -5056,6 +5066,11 @@ true
             <file
                 name="main"
                 path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="produto"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\menu\produto.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -5152,6 +5167,8 @@ true
             <file
                 path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\values\strings.xml"
                 qualifiers="" >
+                <string name="title_activity_produto_fragment" >Produto
+                </string>
                 <string name="progress_information" >ProgressInformation
                 </string>
                 <string name="telefones_dialog_title" >Telefones
@@ -5178,11 +5195,11 @@ true
                 </string>
                 <string name="drawer_open" >Open navigation drawer
                 </string>
-                <string name="title_activity_estabelecimentos_fragment" >MainActivity
+                <string name="title_activity_estabelecimentos_fragment" >Estabelecimentos
                 </string>
                 <string name="title_activity_produtos" >Menus
                 </string>
-                <string name="title_activity_produtos_fragments" >MainActivity
+                <string name="title_activity_produtos_fragments" >Produtos
                 </string>
             </file>
             <file
@@ -5357,15 +5374,6 @@ normal
                     </item>
                 </style>
 
-                <style name="ListView" >
-                    <item name="android:background">
-@color/soft_grey
-                    </item>
-                    <item name="android:choiceMode">
-singleChoice
-                    </item>
-                </style>
-
                 <style
                     name="ProgressBar.Style1"
                     parent="@style/Widget.Sherlock.ProgressBar.Horizontal" >
@@ -5382,6 +5390,15 @@ singleChoice
                     </item>
                     <item name="dropDownListViewStyle">
 @style/DropDownListView.Style1
+                    </item>
+                </style>
+
+                <style name="ListView" >
+                    <item name="android:background">
+@color/soft_grey
+                    </item>
+                    <item name="android:choiceMode">
+singleChoice
                     </item>
                 </style>
 
@@ -5610,11 +5627,6 @@ true
                     </item>
                 </style>
             </file>
-            <file
-                name="logo"
-                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-hdpi\logo.png"
-                qualifiers="hdpi"
-                type="drawable" />
         </source>
         <source path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\build\res\rs\debug" />
     </dataSet>

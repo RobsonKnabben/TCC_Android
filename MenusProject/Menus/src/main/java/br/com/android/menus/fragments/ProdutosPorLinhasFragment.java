@@ -21,7 +21,7 @@ import br.com.android.menus.model.Estabelecimento;
 import br.com.android.menus.model.Linha;
 
 
-public class ProdutosPorLinhasFragment extends BaseFragments {
+public class ProdutosPorLinhasFragment extends BaseFragment {
     private final String KEY = "LIST_TO_PERSIST";
     private final String KEY_ESTABELECIMENTO = "ESTABELECIMENTO_TO_PERSIST";
 
@@ -37,11 +37,14 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
         mInflater = inflater;
         mConteiner = container;
 
-        View rootView = inflater.inflate(R.layout.activity_produtos, container, false);
+        View rootView = inflater.inflate(R.layout.activity_produtos_por_linha, container, false);
 
         if (savedInstanceState == null || savedInstanceState.getSerializable(KEY_ESTABELECIMENTO) == null){
             estabelecimento = (Estabelecimento) getSherlockActivity().getIntent().getSerializableExtra(EXTRA_ESTABELECIMENTO);
             linhasList = Linha.getLinhasByEstabelecimentoId(this.getSherlockActivity(), estabelecimento.getId());
+            for (Linha linha : linhasList){
+                linha.setEstabelecimento(estabelecimento);
+            }
         }
         else{
             estabelecimento = (Estabelecimento) savedInstanceState.getSerializable(KEY_ESTABELECIMENTO);
@@ -63,9 +66,6 @@ public class ProdutosPorLinhasFragment extends BaseFragments {
             @Override
             public void onClick(View v) {
                 Telefonar_Click(v.getContext());
-                //Intent dialIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + (txtNumber.getText()).toString()));
-                //startActivity(dialIntent);
-
             }
         });
 

@@ -39,7 +39,7 @@
     <color name="holo_purple">#ffaa66cc</color>
     <color name="holo_red_dark">#ffcc0000</color>
     <color name="holo_red_light">#ffff4444</color>
-    <color name="list_item_subtitle_color">#ff8c807f</color>
+    <color name="list_item_subtitle_color">#ff9b9b9b</color>
     <color name="list_item_title_color">#ff3b2e2e</color>
     <color name="orange">#FF8800</color>
     <!-- From: file:/F:/Projetos/Android/TCC/TCC_Android/MenusProject/Menus/src/main/res/values/colors_style1.xml -->
@@ -548,6 +548,8 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="hello_world">Hello world!</string>
+    <string name="logo_description">Logo</string>
+    <string name="progress_information">ProgressInformation</string>
     <string name="telefones_dialog_title">Telefones</string>
     <string name="texto">Texto</string>
     <string name="title_activity_base_menu_drawer">Menu Drawer</string>
@@ -619,7 +621,10 @@
     </style>
 
     <style name="ListItem">
-        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">@dimen/list_item_padding</item>
+        <item name="android:paddingTop">@dimen/list_item_padding</item>
+        <item name="android:paddingBottom">@dimen/list_item_padding</item>
         <item name="android:background">@drawable/list_item_selector</item>
         <item name="android:minHeight">@dimen/list_item_min_height</item>
     </style>
