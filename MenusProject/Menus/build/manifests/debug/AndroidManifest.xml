@@ -12,14 +12,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:label="@string/title_activity_ramo" android:name="br.com.android.menus.activity.RamosFragmentActivity">
-        </activity>
-        <activity android:label="@string/title_activity_estabelecimentos_fragment" android:name="br.com.android.menus.activity.EstabelecimentosFragmentActivity">
-        </activity>
-        <activity android:label="@string/title_activity_estabelecimentos_favoritos_fragment" android:name="br.com.android.menus.activity.EstabelecimentosFavoritosFragmentActivity">
-        </activity>
-        <activity android:label="@string/title_activity_produtos_fragments" android:name="br.com.android.menus.activity.ProdutosFragmentsActivity">
-        </activity>
         <activity android:label="@string/title_activity_produtos_fragments" android:name="br.com.android.menus.activity.AppFragmentActivity">
         </activity>
     </application>

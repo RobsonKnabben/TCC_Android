@@ -57,8 +57,12 @@ public class ProdutosPorLinhasFragment extends BaseFragment {
 
         listView.setIndicatorBounds(0, 35);
 
-        if (linhasList != null) listView.setAdapter(new ProdutosPorLinhasAdapter(this.getSherlockActivity(), linhasList));
-
+        if (linhasList != null){
+            ProdutosPorLinhasAdapter adapter = new ProdutosPorLinhasAdapter(this.getSherlockActivity(), linhasList);
+            listView.setAdapter(adapter);
+            for(int i=0; i < adapter.getGroupCount(); i++)
+                listView.expandGroup(i);
+        }
 
 
         ImageButton telefonar = (ImageButton) rootView.findViewById(R.id.telefonar);

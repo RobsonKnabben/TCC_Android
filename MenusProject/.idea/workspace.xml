@@ -27,6 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15ada27-3eba-4999-8892-8b97abf12f3c" name="Default" comment="deletada dialog_list">
+      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\activity\EstabelecimentosFavoritosFragmentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\activity\EstabelecimentosFragmentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\activity\ProdutosFragmentsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\activity\RamosFragmentActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Menus.iws" />
@@ -233,36 +239,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" line="115" class="br.com.android.menus.adapters.ProdutosPorLinhasAdapter$1" package="br.com.android.menus.adapters">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" line="102" class="br.com.android.menus.adapters.ProdutosPorLinhasAdapter" package="br.com.android.menus.adapters">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -284,18 +260,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutosFragmentsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/ProdutosFragmentsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_produto.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_produto.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/activity_produto.xml">
           <provider editor-type-id="text-editor">
             <state line="36" column="36" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1258">
@@ -331,7 +296,7 @@
       <file leaf-file-name="ProdutosPorLinhasAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="50" selection-start="3206" selection-end="3206" vertical-scroll-proportion="0.0" vertical-offset="1312" max-vertical-offset="2023">
+            <state line="80" column="10" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.0" vertical-offset="921" max-vertical-offset="2023">
               <folding>
                 <element signature="e#3444#3887#0" expanded="true" />
                 <element signature="e#3876#3877#0" expanded="true" />
@@ -367,10 +332,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutosPorLinhasFragment.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ProdutosPorLinhasFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="56" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1751">
+            <state line="61" column="41" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.41458732" vertical-offset="515" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -1024,10 +989,10 @@
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Menus/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutoFragment.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produto.xml" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
       </list>
     </option>
   </component>
@@ -1630,9 +1595,10 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4862013" sideWeight="0.8057325" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48566878" sideWeight="0.7593193" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280255" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10828026" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67038214" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31847134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1642,14 +1608,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6130573" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28363046" sideWeight="0.67197454" order="0" side_tool="false" content_ui="combo" x="440" y="132" width="399" height="506" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10828026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28363046" sideWeight="0.89171976" order="0" side_tool="false" content_ui="combo" x="440" y="132" width="399" height="506" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10828026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1751,27 +1716,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="56" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutoFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="19" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="452" max-vertical-offset="1173">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/ProdutosFragmentsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1797,16 +1746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="50" selection-start="3206" selection-end="3206" vertical-scroll-proportion="0.0" vertical-offset="1312" max-vertical-offset="2023">
-          <folding>
-            <element signature="e#3444#3887#0" expanded="true" />
-            <element signature="e#3876#3877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Menus/src/main/res/layout/list_item_produto.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="969" selection-end="1050" vertical-scroll-proportion="-14.96" vertical-offset="0" max-vertical-offset="1020">
@@ -1825,6 +1764,23 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="10" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.0" vertical-offset="921" max-vertical-offset="2023">
+          <folding>
+            <element signature="e#3444#3887#0" expanded="true" />
+            <element signature="e#3876#3877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="41" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.41458732" vertical-offset="515" max-vertical-offset="1428">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

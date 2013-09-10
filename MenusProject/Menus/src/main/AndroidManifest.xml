@@ -26,22 +26,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.com.android.menus.activity.RamosFragmentActivity"
-            android:label="@string/title_activity_ramo" >
-        </activity>
-        <activity
-            android:name="br.com.android.menus.activity.EstabelecimentosFragmentActivity"
-            android:label="@string/title_activity_estabelecimentos_fragment" >
-        </activity>
-        <activity
-            android:name="br.com.android.menus.activity.EstabelecimentosFavoritosFragmentActivity"
-            android:label="@string/title_activity_estabelecimentos_favoritos_fragment" >
-        </activity>
-        <activity
-            android:name="br.com.android.menus.activity.ProdutosFragmentsActivity"
-            android:label="@string/title_activity_produtos_fragments" >
-        </activity>
-        <activity
             android:name="br.com.android.menus.activity.AppFragmentActivity"
             android:label="@string/title_activity_produtos_fragments" >
         </activity>
