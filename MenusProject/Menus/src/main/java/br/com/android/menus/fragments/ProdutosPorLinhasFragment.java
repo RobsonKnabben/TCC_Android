@@ -42,8 +42,10 @@ public class ProdutosPorLinhasFragment extends BaseFragment {
         if (savedInstanceState == null || savedInstanceState.getSerializable(KEY_ESTABELECIMENTO) == null){
             estabelecimento = (Estabelecimento) getSherlockActivity().getIntent().getSerializableExtra(EXTRA_ESTABELECIMENTO);
             linhasList = Linha.getLinhasByEstabelecimentoId(this.getSherlockActivity(), estabelecimento.getId());
-            for (Linha linha : linhasList){
-                linha.setEstabelecimento(estabelecimento);
+            if (linhasList != null){
+                for (Linha linha : linhasList){
+                    linha.setEstabelecimento(estabelecimento);
+                }
             }
         }
         else{

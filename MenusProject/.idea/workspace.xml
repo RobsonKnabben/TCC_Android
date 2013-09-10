@@ -27,13 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15ada27-3eba-4999-8892-8b97abf12f3c" name="Default" comment="deletada dialog_list">
-      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\activity\EstabelecimentosFavoritosFragmentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\activity\EstabelecimentosFragmentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\activity\ProdutosFragmentsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\activity\RamosFragmentActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Menus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -239,6 +233,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" line="61" class="br.com.android.menus.fragments.ProdutosPorLinhasFragment" package="br.com.android.menus.fragments">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -335,7 +344,7 @@
       <file leaf-file-name="ProdutosPorLinhasFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="41" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.41458732" vertical-offset="515" max-vertical-offset="1428">
+            <state line="48" column="13" selection-start="1881" selection-end="1881" vertical-scroll-proportion="0.38195777" vertical-offset="311" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -1778,7 +1787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="41" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.41458732" vertical-offset="515" max-vertical-offset="1428">
+        <state line="48" column="13" selection-start="1881" selection-end="1881" vertical-scroll-proportion="0.38195777" vertical-offset="311" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>
