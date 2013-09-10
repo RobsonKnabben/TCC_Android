@@ -27,39 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15ada27-3eba-4999-8892-8b97abf12f3c" name="Default" comment="deletada dialog_list">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutoFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produto.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Menus/src/main/res/menu/produto.xml" />
-      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\build\res\all\debug\layout\activity_produtos.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Menus/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/AppFragmentActivity.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/AppFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppSingleton.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppSingleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/EstabelecimentoAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/EstabelecimentosFavoritosFragment.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/EstabelecimentosFavoritosFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/EstabelecimentosFragmentActivity.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/EstabelecimentosFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/ProdutosPorLinhasAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/r/debug/br/com/android/menus/R.java" afterPath="$PROJECT_DIR$/Menus/build/source/r/debug/br/com/android/menus/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/r/debug/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/Menus/build/source/r/debug/com/actionbarsherlock/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/source/r/release/br/com/android/menus/R.java" afterPath="$PROJECT_DIR$/Menus/build/source/r/release/br/com/android/menus/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/RamosFragmentActivity.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/RamosFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/release/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/release/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/release/layout/activity_produtos.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/release/layout/activity_produtos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/release/drawable/list_group_selector.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/release/drawable/list_group_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/release/layout/list_item_estabelecimento.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/release/layout/list_item_estabelecimento.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/release/layout/list_item_produto.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/release/layout/list_item_produto.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/release/drawable/shape_list_group.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/release/drawable/shape_list_group.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/release/drawable/shape_list_group_hover.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/release/drawable/shape_list_group_hover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/build/res/all/release/values/values.xml" afterPath="$PROJECT_DIR$/Menus/build/res/all/release/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\fragments\BaseFragments.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/BaseFragment.java" />
-      <change type="MOVED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\fragments\EstabelecimentosFragments.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/EstabelecimentosFragment.java" />
-      <change type="MOVED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\fragments\RamosFragments.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/RamosFragment.java" />
-      <change type="MOVED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\activity_produtos.xml" afterPath="$PROJECT_DIR$/Menus/src/main/res/layout/activity_produtos_por_linha.xml" />
     </list>
     <ignored path="Menus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1626,7 +1594,11 @@
       <created>1378712111739</created>
       <updated>1378712111739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deletada dialog_list">
+      <created>1378779038812</created>
+      <updated>1378779038812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1660,7 +1632,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48566878" sideWeight="0.7593193" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10828026" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280255" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67038214" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31847134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1670,8 +1642,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6130573" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28363046" sideWeight="0.89171976" order="0" side_tool="false" content_ui="combo" x="440" y="132" width="399" height="506" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10828026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28363046" sideWeight="0.67197454" order="0" side_tool="false" content_ui="combo" x="440" y="132" width="399" height="506" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10828026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
