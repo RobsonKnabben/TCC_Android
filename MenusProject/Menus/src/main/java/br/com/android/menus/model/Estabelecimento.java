@@ -85,6 +85,7 @@ public class Estabelecimento extends BaseModel {
             estabelecimentos = new ArrayList<Estabelecimento>();
             while (!c.isAfterLast()){
                 Estabelecimento estabelecimento = CursorToEstabelecimento(c);
+                estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
                 estabelecimentos.add(estabelecimento);
                 c.moveToNext();
             }
@@ -118,6 +119,7 @@ public class Estabelecimento extends BaseModel {
         Cursor c = estabelecimentoDAO.fetchById(id);
         if (c.moveToFirst()){
             estabelecimento = CursorToEstabelecimento(c);
+            estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
         }
         c.close();
         return estabelecimento;

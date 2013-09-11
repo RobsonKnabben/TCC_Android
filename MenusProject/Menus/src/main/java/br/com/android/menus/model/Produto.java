@@ -85,6 +85,25 @@ public class Produto extends BaseModel {
         return produtoDAO.InsertOrUpdate(values);
     }
 
+
+    public static List<Produto> getAllProdutos(Context context){
+        List<Produto> produtos = null;
+        ProdutoDAO produtoDAO = new ProdutoDAO(context);
+
+        Cursor c = produtoDAO.fetch();
+        if (c.moveToFirst()){
+            produtos = new ArrayList<Produto>();
+            while (!c.isAfterLast()){
+                Produto produto = CursorToProduto(c, context);
+                produtos.add(produto);
+                c.moveToNext();
+            }
+        }
+        c.close();
+
+        return produtos;
+    }
+
     public static List<Produto> getProdutosByLinhaId(Context context, int id){
         List<Produto> produtos = null;
         ProdutoDAO produtoDAO = new ProdutoDAO(context);
@@ -93,7 +112,7 @@ public class Produto extends BaseModel {
         if (c.moveToFirst()){
             produtos = new ArrayList<Produto>();
             while (!c.isAfterLast()){
-                Produto produto = CursorToLinha(c);
+                Produto produto = CursorToProduto(c , context);
                 produtos.add(produto);
                 c.moveToNext();
             }
@@ -102,13 +121,15 @@ public class Produto extends BaseModel {
         return produtos;
     }
 
-    private static Produto CursorToLinha(Cursor c){
+    private static Produto CursorToProduto(Cursor c, Context context){
         Produto produto = new Produto();
         produto.setId(c.getInt(c.getColumnIndex(ProdutoDAO.C_ID)));
         produto.setName(c.getString(c.getColumnIndex(ProdutoDAO.C_NAME)));
         produto.setDescription(c.getString(c.getColumnIndex(ProdutoDAO.C_DESCRIPTION)));
         produto.setPrice(c.getDouble(c.getColumnIndex(ProdutoDAO.C_PRICE)));
 
+        produto.setLinha(Linha.getLinhaById(context, c.getInt(c.getColumnIndex(ProdutoDAO.C_LINHA_ID))));
+        produto.setEstabelecimento(Estabelecimento.getEstabelecimentoById(context , c.getInt(c.getColumnIndex(ProdutoDAO.C_ESTABELECIMENTO_ID))));
         return produto;
     }
 }

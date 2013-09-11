@@ -549,6 +549,7 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="hello_world">Hello world!</string>
     <string name="logo_description">Logo</string>
+    <string name="pesquisa_fragment_name">Pesquisa</string>
     <string name="progress_information">ProgressInformation</string>
     <string name="telefones_dialog_title">Telefones</string>
     <string name="texto">Texto</string>

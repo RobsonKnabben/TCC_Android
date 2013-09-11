@@ -46,6 +46,19 @@ public class Linha extends BaseModel {
         this.mProdutos = produtos;
     }
 
+    public static Linha getLinhaById(Context context, int id){
+        Linha linha = null;
+        LinhaDAO linhaDAO = new LinhaDAO(context);
+
+        Cursor c = linhaDAO.fetchById(id);
+        if (c.moveToFirst()){
+
+            linha = CursorToLinha(c);
+        }
+        c.close();
+        return linha;
+    }
+
     public static List<Linha> getLinhasByEstabelecimentoId(Context context, int id){
         List<Linha> linhas = null;
         LinhaDAO linhaDAO = new LinhaDAO(context);

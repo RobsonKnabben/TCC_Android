@@ -8,7 +8,9 @@ import java.util.List;
 
 import br.com.android.menus.R;
 import br.com.android.menus.activity.MainActivity;
+import br.com.android.menus.db.EstabelecimentoDAO;
 import br.com.android.menus.fragments.EstabelecimentosFavoritosFragment;
+import br.com.android.menus.fragments.PesquisaFragment;
 import br.com.android.menus.fragments.RamosFragment;
 import br.com.android.menus.model.*;
 
@@ -48,6 +50,14 @@ public class AppSingleton {
                 false
         );
 
+        AppMenuItem menuPesquisar = new AppMenuItem(
+                "Pesquisar",
+                R.drawable.menu_icon_search,
+                new PesquisaFragment(),
+                //new Intent(context, EstabelecimentosFavoritosFragmentActivity.class),
+                false
+        );
+
         AppMenuItem menuAtualizar = new AppMenuItem(
                 "Atualizar",
                 "Ultima atualização: 10/08/2013",
@@ -59,8 +69,29 @@ public class AppSingleton {
         List<AppMenuItem> menuItems = new ArrayList<AppMenuItem>();
         menuItems.add(menuCategories);
         menuItems.add(menuFavoritos);
+        menuItems.add(menuPesquisar);
         menuItems.add(menuAtualizar);
 
         return menuItems;
+    }
+
+    public List<AppPesquisaGroup> getDefaultPesquisaList(){
+        AppPesquisaGroup estabelecimentosGroup = new AppPesquisaGroup(
+                "Estabelecimentos",
+                new AppItemPesquisa<Estabelecimento>(Estabelecimento.getAllEstabelecimentos(mContext))
+        );
+
+        AppPesquisaGroup produtosGroup = new AppPesquisaGroup(
+                "Produtos",
+                new AppItemPesquisa<Produto>(Produto.getAllProdutos(mContext))
+        );
+
+
+        List<AppPesquisaGroup> pesquisaList = new ArrayList<AppPesquisaGroup>();
+        pesquisaList.add(estabelecimentosGroup);
+        pesquisaList.add(produtosGroup);
+
+
+        return pesquisaList;
     }
 }

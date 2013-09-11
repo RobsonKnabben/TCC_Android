@@ -5183,6 +5183,8 @@ true
                 </string>
                 <string name="logo_description" >Logo
                 </string>
+                <string name="pesquisa_fragment_name" >Pesquisa
+                </string>
                 <string name="texto" >Texto
                 </string>
                 <string name="title_activity_base_menu_drawer" >Menu Drawer
@@ -5375,14 +5377,6 @@ normal
                 </style>
 
                 <style
-                    name="ProgressBar.Style1"
-                    parent="@style/Widget.Sherlock.ProgressBar.Horizontal" >
-                    <item name="android:progressDrawable">
-@drawable/progress_horizontal_style1
-                    </item>
-                </style>
-
-                <style
                     name="Theme.Style1.Widget"
                     parent="@style/Theme.Sherlock" >
                     <item name="popupMenuStyle">
@@ -5399,6 +5393,14 @@ normal
                     </item>
                     <item name="android:choiceMode">
 singleChoice
+                    </item>
+                </style>
+
+                <style
+                    name="ProgressBar.Style1"
+                    parent="@style/Widget.Sherlock.ProgressBar.Horizontal" >
+                    <item name="android:progressDrawable">
+@drawable/progress_horizontal_style1
                     </item>
                 </style>
 
@@ -5627,6 +5629,51 @@ true
                     </item>
                 </style>
             </file>
+            <file
+                name="menu_icon_search"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-xxhdpi\menu_icon_search.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="menu_icon_search"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-xhdpi\menu_icon_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="menu_icon_search"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-hdpi\menu_icon_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="menu_icon_search"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-mdpi\menu_icon_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="abc_icon_search"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-xhdpi\abc_icon_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="abc_icon_search"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-mdpi\abc_icon_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="abc_icon_search"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-hdpi\abc_icon_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="abc_icon_search"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\drawable-xxhdpi\abc_icon_search.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_pesquisa"
+                path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\res\layout\activity_pesquisa.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\build\res\rs\debug" />
     </dataSet>
