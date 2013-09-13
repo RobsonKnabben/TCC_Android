@@ -18,14 +18,13 @@ import java.util.List;
 
 import br.com.android.menus.R;
 import br.com.android.menus.adapters.DrawerMenuListAdapter;
-import br.com.android.menus.app.ItemMenuAsyncTask;
-import br.com.android.menus.model.AppMenuItem;
+import br.com.android.menus.model.AppMenuDrawerItem;
 import br.com.android.menus.app.AppSingleton;
 
 public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
     protected final String EXTRA_MENU_DRAWER_OPENED = "EXTRA_MENU_DRAWER_OPENED";
 
-    protected abstract List<AppMenuItem> MenuItens();
+    protected abstract List<AppMenuDrawerItem> MenuItens();
     protected abstract Fragment InicialFragment();
 
     // Declare Variable
@@ -159,12 +158,12 @@ public abstract class BaseFragmentsActivity extends SherlockFragmentActivity {
     }
 
     protected void SelectItem(AdapterView<?> parent, View view, int position, long id) {
-        AppMenuItem item = (AppMenuItem) parent.getItemAtPosition(position);
+        AppMenuDrawerItem item = (AppMenuDrawerItem) parent.getItemAtPosition(position);
 
         if (item != null){
             mDrawerList.setItemChecked(position, true);
             mDrawerLayout.closeDrawer(mDrawerList);
-            //new ItemMenuAsyncTask(this, item).execute();
+
             if (item.getFragment() != null){
                 if (item.isTopFragment()){
                     for(int i = 0; i < getSupportFragmentManager().getBackStackEntryCount(); ++i) {

@@ -31,8 +31,8 @@ public class AppSingleton {
         return AppSingleton.sInstance;
     }
 
-    public List<AppMenuItem> getDefaultDrawerMenuItemList(){
-        AppMenuItem menuCategories = new AppMenuItem(
+    public List<AppMenuDrawerItem> getDefaultDrawerMenuItemList(){
+        AppMenuDrawerItem menuCategories = new AppMenuDrawerItem(
                 "Categorias",
                 "Pizzarias, Restaurantes, ...",
                 R.drawable.menu_icon_categories,
@@ -41,7 +41,7 @@ public class AppSingleton {
                 true
         );
 
-        AppMenuItem menuFavoritos = new AppMenuItem(
+        AppMenuDrawerItem menuFavoritos = new AppMenuDrawerItem(
                 "Favoritos",
                 R.drawable.menu_icon_favorites,
                 new EstabelecimentosFavoritosFragment(),
@@ -49,7 +49,7 @@ public class AppSingleton {
                 false
         );
 
-        AppMenuItem menuPesquisar = new AppMenuItem(
+        AppMenuDrawerItem menuPesquisar = new AppMenuDrawerItem(
                 "Pesquisar",
                 R.drawable.menu_icon_search,
                 new PesquisaFragment(),
@@ -57,7 +57,7 @@ public class AppSingleton {
                 false
         );
 
-        AppMenuItem menuAtualizar = new AppMenuItem(
+        AppMenuDrawerItem menuAtualizar = new AppMenuDrawerItem(
                 "Atualizar",
                 "Ultima atualização: 10/08/2013",
                 R.drawable.menu_icon_update,
@@ -65,7 +65,7 @@ public class AppSingleton {
                 true
         );
 
-        List<AppMenuItem> menuItems = new ArrayList<AppMenuItem>();
+        List<AppMenuDrawerItem> menuItems = new ArrayList<AppMenuDrawerItem>();
         menuItems.add(menuCategories);
         menuItems.add(menuFavoritos);
         menuItems.add(menuPesquisar);

@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v4.app.Fragment;
 
-public class AppMenuItem {
+public class AppMenuDrawerItem {
     private String mTitle;
     private String mSubtitle;
     private int mIcon;
@@ -17,51 +17,51 @@ public class AppMenuItem {
 
 
 
-    public AppMenuItem(String title, String subtitle, int icon) {
+    public AppMenuDrawerItem(String title, String subtitle, int icon) {
         this.mTitle = title;
         this.mSubtitle = subtitle;
         this.mIcon = icon;
     }
-    public AppMenuItem(String title, int icon) {
+    public AppMenuDrawerItem(String title, int icon) {
         this.mTitle = title;
         this.mIcon = icon;
     }
 
-    public AppMenuItem(String title, String subtitle, int icon, Intent intent, boolean executeFinish) {
+    public AppMenuDrawerItem(String title, String subtitle, int icon, Intent intent, boolean executeFinish) {
         this.mTitle = title;
         this.mSubtitle = subtitle;
         this.mIcon = icon;
         this.mIntent = intent;
         this.mExecuteFinish = executeFinish;
     }
-    public AppMenuItem(String title, int icon, Intent intent, boolean executeFinish) {
+    public AppMenuDrawerItem(String title, int icon, Intent intent, boolean executeFinish) {
         this.mTitle = title;
         this.mIcon = icon;
         this.mIntent = intent;
         this.mExecuteFinish = executeFinish;
     }
 
-    public AppMenuItem(String title, String subtitle, int icon, Fragment fragment, boolean isTop) {
+    public AppMenuDrawerItem(String title, String subtitle, int icon, Fragment fragment, boolean isTop) {
         this.mTitle = title;
         this.mSubtitle = subtitle;
         this.mIcon = icon;
         this.mFragment = fragment;
         this.mTopFragment = isTop;
     }
-    public AppMenuItem(String title, int icon, Fragment fragment, boolean isTop) {
+    public AppMenuDrawerItem(String title, int icon, Fragment fragment, boolean isTop) {
         this.mTitle = title;
         this.mIcon = icon;
         this.mFragment = fragment;
         this.mTopFragment = isTop;
     }
 
-    public AppMenuItem(String title, String subtitle, int icon, AsyncTask asyncTask) {
+    public AppMenuDrawerItem(String title, String subtitle, int icon, AsyncTask asyncTask) {
         this.mTitle = title;
         this.mSubtitle = subtitle;
         this.mIcon = icon;
         this.mAsyncTask = asyncTask;
     }
-    public AppMenuItem(String title, int icon, AsyncTask asyncTask) {
+    public AppMenuDrawerItem(String title, int icon, AsyncTask asyncTask) {
         this.mTitle = title;
         this.mIcon = icon;
         this.mAsyncTask = asyncTask;

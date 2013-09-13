@@ -11,18 +11,18 @@ import android.widget.TextView;
 import java.util.List;
 
 import br.com.android.menus.R;
-import br.com.android.menus.model.AppMenuItem;
+import br.com.android.menus.model.AppMenuDrawerItem;
 
 /**
  * Created by Robson on 10/08/13.
  */
-public class DrawerMenuListAdapter extends ArrayAdapter<AppMenuItem> {
+public class DrawerMenuListAdapter extends ArrayAdapter<AppMenuDrawerItem> {
     // Declare Variables
     private final Context context;
     private final LayoutInflater inflater;
     private final int resourceId;
 
-    public DrawerMenuListAdapter(Context context, int resource, List<AppMenuItem> objects){
+    public DrawerMenuListAdapter(Context context, int resource, List<AppMenuDrawerItem> objects){
         super(context, resource, objects);
 
         this.context = context;
@@ -31,7 +31,7 @@ public class DrawerMenuListAdapter extends ArrayAdapter<AppMenuItem> {
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
-        AppMenuItem item = getItem(position);
+        AppMenuDrawerItem item = getItem(position);
 
         View itemView = inflater.inflate(resourceId, parent, false);
 
