@@ -11,6 +11,7 @@ public class ProdutoDAO extends BaseDAO {
     public static final String C_PRICE = "price";
     public static final String C_LINHA_ID = "linha_id";
     public static final String C_ESTABELECIMENTO_ID = "estabelecimento_id";
+    public static final String C_INATIVO = "inativo";
 
     public static final String TABLE_NAME = "produtos";
 
@@ -20,6 +21,7 @@ public class ProdutoDAO extends BaseDAO {
             + C_NAME + " TEXT, "
             + C_DESCRIPTION + " TEXT, "
             + C_PRICE + " REAL, "
+            + C_INATIVO + " INTEGER, "
             + C_LINHA_ID + " INTEGER, "
             + C_ESTABELECIMENTO_ID + " INTEGER, "
             + "FOREIGN KEY(" + C_LINHA_ID + ") REFERENCES " + LinhaDAO.TABLE_NAME + "(" + LinhaDAO.C_ID + "), "

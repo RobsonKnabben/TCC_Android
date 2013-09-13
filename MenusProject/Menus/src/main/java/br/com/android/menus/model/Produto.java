@@ -32,6 +32,9 @@ public class Produto extends BaseModel {
     @SerializedName("estabelecimento")
     private Estabelecimento mEstabelecimento;
 
+    @SerializedName("inativo")
+    private Boolean mInativo;
+
     @SerializedName("deleted")
     private Boolean mDeletado;
 
@@ -76,6 +79,18 @@ public class Produto extends BaseModel {
         this.mEstabelecimento = estabelecimento;
     }
 
+    public Boolean getInativo() {
+        return mInativo;
+    }
+
+    public void setInativo(Boolean mInativo) {
+        this.mInativo = mInativo;
+    }
+
+    public void setInativo(int mInativo) {
+        this.mInativo = mInativo == 1;
+    }
+
     public Boolean getDeletado() {
         return mDeletado;
     }
@@ -91,6 +106,7 @@ public class Produto extends BaseModel {
         values.put(ProdutoDAO.C_NAME, this.getName());
         values.put(ProdutoDAO.C_DESCRIPTION, this.getDescription());
         values.put(ProdutoDAO.C_PRICE, this.getPrice());
+        values.put(ProdutoDAO.C_INATIVO, this.getInativo());
         values.put(ProdutoDAO.C_LINHA_ID, this.getmLinha().getId());
         values.put(TelefoneDAO.C_ESTABELECIMENTO_ID, this.getEstabelecimento().getId());
 
@@ -115,7 +131,25 @@ public class Produto extends BaseModel {
             produtos = new ArrayList<Produto>();
             while (!c.isAfterLast()){
                 Produto produto = CursorToProduto(c, context);
-                produtos.add(produto);
+                if (!produto.getInativo()) produtos.add(produto);
+                c.moveToNext();
+            }
+        }
+        c.close();
+
+        return produtos;
+    }
+
+    public static List<Produto> getAllProdutosByEstebelecimentosAtivos(Context context){
+        List<Produto> produtos = null;
+        ProdutoDAO produtoDAO = new ProdutoDAO(context);
+
+        Cursor c = produtoDAO.fetch();
+        if (c.moveToFirst()){
+            produtos = new ArrayList<Produto>();
+            while (!c.isAfterLast()){
+                Produto produto = CursorToProduto(c, context);
+                if (!produto.getInativo() && !produto.getEstabelecimento().getInativo()) produtos.add(produto);
                 c.moveToNext();
             }
         }
@@ -133,7 +167,7 @@ public class Produto extends BaseModel {
             produtos = new ArrayList<Produto>();
             while (!c.isAfterLast()){
                 Produto produto = CursorToProduto(c , context);
-                produtos.add(produto);
+                if (!produto.getInativo()) produtos.add(produto);
                 c.moveToNext();
             }
         }
@@ -147,6 +181,7 @@ public class Produto extends BaseModel {
         produto.setName(c.getString(c.getColumnIndex(ProdutoDAO.C_NAME)));
         produto.setDescription(c.getString(c.getColumnIndex(ProdutoDAO.C_DESCRIPTION)));
         produto.setPrice(c.getDouble(c.getColumnIndex(ProdutoDAO.C_PRICE)));
+        produto.setInativo(c.getInt(c.getColumnIndex(ProdutoDAO.C_INATIVO)));
 
         produto.setLinha(Linha.getLinhaById(context, c.getInt(c.getColumnIndex(ProdutoDAO.C_LINHA_ID))));
         produto.setEstabelecimento(Estabelecimento.getEstabelecimentoById(context , c.getInt(c.getColumnIndex(ProdutoDAO.C_ESTABELECIMENTO_ID))));

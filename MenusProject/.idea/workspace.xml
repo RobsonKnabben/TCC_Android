@@ -27,13 +27,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15ada27-3eba-4999-8892-8b97abf12f3c" name="Default" comment="deletada dialog_list">
-      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\app\AppAsyncTask.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\app\ItemMenuAsyncTask.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/AppFragmentActivity.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/AppFragmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/API.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/API.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppPesquisaGroup.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppPesquisaGroup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppSingleton.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppSingleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/DrawerMenuListAdapter.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/DrawerMenuListAdapter.java" />
-      <change type="MOVED" beforePath="F:\Projetos\Android\TCC\TCC_Android\MenusProject\Menus\src\main\java\br\com\android\menus\model\AppMenuItem.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppMenuDrawerItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Estabelecimento.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Estabelecimento.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/EstabelecimentoDAO.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/EstabelecimentoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Produto.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Produto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/ProdutoDAO.java" afterPath="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/ProdutoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Menus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,42 +53,6 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/BaseDAO.java" line="82" class="br.com.android.menus.db.BaseDAO" package="br.com.android.menus.db">
         <option name="ENABLED" value="true" />
@@ -209,22 +174,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/MainActivity.java" line="61" class="br.com.android.menus.activity.MainActivity.AppAsyncTask" package="br.com.android.menus.activity">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/MainActivity.java" line="72" class="br.com.android.menus.activity.MainActivity.AppAsyncTask" package="br.com.android.menus.activity">
+      <breakpoint url="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Estabelecimento.java" line="239" class="br.com.android.menus.model.Estabelecimento" package="br.com.android.menus.model">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -240,6 +190,42 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -249,19 +235,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppPesquisaItem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppPesquisaItem.java">
+      <file leaf-file-name="Estabelecimento.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Estabelecimento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="109" column="0" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="1009" max-vertical-offset="3536">
+              <folding>
+                <element signature="method#getName#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#setName#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#getDescription#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#setDescription#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#getRamos#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#setRamos#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#getTelefones#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#setTelefones#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#getLinhas#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#setLinhas#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#getInativo#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#setInativo#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#getDeletado#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#setDeletado#0;class#Estabelecimento#0" expanded="false" />
+                <element signature="method#Sync#0;class#Estabelecimento#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EstabelecimentosFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/EstabelecimentosFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppPesquisaGroup.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppPesquisaGroup.java">
+      <file leaf-file-name="AbstractWindowedCursor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/database/AbstractWindowedCursor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.19767442" vertical-offset="0" max-vertical-offset="714">
+            <state line="68" column="0" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="3434">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLiteCursor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/database/sqlite/SQLiteCursor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="179" column="0" selection-start="6675" selection-end="6675" vertical-scroll-proportion="0.0" vertical-offset="2552" max-vertical-offset="4335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="0" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Produto.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Produto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="151" column="87" selection-start="4048" selection-end="4048" vertical-scroll-proportion="0.0" vertical-offset="2048" max-vertical-offset="3145">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PesquisaAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/PesquisaAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="13" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3621">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PesquisaFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/PesquisaFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="13" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppSingleton.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="92" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.38554215" vertical-offset="182" max-vertical-offset="680">
+              <folding>
+                <element signature="method#AppSingleton#0;class#AppSingleton#0" expanded="false" />
+                <element signature="method#getInstance#0;class#AppSingleton#0" expanded="false" />
+                <element signature="method#getDefaultDrawerMenuItemList#0;class#AppSingleton#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="API.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/API.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="51" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -903,22 +981,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppItemPesquisa.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/res/layout/activity_pesquisa.xml" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppSingleton.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/PesquisaAdapter.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/ProdutosPorLinhasFragment.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/PesquisaFragment.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/BaseDAO.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/EstabelecimentoRamo.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Ramo.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Produto.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Telefone.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Estabelecimento.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Linha.java" />
         <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppPesquisaGroup.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Ramo.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/ProdutoDAO.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/EstabelecimentoDAO.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Estabelecimento.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Produto.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppSingleton.java" />
+        <option value="$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/API.java" />
       </list>
     </option>
   </component>
@@ -954,6 +1032,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -961,6 +1040,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Menus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1331,7 +1414,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1353,11 +1435,11 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Emulador1" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1589,27 +1671,27 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31847134" sideWeight="0.7593193" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48566878" sideWeight="0.24068071" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6624204" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67038214" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31847134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1656051" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6815287" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6130573" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20340356" sideWeight="0.67197454" order="0" side_tool="false" content_ui="combo" x="440" y="132" width="399" height="506" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10828026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29821718" sideWeight="0.83439493" order="0" side_tool="false" content_ui="combo" x="440" y="132" width="399" height="506" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21815287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4862013" sideWeight="0.8057325" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1631,161 +1713,81 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/BaseDAO.java">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppPesquisaGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="3747" selection-end="3747" vertical-scroll-proportion="0.0" vertical-offset="1517" max-vertical-offset="2159">
+        <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/EstabelecimentoRamo.java">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="67" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding>
-            <element signature="method#getEstabelecimentoId#0;class#EstabelecimentoRamo#0" expanded="false" />
-            <element signature="method#setEstabelecimentoId#0;class#EstabelecimentoRamo#0" expanded="false" />
-            <element signature="method#getRamoId#0;class#EstabelecimentoRamo#0" expanded="false" />
-            <element signature="method#setRamoId#0;class#EstabelecimentoRamo#0" expanded="false" />
-            <element signature="method#CreateOrUpdate#0;class#EstabelecimentoRamo#0" expanded="false" />
-            <element signature="method#DeleteByEstabelecimento#0;class#EstabelecimentoRamo#0" expanded="false" />
-            <element signature="method#DeleteByRamo#0;class#EstabelecimentoRamo#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2641" selection-end="2641" vertical-scroll-proportion="0.0" vertical-offset="959" max-vertical-offset="1564">
+        <state line="27" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/PesquisaFragment.java">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="1751">
+        <state line="57" column="0" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="1343">
           <folding>
-            <element signature="e#1906#2294#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/PesquisaAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="0" selection-start="7480" selection-end="7480" vertical-scroll-proportion="0.0" vertical-offset="2863" max-vertical-offset="3621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/com/android/internal/os/ZygoteInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="798" column="0" selection-start="27180" selection-end="27180" vertical-scroll-proportion="10.918605" vertical-offset="6279" max-vertical-offset="13107">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Ramo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.49169436" vertical-offset="163" max-vertical-offset="765">
-          <folding>
-            <element signature="method#getName#0;class#Ramo#0" expanded="false" />
-            <element signature="method#setName#0;class#Ramo#0" expanded="false" />
-            <element signature="method#getDeletado#0;class#Ramo#0" expanded="false" />
-            <element signature="method#setDeletado#0;class#Ramo#0" expanded="false" />
-            <element signature="method#CreateOrUpdate#0;class#Ramo#0" expanded="false" />
-            <element signature="method#getAllRamos#0;class#Ramo#0" expanded="false" />
-            <element signature="method#getRamoById#0;class#Ramo#0" expanded="false" />
-            <element signature="method#CursorToRamo#0;class#Ramo#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Linha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="21" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1122">
-          <folding>
-            <element signature="method#getName#0;class#Linha#0" expanded="false" />
-            <element signature="method#setName#0;class#Linha#0" expanded="false" />
-            <element signature="method#getEstabelecimento#0;class#Linha#0" expanded="false" />
-            <element signature="method#setEstabelecimento#0;class#Linha#0" expanded="false" />
-            <element signature="method#getProdutos#0;class#Linha#0" expanded="false" />
-            <element signature="method#setProdutos#0;class#Linha#0" expanded="false" />
-            <element signature="method#getDeletado#0;class#Linha#0" expanded="false" />
-            <element signature="method#setDeletado#0;class#Linha#0" expanded="false" />
-            <element signature="method#CreateOrUpdate#0;class#Linha#0" expanded="false" />
-            <element signature="method#getLinhaById#0;class#Linha#0" expanded="false" />
-            <element signature="method#getLinhasByEstabelecimentoId#0;class#Linha#0" expanded="false" />
-            <element signature="method#CursorToLinha#0;class#Linha#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Telefone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="20" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.43521595" vertical-offset="214" max-vertical-offset="816">
-          <folding>
-            <element signature="method#getNumero#0;class#Telefone#0" expanded="false" />
-            <element signature="method#setNumero#0;class#Telefone#0" expanded="false" />
-            <element signature="method#getEstabelecimento#0;class#Telefone#0" expanded="false" />
-            <element signature="method#setEstabelecimento#0;class#Telefone#0" expanded="false" />
-            <element signature="method#getDeletado#0;class#Telefone#0" expanded="false" />
-            <element signature="method#setDeletado#0;class#Telefone#0" expanded="false" />
-            <element signature="method#CreateOrUpdate#0;class#Telefone#0" expanded="false" />
-            <element signature="method#getTelefonesByEstabelecimentoId#0;class#Telefone#0" expanded="false" />
-            <element signature="method#CursorToTelefone#0;class#Telefone#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="48" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.0" vertical-offset="571" max-vertical-offset="1224">
-          <folding>
-            <element signature="docComment;class#Produto#0" expanded="false" />
-            <element signature="method#getName#0;class#Produto#0" expanded="false" />
-            <element signature="method#setName#0;class#Produto#0" expanded="false" />
-            <element signature="method#getDescription#0;class#Produto#0" expanded="false" />
-            <element signature="method#setDescription#0;class#Produto#0" expanded="false" />
-            <element signature="method#getPrice#0;class#Produto#0" expanded="false" />
-            <element signature="method#setPrice#0;class#Produto#0" expanded="false" />
-            <element signature="method#getmLinha#0;class#Produto#0" expanded="false" />
-            <element signature="method#setLinha#0;class#Produto#0" expanded="false" />
-            <element signature="method#getEstabelecimento#0;class#Produto#0" expanded="false" />
-            <element signature="method#setEstabelecimento#0;class#Produto#0" expanded="false" />
-            <element signature="method#getDeletado#0;class#Produto#0" expanded="false" />
-            <element signature="method#setDeletado#0;class#Produto#0" expanded="false" />
-            <element signature="method#CreateOrUpdate#0;class#Produto#0" expanded="false" />
-            <element signature="method#getAllProdutos#0;class#Produto#0" expanded="false" />
-            <element signature="method#getProdutosByLinhaId#0;class#Produto#0" expanded="false" />
-            <element signature="method#CursorToProduto#0;class#Produto#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/EstabelecimentoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="765">
+        <state line="19" column="20" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/AppFragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/EstabelecimentoRamoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.14119601" vertical-offset="0" max-vertical-offset="602">
+        <state line="7" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/BaseFragmentsActivity.java">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/db/ProdutoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="59" selection-start="646" selection-end="646" vertical-scroll-proportion="0.2156197" vertical-offset="196" max-vertical-offset="3332">
+        <state line="26" column="35" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/database/sqlite/SQLiteCursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="0" selection-start="6675" selection-end="6675" vertical-scroll-proportion="0.0" vertical-offset="2552" max-vertical-offset="4335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/database/AbstractWindowedCursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="3434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/EstabelecimentosFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Estabelecimento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="40" selection-start="3318" selection-end="3318" vertical-scroll-proportion="0.37873754" vertical-offset="1132" max-vertical-offset="1734">
+        <state line="109" column="0" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="1009" max-vertical-offset="3536">
           <folding>
             <element signature="method#getName#0;class#Estabelecimento#0" expanded="false" />
             <element signature="method#setName#0;class#Estabelecimento#0" expanded="false" />
@@ -1797,33 +1799,51 @@
             <element signature="method#setTelefones#0;class#Estabelecimento#0" expanded="false" />
             <element signature="method#getLinhas#0;class#Estabelecimento#0" expanded="false" />
             <element signature="method#setLinhas#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#getIsFavorite#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#setIsFavorite#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#setIsFavorite#1;class#Estabelecimento#0" expanded="false" />
+            <element signature="method#getInativo#0;class#Estabelecimento#0" expanded="false" />
+            <element signature="method#setInativo#0;class#Estabelecimento#0" expanded="false" />
             <element signature="method#getDeletado#0;class#Estabelecimento#0" expanded="false" />
             <element signature="method#setDeletado#0;class#Estabelecimento#0" expanded="false" />
             <element signature="method#Sync#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#ChangeIsFavorite#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#getAllEstabelecimentos#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#getEstabelecimentosFavoritos#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#getEstabelecimentoById#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#getEstabelecimentosByRamoId#0;class#Estabelecimento#0" expanded="false" />
-            <element signature="method#CursorToEstabelecimento#0;class#Estabelecimento#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppPesquisaItem.java">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/fragments/PesquisaFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+        <state line="23" column="13" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/AppPesquisaGroup.java">
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/model/Produto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.19767442" vertical-offset="0" max-vertical-offset="714">
+        <state line="151" column="87" selection-start="4048" selection-end="4048" vertical-scroll-proportion="0.0" vertical-offset="2048" max-vertical-offset="3145">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/adapters/PesquisaAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="51" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menus/src/main/java/br/com/android/menus/app/AppSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="92" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.38554215" vertical-offset="182" max-vertical-offset="680">
+          <folding>
+            <element signature="method#AppSingleton#0;class#AppSingleton#0" expanded="false" />
+            <element signature="method#getInstance#0;class#AppSingleton#0" expanded="false" />
+            <element signature="method#getDefaultDrawerMenuItemList#0;class#AppSingleton#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

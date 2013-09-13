@@ -82,7 +82,7 @@ public class AppSingleton {
 
         AppPesquisaGroup produtosGroup = new AppPesquisaGroup(
                 "Produtos",
-                new AppPesquisaItem<Produto>(Produto.getAllProdutos(mContext))
+                new AppPesquisaItem<Produto>(Produto.getAllProdutosByEstebelecimentosAtivos(mContext))
         );
 
 

@@ -31,6 +31,9 @@ public class Estabelecimento extends BaseModel {
     @SerializedName("deleted")
     private Boolean mDeletado;
 
+    @SerializedName("inativo")
+    private Boolean mInativo;
+
     private boolean mIsFavorite;
 
     public String getName(){
@@ -68,6 +71,16 @@ public class Estabelecimento extends BaseModel {
         this.mLinhas = linhas;
     }
 
+    public Boolean getInativo() {
+        return mInativo;
+    }
+    public void setInativo(Boolean mInativo) {
+        this.mInativo = mInativo;
+    }
+    public void setInativo(int mInativo) {
+        this.mInativo = mInativo == 1;
+    }
+
     public boolean getIsFavorite() {
         return this.mIsFavorite;
     }
@@ -92,6 +105,7 @@ public class Estabelecimento extends BaseModel {
         values.put(EstabelecimentoDAO.C_ID, this.getId());
         values.put(EstabelecimentoDAO.C_NAME, this.getName());
         values.put(EstabelecimentoDAO.C_DESCRIPTION, this.getDescription());
+        values.put(EstabelecimentoDAO.C_INATIVO, this.getInativo());
 
 
         EstabelecimentoDAO estabelecimentoDAO = new EstabelecimentoDAO(context);
@@ -162,8 +176,10 @@ public class Estabelecimento extends BaseModel {
             estabelecimentos = new ArrayList<Estabelecimento>();
             while (!c.isAfterLast()){
                 Estabelecimento estabelecimento = CursorToEstabelecimento(c);
-                estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
-                estabelecimentos.add(estabelecimento);
+                if (!estabelecimento.getInativo()){
+                    estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
+                    estabelecimentos.add(estabelecimento);
+                }
                 c.moveToNext();
             }
         }
@@ -180,8 +196,10 @@ public class Estabelecimento extends BaseModel {
             estabelecimentos = new ArrayList<Estabelecimento>();
             while (!c.isAfterLast()){
                 Estabelecimento estabelecimento = CursorToEstabelecimento(c);
-                estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
-                estabelecimentos.add(estabelecimento);
+                if (!estabelecimento.getInativo()){
+                    estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
+                    estabelecimentos.add(estabelecimento);
+                }
                 c.moveToNext();
             }
         }
@@ -191,12 +209,12 @@ public class Estabelecimento extends BaseModel {
 
     public static Estabelecimento getEstabelecimentoById(Context context, int id){
         Estabelecimento estabelecimento = null;
-            EstabelecimentoDAO estabelecimentoDAO = new EstabelecimentoDAO(context);
+        EstabelecimentoDAO estabelecimentoDAO = new EstabelecimentoDAO(context);
 
         Cursor c = estabelecimentoDAO.fetchById(id);
         if (c.moveToFirst()){
             estabelecimento = CursorToEstabelecimento(c);
-            estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
+            if (!estabelecimento.getInativo()) estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
         }
         c.close();
         return estabelecimento;
@@ -219,8 +237,10 @@ public class Estabelecimento extends BaseModel {
             estabelecimentos = new ArrayList<Estabelecimento>();
             while (!c.isAfterLast()){
                 Estabelecimento estabelecimento = CursorToEstabelecimento(c);
-                estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
-                estabelecimentos.add(estabelecimento);
+                if (!estabelecimento.getInativo()){
+                    estabelecimento.setTelefones(Telefone.getTelefonesByEstabelecimentoId(context, estabelecimento.getId()));
+                    estabelecimentos.add(estabelecimento);
+                }
                 c.moveToNext();
             }
         }
@@ -234,6 +254,7 @@ public class Estabelecimento extends BaseModel {
         estabelecimento.setName(c.getString(c.getColumnIndex(EstabelecimentoDAO.C_NAME)));
         estabelecimento.setDescription(c.getString(c.getColumnIndex(EstabelecimentoDAO.C_DESCRIPTION)));
         estabelecimento.setIsFavorite(c.getInt(c.getColumnIndex(EstabelecimentoDAO.C_IS_FAVORITE)));
+        estabelecimento.setInativo(c.getInt(c.getColumnIndex(EstabelecimentoDAO.C_INATIVO)));
         return estabelecimento;
     }
 

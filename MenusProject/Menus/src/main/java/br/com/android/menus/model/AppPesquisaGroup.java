@@ -2,9 +2,7 @@ package br.com.android.menus.model;
 
 import java.io.Serializable;
 
-/**
- * Created by Robson on 10/09/13.
- */
+
 public class AppPesquisaGroup implements Serializable{
     String mTitle;
     AppPesquisaItem mItemPesquisaList;
