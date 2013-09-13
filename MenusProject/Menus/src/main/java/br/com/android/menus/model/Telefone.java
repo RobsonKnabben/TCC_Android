@@ -19,6 +19,9 @@ public class Telefone extends BaseModel {
     @SerializedName("estabelecimento")
     private Estabelecimento mEstabelecimento;
 
+    @SerializedName("deleted")
+    private Boolean mDeletado;
+
     public String getNumero() {
         return mNumero;
     }
@@ -33,6 +36,32 @@ public class Telefone extends BaseModel {
 
     public void setEstabelecimento(Estabelecimento estabelecimento) {
         this.mEstabelecimento = estabelecimento;
+    }
+
+    public Boolean getDeletado() {
+        return mDeletado;
+    }
+
+    public void setDeletado(Boolean mDeletado) {
+        this.mDeletado = mDeletado;
+    }
+
+    public boolean CreateOrUpdate(Context context) {
+        ContentValues values = new ContentValues();
+        values.put(TelefoneDAO.C_ID, this.getId());
+        values.put(TelefoneDAO.C_NUMERO, this.getNumero());
+        values.put(TelefoneDAO.C_ESTABELECIMENTO_ID, this.getEstabelecimento().getId());
+
+        TelefoneDAO telefoneDAO = new TelefoneDAO(context);
+        return telefoneDAO.InsertOrUpdate(values);
+    }
+
+    public boolean Sync(Context context){
+        if (this.getDeletado()) {
+            return new TelefoneDAO(context).Delete(this.getId());
+        } else {
+            return this.CreateOrUpdate(context);
+        }
     }
 
     public static List<Telefone> getTelefonesByEstabelecimentoId(Context context, int id){
@@ -52,7 +81,6 @@ public class Telefone extends BaseModel {
         return telefones;
     }
 
-
     private static Telefone CursorToTelefone(Cursor c){
         Telefone telefone = new Telefone();
         telefone.setId(c.getInt(c.getColumnIndex(TelefoneDAO.C_ID)));
@@ -60,13 +88,5 @@ public class Telefone extends BaseModel {
         return telefone;
     }
 
-    public boolean CreateOrUpdate(Context context) {
-        ContentValues values = new ContentValues();
-        values.put(TelefoneDAO.C_ID, this.getId());
-        values.put(TelefoneDAO.C_NUMERO, this.getNumero());
-        values.put(TelefoneDAO.C_ESTABELECIMENTO_ID, this.getEstabelecimento().getId());
 
-        TelefoneDAO telefoneDAO = new TelefoneDAO(context);
-        return telefoneDAO.InsertOrUpdate(values);
-    }
 }

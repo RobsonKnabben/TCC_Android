@@ -32,6 +32,10 @@ public class Produto extends BaseModel {
     @SerializedName("estabelecimento")
     private Estabelecimento mEstabelecimento;
 
+    @SerializedName("deleted")
+    private Boolean mDeletado;
+
+
     public String getName() {
         return mName;
     }
@@ -72,6 +76,15 @@ public class Produto extends BaseModel {
         this.mEstabelecimento = estabelecimento;
     }
 
+    public Boolean getDeletado() {
+        return mDeletado;
+    }
+
+    public void setDeletado(Boolean mDeletado) {
+        this.mDeletado = mDeletado;
+    }
+
+
     public boolean CreateOrUpdate(Context context) {
         ContentValues values = new ContentValues();
         values.put(ProdutoDAO.C_ID, this.getId());
@@ -85,6 +98,13 @@ public class Produto extends BaseModel {
         return produtoDAO.InsertOrUpdate(values);
     }
 
+    public boolean Sync(Context context){
+        if (this.getDeletado()) {
+            return new ProdutoDAO(context).Delete(this.getId());
+        } else {
+            return this.CreateOrUpdate(context);
+        }
+    }
 
     public static List<Produto> getAllProdutos(Context context){
         List<Produto> produtos = null;

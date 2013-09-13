@@ -18,10 +18,9 @@ import java.util.Locale;
 import br.com.android.menus.R;
 import br.com.android.menus.fragments.ProdutoFragment;
 import br.com.android.menus.fragments.ProdutosPorLinhasFragment;
-import br.com.android.menus.model.AppItemPesquisa;
+import br.com.android.menus.model.AppPesquisaItem;
 import br.com.android.menus.model.AppPesquisaGroup;
 import br.com.android.menus.model.Estabelecimento;
-import br.com.android.menus.model.Linha;
 import br.com.android.menus.model.Produto;
 
 /**
@@ -208,7 +207,7 @@ public class PesquisaAdapter extends BaseExpandableListAdapter {
                 for (Object itemObject : pesquisaGroup.getItemPesquisaList().getItens()){
                     //para estabelecimentos
                     if (itemObject instanceof Estabelecimento){
-                        if (newPesquisaGroup.getItemPesquisaList() == null) newPesquisaGroup.setItemPesquisaList(new AppItemPesquisa<Estabelecimento>());
+                        if (newPesquisaGroup.getItemPesquisaList() == null) newPesquisaGroup.setItemPesquisaList(new AppPesquisaItem<Estabelecimento>());
 
                         if(((Estabelecimento) itemObject).getName().toLowerCase(Locale.getDefault()).contains(charText)){
                             mObjectsList.add(itemObject);
@@ -216,7 +215,7 @@ public class PesquisaAdapter extends BaseExpandableListAdapter {
                     }
                     //para os produtos
                     if (itemObject instanceof Produto){
-                        if (newPesquisaGroup.getItemPesquisaList() == null) newPesquisaGroup.setItemPesquisaList(new AppItemPesquisa<Produto>());
+                        if (newPesquisaGroup.getItemPesquisaList() == null) newPesquisaGroup.setItemPesquisaList(new AppPesquisaItem<Produto>());
 
                         if(((Produto) itemObject).getName().toLowerCase(Locale.getDefault()).contains(charText)){
                             mObjectsList.add(itemObject);

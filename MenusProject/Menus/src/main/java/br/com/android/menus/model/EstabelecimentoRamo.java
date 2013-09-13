@@ -41,4 +41,12 @@ public class EstabelecimentoRamo extends BaseModel {
         EstabelecimentoRamoDAO estabelecimentoRamoDAO = new EstabelecimentoRamoDAO(context);
         return estabelecimentoRamoDAO.InsertOrUpdate(values, where);
     }
+
+    public static boolean DeleteByEstabelecimento(Context context, int EstabelecimentoId){
+        return new EstabelecimentoRamoDAO(context).DeleteByAttr(EstabelecimentoRamoDAO.C_ESTABELECIMENTO_ID, EstabelecimentoId);
+    }
+
+    public static boolean DeleteByRamo(Context context, int RamoId){
+        return new EstabelecimentoRamoDAO(context).DeleteByAttr(EstabelecimentoRamoDAO.C_RAMO_ID, RamoId);
+    }
 }

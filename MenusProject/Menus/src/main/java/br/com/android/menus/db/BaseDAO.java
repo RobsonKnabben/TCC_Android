@@ -48,6 +48,20 @@ public abstract class BaseDAO {
         }
     }
 
+    public <T> boolean DeleteByAttr (String key, T value){
+        Log.d(TAG(), "Deleting " + OBJECT() + " with id: " + value);
+        try{
+            if (this.mDatabaseHelper.getDatabase().delete(TABLE(), key + "=" + value, null) > 0){
+                return true;
+            }else{
+                return false;
+            }
+        }catch(SQLException e) {
+            Log.e(TAG(), "Error on delete: " + e.getMessage());
+            return false;
+        }
+    }
+
     public boolean Update(ContentValues values) {
         String where = C_ID + "=" + values.getAsString(C_ID);
         return DoUpdate(values, where);
@@ -101,7 +115,7 @@ public abstract class BaseDAO {
         return this.mDatabaseHelper.getDatabase().query(TABLE(), null, C_ID + "=" + id, null, null, null, null);
     }
 
-    public Cursor fetchByAttr(String key, int value) {
+    public <T> Cursor fetchByAttr(String key, T value) {
         return this.mDatabaseHelper.getDatabase().query(TABLE(), null, key + "=" + value, null, null, null, null);
     }
 

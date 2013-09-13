@@ -22,6 +22,9 @@ public class Linha extends BaseModel {
     @SerializedName("produtos")
     private List<Produto> mProdutos;
 
+    @SerializedName("deleted")
+    private Boolean mDeletado;
+
     public String getName() {
         return mName;
     }
@@ -44,6 +47,52 @@ public class Linha extends BaseModel {
 
     public void setProdutos(List<Produto> produtos) {
         this.mProdutos = produtos;
+    }
+
+    public Boolean getDeletado() {
+        return mDeletado;
+    }
+
+    public void setDeletado(Boolean mDeletado) {
+        this.mDeletado = mDeletado;
+    }
+
+
+    public boolean CreateOrUpdate(Context context) {
+        boolean result;
+
+        ContentValues values = new ContentValues();
+        values.put(LinhaDAO.C_ID, this.getId());
+        values.put(LinhaDAO.C_NAME, this.getName());
+        values.put(LinhaDAO.C_ESTABELECIMENTO_ID, this.getEstabelecimento().getId());
+
+        LinhaDAO linhaDAO = new LinhaDAO(context);
+        result = linhaDAO.InsertOrUpdate(values);
+
+        if (result){
+            for (Produto produto : this.getProdutos()){
+                produto.setLinha(this);
+                produto.setEstabelecimento(this.getEstabelecimento());
+                result = produto.CreateOrUpdate(context);
+            }
+        }
+        return result;
+    }
+
+    public boolean Sync(Context context){
+
+        if (this.getDeletado()) {
+            for (Produto produto : this.getProdutos()){
+                produto.Sync(context);
+            }
+            return new LinhaDAO(context).Delete(this.getId());
+        } else {
+            this.CreateOrUpdate(context);
+            for (Produto produto : this.getProdutos()){
+                produto.Sync(context);
+            }
+        }
+        return false;
     }
 
     public static Linha getLinhaById(Context context, int id){
@@ -84,25 +133,6 @@ public class Linha extends BaseModel {
         return linha;
     }
 
-    public boolean CreateOrUpdate(Context context) {
-        boolean result;
 
-        ContentValues values = new ContentValues();
-        values.put(LinhaDAO.C_ID, this.getId());
-        values.put(LinhaDAO.C_NAME, this.getName());
-        values.put(LinhaDAO.C_ESTABELECIMENTO_ID, this.getEstabelecimento().getId());
-
-        LinhaDAO linhaDAO = new LinhaDAO(context);
-        result = linhaDAO.InsertOrUpdate(values);
-
-        if (result){
-            for (Produto produto : this.getProdutos()){
-                produto.setLinha(this);
-                produto.setEstabelecimento(this.getEstabelecimento());
-                result = produto.CreateOrUpdate(context);
-            }
-        }
-        return result;
-    }
 
 }

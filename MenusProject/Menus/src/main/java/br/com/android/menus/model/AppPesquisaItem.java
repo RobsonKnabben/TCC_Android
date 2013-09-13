@@ -6,13 +6,13 @@ import java.util.List;
 /**
  * Created by Robson on 10/09/13.
  */
-public class AppItemPesquisa <T> implements Serializable{
+public class AppPesquisaItem<T> implements Serializable{
     List<T> mItemPesquisaList;
 
-    public AppItemPesquisa() {
+    public AppPesquisaItem() {
     }
 
-    public AppItemPesquisa(List<T> mItemPesquisaList) {
+    public AppPesquisaItem(List<T> mItemPesquisaList) {
         this.mItemPesquisaList = mItemPesquisaList;
     }
 

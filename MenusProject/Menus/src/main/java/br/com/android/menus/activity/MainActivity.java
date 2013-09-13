@@ -54,29 +54,24 @@ public class MainActivity extends BaseActivity {
         @Override
         protected Integer doInBackground(Void... voids) {
             try{
-                // Create a new RestTemplate instance
                 RestTemplate restTemplate = new AppRestTemplate();
-
-                // Add the SyndFeed message converter to the RestTemplate instance
                 restTemplate.getMessageConverters().add(new GsonHttpMessageConverter());
 
                 publishProgress("Buscando informações...");
 
-                // Initiate the request and return the results
                 Ramo[] ramos = restTemplate.getForObject(API.getUrl(API.URL_RAMOS), Ramo[].class);
-
-                // Initiate the request and return the results
                 Estabelecimento[] estabelecimentos = restTemplate.getForObject(API.getUrl(API.URL_ESTABELECIMENTOS), Estabelecimento[].class);
 
 
                 if (ramos != null && estabelecimentos != null){
                     publishProgress("Atualizando informações...");
+
                     for (Ramo ramo : ramos){
-                        ramo.CreateOrUpdate(null);
+                        ramo.Sync(null);
                     }
 
                     for (Estabelecimento estabelecimento : estabelecimentos){
-                        estabelecimento.CreateOrUpdate(null);
+                        estabelecimento.Sync(null);
                     }
                 }
                 return 0;
@@ -92,7 +87,6 @@ public class MainActivity extends BaseActivity {
         @Override
         protected void onProgressUpdate(String... values) {
             mProgressInformation.setText(values[0]);
-
         }
 
         @Override

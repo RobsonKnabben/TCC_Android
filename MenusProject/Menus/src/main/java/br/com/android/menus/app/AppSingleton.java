@@ -8,7 +8,6 @@ import java.util.List;
 
 import br.com.android.menus.R;
 import br.com.android.menus.activity.MainActivity;
-import br.com.android.menus.db.EstabelecimentoDAO;
 import br.com.android.menus.fragments.EstabelecimentosFavoritosFragment;
 import br.com.android.menus.fragments.PesquisaFragment;
 import br.com.android.menus.fragments.RamosFragment;
@@ -78,12 +77,12 @@ public class AppSingleton {
     public List<AppPesquisaGroup> getDefaultPesquisaList(){
         AppPesquisaGroup estabelecimentosGroup = new AppPesquisaGroup(
                 "Estabelecimentos",
-                new AppItemPesquisa<Estabelecimento>(Estabelecimento.getAllEstabelecimentos(mContext))
+                new AppPesquisaItem<Estabelecimento>(Estabelecimento.getAllEstabelecimentos(mContext))
         );
 
         AppPesquisaGroup produtosGroup = new AppPesquisaGroup(
                 "Produtos",
-                new AppItemPesquisa<Produto>(Produto.getAllProdutos(mContext))
+                new AppPesquisaItem<Produto>(Produto.getAllProdutos(mContext))
         );
 
 

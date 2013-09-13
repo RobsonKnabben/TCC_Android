@@ -20,12 +20,42 @@ public class Ramo extends BaseModel {
     @SerializedName("name")
     private String mName;
 
+    @SerializedName("deleted")
+    private Boolean mDeletado;
+
+
     public String getName() {
         return mName;
     }
 
     public void setName(String name) {
         this.mName = name;
+    }
+
+    public Boolean getDeletado() {
+        return mDeletado;
+    }
+
+    public void setDeletado(Boolean mDeletado) {
+        this.mDeletado = mDeletado;
+    }
+
+    public boolean CreateOrUpdate(Context context) {
+        ContentValues values = new ContentValues();
+        values.put(RamoDAO.C_ID, this.getId());
+        values.put(RamoDAO.C_NAME, this.getName());
+
+        RamoDAO ramoDAO = new RamoDAO(context);
+        return ramoDAO.InsertOrUpdate(values);
+    }
+
+    public boolean Sync(Context context) {
+        if (this.getDeletado()) {
+            EstabelecimentoRamo.DeleteByRamo(context, this.getId());
+            return new RamoDAO(context).Delete(this.getId());
+        } else {
+            return this.CreateOrUpdate(context);
+        }
     }
 
     public static List<Ramo> getAllRamos(Context context){
@@ -71,12 +101,5 @@ public class Ramo extends BaseModel {
         return ramo;
     }
 
-    public boolean CreateOrUpdate(Context context) {
-        ContentValues values = new ContentValues();
-        values.put(RamoDAO.C_ID, this.getId());
-        values.put(RamoDAO.C_NAME, this.getName());
 
-        RamoDAO ramoDAO = new RamoDAO(context);
-        return ramoDAO.InsertOrUpdate(values);
-    }
 }

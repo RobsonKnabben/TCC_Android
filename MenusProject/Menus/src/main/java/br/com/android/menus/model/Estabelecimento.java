@@ -28,6 +28,9 @@ public class Estabelecimento extends BaseModel {
     @SerializedName("telefones")
     private List<Telefone> mTelefones;
 
+    @SerializedName("deleted")
+    private Boolean mDeletado;
+
     private boolean mIsFavorite;
 
     public String getName(){
@@ -54,7 +57,6 @@ public class Estabelecimento extends BaseModel {
     public List<Telefone> getTelefones() {
         return mTelefones;
     }
-
     public void setTelefones(List<Telefone> telefones) {
         this.mTelefones = telefones;
     }
@@ -74,6 +76,81 @@ public class Estabelecimento extends BaseModel {
     }
     public void setIsFavorite(Integer isFavorite) {
         this.mIsFavorite = isFavorite == 1;
+    }
+
+    public Boolean getDeletado() {
+        return mDeletado;
+    }
+    public void setDeletado(Boolean mDeletado) {
+        this.mDeletado = mDeletado;
+    }
+
+    public boolean CreateOrUpdate(Context context) {
+        boolean result;
+
+        ContentValues values = new ContentValues();
+        values.put(EstabelecimentoDAO.C_ID, this.getId());
+        values.put(EstabelecimentoDAO.C_NAME, this.getName());
+        values.put(EstabelecimentoDAO.C_DESCRIPTION, this.getDescription());
+
+
+        EstabelecimentoDAO estabelecimentoDAO = new EstabelecimentoDAO(context);
+        result = estabelecimentoDAO.InsertOrUpdate(values);
+
+        if (result){
+            for (Ramo ramo : this.getRamos()){
+                EstabelecimentoRamo estabelecimentoRamo = new EstabelecimentoRamo();
+                estabelecimentoRamo.setEstabelecimentoId(this.getId());
+                estabelecimentoRamo.setRamoId(ramo.getId());
+                result = estabelecimentoRamo.CreateOrUpdate(context);
+            }
+
+            for (Telefone telefone : this.getTelefones()){
+                telefone.setEstabelecimento(this);
+                result = telefone.CreateOrUpdate(context);
+            }
+
+            for (Linha linha : this.getLinhas()){
+                linha.setEstabelecimento(this);
+                result = linha.CreateOrUpdate(context);
+            }
+        }
+        return result;
+    }
+
+    public boolean Sync(Context context){
+
+
+        if (this.getDeletado()) {
+            for (Linha linha : this.getLinhas()){
+                linha.Sync(context);
+            }
+            for (Telefone telefone : this.getTelefones()){
+                telefone.Sync(context);
+            }
+            EstabelecimentoRamo.DeleteByEstabelecimento(context, this.getId());
+            return new EstabelecimentoDAO(context).Delete(this.getId());
+        } else {
+            this.CreateOrUpdate(context);
+            for (Linha linha : this.getLinhas()){
+                linha.Sync(context);
+            }
+            for (Telefone telefone : this.getTelefones()){
+                telefone.Sync(context);
+            }
+        }
+        return false;
+    }
+
+    public boolean ChangeIsFavorite(Context context) {
+        this.setIsFavorite(!getIsFavorite());
+
+        ContentValues values = new ContentValues();
+        values.put(EstabelecimentoDAO.C_ID, this.getId());
+        values.put(EstabelecimentoDAO.C_IS_FAVORITE, this.getIsFavorite());
+
+        EstabelecimentoDAO estabelecimentoDAO = new EstabelecimentoDAO(context);
+        return estabelecimentoDAO.InsertOrUpdate(values);
     }
 
     public static List<Estabelecimento> getAllEstabelecimentos(Context context){
@@ -160,47 +237,5 @@ public class Estabelecimento extends BaseModel {
         return estabelecimento;
     }
 
-    public boolean CreateOrUpdate(Context context) {
-        boolean result;
 
-        ContentValues values = new ContentValues();
-        values.put(EstabelecimentoDAO.C_ID, this.getId());
-        values.put(EstabelecimentoDAO.C_NAME, this.getName());
-        values.put(EstabelecimentoDAO.C_DESCRIPTION, this.getDescription());
-
-
-        EstabelecimentoDAO estabelecimentoDAO = new EstabelecimentoDAO(context);
-        result = estabelecimentoDAO.InsertOrUpdate(values);
-
-        if (result){
-            for (Ramo ramo : this.getRamos()){
-                EstabelecimentoRamo estabelecimentoRamo = new EstabelecimentoRamo();
-                estabelecimentoRamo.setEstabelecimentoId(this.getId());
-                estabelecimentoRamo.setRamoId(ramo.getId());
-                result = estabelecimentoRamo.CreateOrUpdate(context);
-            }
-
-            for (Telefone telefone : this.getTelefones()){
-                telefone.setEstabelecimento(this);
-                result = telefone.CreateOrUpdate(context);
-            }
-
-            for (Linha linha : this.getLinhas()){
-                linha.setEstabelecimento(this);
-                result = linha.CreateOrUpdate(context);
-            }
-        }
-        return result;
-    }
-
-    public boolean ChangeIsFavorite(Context context) {
-        this.setIsFavorite(!getIsFavorite());
-
-        ContentValues values = new ContentValues();
-        values.put(EstabelecimentoDAO.C_ID, this.getId());
-        values.put(EstabelecimentoDAO.C_IS_FAVORITE, this.getIsFavorite());
-
-        EstabelecimentoDAO estabelecimentoDAO = new EstabelecimentoDAO(context);
-        return estabelecimentoDAO.InsertOrUpdate(values);
-    }
 }
