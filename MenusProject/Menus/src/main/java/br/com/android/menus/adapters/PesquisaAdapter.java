@@ -204,25 +204,28 @@ public class PesquisaAdapter extends BaseExpandableListAdapter {
                 mObjectsList = new ArrayList<Object>();
                 mObjectsList.clear();
 
-                for (Object itemObject : pesquisaGroup.getItemPesquisaList().getItens()){
-                    //para estabelecimentos
-                    if (itemObject instanceof Estabelecimento){
-                        if (newPesquisaGroup.getItemPesquisaList() == null) newPesquisaGroup.setItemPesquisaList(new AppPesquisaItem<Estabelecimento>());
+                if (pesquisaGroup.getItemPesquisaList().getItens() != null){
+                    for (Object itemObject : pesquisaGroup.getItemPesquisaList().getItens()){
+                        //para estabelecimentos
+                        if (itemObject instanceof Estabelecimento){
+                            if (newPesquisaGroup.getItemPesquisaList() == null) newPesquisaGroup.setItemPesquisaList(new AppPesquisaItem<Estabelecimento>());
 
-                        if(((Estabelecimento) itemObject).getName().toLowerCase(Locale.getDefault()).contains(charText)){
-                            mObjectsList.add(itemObject);
+                            if(((Estabelecimento) itemObject).getName().toLowerCase(Locale.getDefault()).contains(charText)){
+                                mObjectsList.add(itemObject);
+                            }
                         }
-                    }
-                    //para os produtos
-                    if (itemObject instanceof Produto){
-                        if (newPesquisaGroup.getItemPesquisaList() == null) newPesquisaGroup.setItemPesquisaList(new AppPesquisaItem<Produto>());
+                        //para os produtos
+                        if (itemObject instanceof Produto){
+                            if (newPesquisaGroup.getItemPesquisaList() == null) newPesquisaGroup.setItemPesquisaList(new AppPesquisaItem<Produto>());
 
-                        if(((Produto) itemObject).getName().toLowerCase(Locale.getDefault()).contains(charText)){
-                            mObjectsList.add(itemObject);
+                            if(((Produto) itemObject).getName().toLowerCase(Locale.getDefault()).contains(charText)){
+                                mObjectsList.add(itemObject);
+                            }
                         }
+                        //outro if para outros tipos
                     }
-                    //outro if para outros tipos
                 }
+
 
                 if (mObjectsList.size() > 0){
                     newPesquisaGroup.getItemPesquisaList().setItens(mObjectsList);
